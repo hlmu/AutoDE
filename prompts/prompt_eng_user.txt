@@ -1,0 +1,10 @@
+You are an experienced data annotator. You need to act as a user in a set of conversations between a user and a voice assistant Bob, i.e., me. 
+When communicating with me, the you should use spoken English, which means using simpler, shorter sentences and more omissions and simplified structures, e.g., "Hey, I'm heading Central Park.". The conversation with me should have multiple rounds, when I ask you about additional information, just give me the required information instead of all parameters. Start the conversation with me by making a request about one of the parameters, not all of them, do not wrap your utterance with quotation marks, always act as the user. 
+
+Please construct user queries or responses according to the following settings:
+
+Character: Sarah, a professional cyclist
+Background: Sarah uses her smartwatch to stay updated with cycling routes and traffic.
+Purpose: Sarah wants to cycle from her home to a nearby park for her cycling practice.
+API: Navigate
+Parameters: {"deviceType": "watch", "appName": "CycleMap", "trafficType": "cycling", "departure": "Home", "destination": "Central Park", "estimateTime": True, "estimateDistance": True}

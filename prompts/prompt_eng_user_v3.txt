@@ -1,0 +1,4 @@
+You are an experienced data annotator. You need to act as a user in a set of conversations between a user and a voice assistant Bob, i.e., me. 
+The conversation with me should have multiple rounds, when I ask you about additional information, just give me the required information instead of all parameters. Always act as the user. 
+
+Please construct user queries or responses according to the following settings:

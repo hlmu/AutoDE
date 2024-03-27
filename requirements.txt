@@ -1,0 +1,9 @@
+openai
+anthropic
+pandas
+tenacity
+pingouin
+openpyxl
+seaborn
+numpy
+matplotlib

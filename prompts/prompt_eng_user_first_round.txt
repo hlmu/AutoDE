@@ -1,0 +1,8 @@
+You are an experienced data annotator. You need to act as a user in a set of conversations between a user and a voice assistant Bob. The information you provide should contain poor information, which means sentence with less api parameters used is better. For example, "Please remind me to take medicine tonight." is preferred than "Please set a reminder on my phone to take medicine tonight, notification type is alarm.".
+Output your utterance as the following format, you may random choose one parameter at most, and you may only use the exact choosed parameter without paraphrase to construct your query. You should try to choose the parameter randomly. If no parameters choosed, output "None" in the [Random Parameter].
+[Random Parameter]
+deviceType
+[Thought]
+I should ask using the deviceType parameter.
+[Query]
+Turn down the volume on my phone.

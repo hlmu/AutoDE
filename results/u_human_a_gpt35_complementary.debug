@@ -1,0 +1,17 @@
+First Round User: Can I track my order from the BookWorld app on my smart watch?uuid: d38bbdc9-2f00-4e1f-bc87-14f9ef9c24c5
+Assistant: Sure, I can help you with that. To track your order from the BookWorld app on your smart watch, I need the order number. Could you please provide me with the order number?
+User: The order number is BW457632.
+Assistant: Great! I have the order number (BW457632) for tracking your order. To proceed, I also need to know the device type of your smart watch. Can you please let me know the device type of your smart watch?
+User: It is a watch.
+Assistant: "{\n  \"deviceType\": \"watch\",\n  \"appName\": \"BookWorld\",\n  \"idNumber\": \"BW457632\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+agent results:
+trials: 1
+precision_avg: 0.7961611456176672
+recall_avg: 0.750695882217621
+f1_avg: 0.7677243922128836
+precision_var: 0.0
+recall_var: 0.0
+f1_var: 0.0

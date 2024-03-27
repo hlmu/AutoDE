@@ -1,0 +1,1421 @@
+uuid: 2b3a38aa-a19e-4900-bace-1331c86e2aae
+First Round User: Can you turn on the Bluetooth on my watch?Assistant: "{\"functionName\": \"TurnOnBluetooth\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 89fc0e8a-8750-4cb5-86e8-abb29b22c0d7
+First Round User: Can you turn on Bluetooth on my phone?Assistant: "{\"functionName\": \"TurnOnBluetooth\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: c6eef4c5-8120-4abe-819b-3659608f505b
+First Round User: Turn off the Bluetooth on my mobile phone.Assistant: "{\"functionName\": \"TurnOffBluetooth\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 2c85c315-1637-4eab-8bc9-4cff1a7a7ca4
+First Round User: Turn off the Bluetooth on my watch.Assistant: "{\"functionName\": \"TurnOffBluetooth\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: e661eb35-4920-4c72-b627-3f578bd41354
+First Round User: Turn off the Bluetooth.Assistant: "{\"functionName\": \"TurnOffBluetooth\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+First Round User: Bob, please turn off the Bluetooth on my speaker.Assistant: "{\"functionName\": \"TurnOffBluetooth\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: b4da5809-f362-473f-993e-c767add6ab1c
+First Round User: Can you increase the volume on my smart speaker?Fail: Arguments parse failed: "TurnUpVolume": {
+    "functionName": "TurnUpVolume",
+    "deviceType": "speaker"
+  }uuid: 2b3475a2-9202-4501-ac00-0edc032bcb4b
+First Round User: Increase the volume on the TV.Assistant: "{\"functionName\": \"TurnUpVolume\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.875, avg recall: 0.875, avg f1: 0.875
+-------------------
+uuid: c470f2f8-de8c-4a24-8a73-d004f3dcc817
+First Round User: Can you please turn up the volume on my watch?Assistant: "{\"functionName\": \"TurnUpVolume\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8888888888888888, avg recall: 0.8888888888888888, avg f1: 0.8888888888888888
+-------------------
+uuid: 08cfccb4-b5eb-4f01-b88b-6f0b33fa06d5
+First Round User: Can you increase the volume on my mobile phone, please?Assistant: "{\"functionName\": \"TurnUpVolume\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9, avg recall: 0.9, avg f1: 0.9
+-------------------
+uuid: bddd9b84-63bf-4440-8479-8f6236b3998e
+First Round User: Bob, could you please lower the volume on my tablet?Assistant: "{\"functionName\": \"TurnDownVolume\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9090909090909091, avg recall: 0.9090909090909091, avg f1: 0.9090909090909091
+-------------------
+uuid: 797505cb-5813-4b0f-8092-e0bbe4c4884d
+First Round User: Bob, please turn down the volume on my mobile phone.Assistant: "{\"functionName\": \"TurnDownVolume\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9166666666666666, avg recall: 0.9166666666666666, avg f1: 0.9166666666666666
+-------------------
+uuid: 58248514-6848-4861-8f33-6ce761f79578
+First Round User: Lower the volume of the TV.Assistant: "{\"functionName\": \"TurnDownVolume\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9230769230769231, avg recall: 0.9230769230769231, avg f1: 0.9230769230769231
+-------------------
+uuid: ee0912c1-11c9-4009-a268-8eb4ffb189dc
+First Round User: Turn down the volume on my speaker.Assistant: "{\"functionName\": \"TurnDownVolume\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9285714285714286, avg recall: 0.9285714285714286, avg f1: 0.9285714285714286
+-------------------
+uuid: 12123124-4666-4f1d-a002-47ba9b64202a
+First Round User: Would you please lower the volume on my watch, Bob?Assistant: "{\"functionName\": \"TurnDownVolume\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9333333333333333, avg recall: 0.9333333333333333, avg f1: 0.9333333333333333
+-------------------
+uuid: c0dbdce7-4d31-4702-b2b7-c7230c975f03
+First Round User: Set the volume to max on my mobile phone.Fail: Arguments parse failed: {"functionName": "SetVolume", "given parameter name": "deviceType", "given parameter value": "mobile phone"}, {"given parameter name": "targetValue", "given parameter value": "max"}uuid: c0f7e6d7-b716-4e46-91b4-4f66ba2b359f
+First Round User: Can you please increase the volume to 80% on my tablet?Assistant: "{\"functionName\": \"SetVolume\", \"deviceType\": \"tablet\", \"targetValue\": \"80%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8823529411764706, avg recall: 0.8823529411764706, avg f1: 0.8823529411764706
+-------------------
+uuid: 7286973b-8726-4646-b14b-efc871c5e318
+First Round User: Lower the volume to level 2 on my TV.Assistant: "{\"functionName\": \"SetVolume\", \"deviceType\": \"TV\", \"targetValue\": \"level 2\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8888888888888888, avg recall: 0.8888888888888888, avg f1: 0.8888888888888888
+-------------------
+uuid: ad8e2e92-afd2-4763-bc3c-2e869d1e0c1d
+First Round User: Bob, please decrease the watch volume to 60%.Assistant: "{\"functionName\": \"SetVolume\", \"deviceType\": \"watch\", \"targetValue\": \"60%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8947368421052632, avg recall: 0.8947368421052632, avg f1: 0.8947368421052632
+-------------------
+uuid: b0321bfe-b6b3-4b3f-a959-2734b596fc71
+First Round User: Please, set the volume level to max.Assistant: "{\n    \"functionName\": \"SetVolume\",\n    \"deviceType\": \"speaker\",\n    \"targetValue\": \"max\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9, avg recall: 0.9, avg f1: 0.9
+-------------------
+uuid: 9322edcc-666d-4f36-84ec-7d4993de0684
+First Round User: Can you turn up the luminance on my TV?Assistant: "{\"functionName\": \"TurnUpLuminance\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9047619047619048, avg recall: 0.9047619047619048, avg f1: 0.9047619047619048
+-------------------
+uuid: 07bdfcf7-37f0-4b17-b68b-3c744bbd96fe
+First Round User: Increase the brightness on my tablet.Assistant: "{\n    \"functionName\": \"TurnUpLuminance\",\n    \"deviceType\": \"tablet\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9090909090909091, avg recall: 0.9090909090909091, avg f1: 0.9090909090909091
+-------------------
+uuid: 4be6e02c-f2ba-4700-97ac-a74ff9fca021
+First Round User: Increase the brightness on my watch, please.Assistant: "{\n  \"functionName\": \"TurnUpLuminance\",\n  \"deviceType\": \"watch\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9130434782608695, avg recall: 0.9130434782608695, avg f1: 0.9130434782608695
+-------------------
+uuid: 9949ff17-ff47-4bbd-946c-737e46415c03
+First Round User: Can you increase the brightness on my mobile phone?Assistant: "{\"functionName\": \"TurnUpLuminance\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9166666666666666, avg recall: 0.9166666666666666, avg f1: 0.9166666666666666
+-------------------
+uuid: 55f34ba6-bf5d-4a33-a394-7ba3c45fff01
+First Round User: Can you reduce the brightness on my mobile phone, Bob?Assistant: "{\"functionName\": \"TurnDownLuminance\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.92, avg recall: 0.92, avg f1: 0.92
+-------------------
+uuid: df18df9d-a245-4129-a002-0c0c8d9eeefb
+First Round User: Could you lower the brightness on my TV?Assistant: "{\"functionName\": \"TurnDownLuminance\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9230769230769231, avg recall: 0.9230769230769231, avg f1: 0.9230769230769231
+-------------------
+uuid: a53e68a6-6e6f-4f41-be89-284122e25438
+First Round User: Lower the brightness on my tablet, please.Assistant: "{\"functionName\": \"TurnDownLuminance\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9259259259259259, avg recall: 0.9259259259259259, avg f1: 0.9259259259259259
+-------------------
+uuid: af96b684-311c-4678-92cd-5eb2cc9b8ade
+First Round User: Can you dim the light on my speaker, please?Assistant: "{\"functionName\": \"TurnDownLuminance\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9285714285714286, avg recall: 0.9285714285714286, avg f1: 0.9285714285714286
+-------------------
+uuid: c1e23257-f465-4105-a34b-9e1fb5ab4e54
+First Round User: Bob, could you turn down the brightness on my watch, please?Assistant: "{\"functionName\": \"TurnDownLuminance\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9310344827586207, avg recall: 0.9310344827586207, avg f1: 0.9310344827586207
+-------------------
+uuid: dfaa3e3d-f135-407d-8edc-56cb77c9440c
+First Round User: Can you help me reduce the brightness of my tablet?Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"tablet\", \"targetValue\": \"10%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9333333333333333, avg recall: 0.9333333333333333, avg f1: 0.9333333333333333
+-------------------
+uuid: d39f6612-8af8-4f2c-ac48-15bbc30fb91b
+First Round User: Set the TV brightness to 35%.Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"TV\", \"targetValue\": \"35%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9354838709677419, avg recall: 0.9354838709677419, avg f1: 0.9354838709677419
+-------------------
+uuid: 56e21ada-2333-45b1-a88e-95a183efb3ca
+First Round User: I am going for my outdoor workout, turn the brightness up to the max on my watch please.Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"watch\", \"targetValue\": \"max\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9375, avg recall: 0.9375, avg f1: 0.9375
+-------------------
+uuid: 9d6fa301-6dc3-43a9-9662-88c78caeed72
+First Round User: Can you set my phone brightness to 70% please?Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"mobile phone\", \"targetValue\": \"70%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9393939393939394, avg recall: 0.9393939393939394, avg f1: 0.9393939393939394
+-------------------
+uuid: e0781275-7d76-4677-8d65-a275475c9373
+First Round User: Can you please make the luminance of my phone 20%?Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"mobile phone\", \"targetValue\": \"20%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9411764705882353, avg recall: 0.9411764705882353, avg f1: 0.9411764705882353
+-------------------
+uuid: 34ddcc83-0a28-4c2d-a82e-40294f3cfe5c
+First Round User: Turn on the WiFi on my tablet.Assistant: "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9428571428571428, avg recall: 0.9428571428571428, avg f1: 0.9428571428571428
+-------------------
+uuid: 0df99faa-a0c1-4034-90a0-8e89898ec4cd
+First Round User: Can you turn on the WiFi on my mobile phone?Assistant: "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9444444444444444, avg recall: 0.9444444444444444, avg f1: 0.9444444444444444
+-------------------
+uuid: 1ee5fe46-13d8-40e4-8bf4-db720fcf4585
+First Round User: Bob, can you turn on the WiFi on my classroom's smart TV?Assistant: "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9459459459459459, avg recall: 0.9459459459459459, avg f1: 0.9459459459459459
+-------------------
+uuid: bfe8d87a-67ea-4872-9199-312f945252c1
+First Round User: Can you please turn on the WiFi on my watch?Assistant: "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9473684210526315, avg recall: 0.9473684210526315, avg f1: 0.9473684210526315
+-------------------
+uuid: d5cd22bb-97c3-4755-b394-51ca90129c32
+First Round User: Could you please turn on the wifi on my speaker?Fail: Arguments parse failed: {"TurnOnWifi": "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"speaker\"}"},uuid: 184b8915-19ea-4a06-a753-225005f41d14
+First Round User: Can you turn off the wifi on my mobile phone?Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.925, avg recall: 0.925, avg f1: 0.925
+-------------------
+uuid: 01d1c463-c8d3-47c8-a83b-545e327a656f
+First Round User: Please turn off the Wi-Fi on my TV.Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.926829268292683, avg recall: 0.926829268292683, avg f1: 0.926829268292683
+-------------------
+uuid: 63229807-c820-47bf-b3bb-94779d2faf62
+First Round User: Bob, could you please turn off the Wi-Fi on my tablet?Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9285714285714286, avg recall: 0.9285714285714286, avg f1: 0.9285714285714286
+-------------------
+uuid: 83d7007c-f91e-40b5-8f66-7f78f3c6ba74
+First Round User: Turn off the Wi-Fi on my watch.Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9302325581395349, avg recall: 0.9302325581395349, avg f1: 0.9302325581395349
+-------------------
+uuid: aa7a015d-b957-4a70-82cb-bec58477118d
+First Round User: Turn off the Wi-Fi on my speaker.Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9318181818181818, avg recall: 0.9318181818181818, avg f1: 0.9318181818181818
+-------------------
+uuid: 43304ec8-d9f1-4e27-9cc1-8cbe4948bdf0
+First Round User: Install the Cycling Route Tracker app on my smartwatch.Assistant: "{\"functionName\": \"InstallApp\", \"deviceType\": \"watch\", \"appName\": \"Cycling Route Tracker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9333333333333333, avg recall: 0.9333333333333333, avg f1: 0.9333333333333333
+-------------------
+uuid: 5bb96cb9-242e-4ecd-a23e-6b14aa24692a
+First Round User: Could you please install Asana on my device?Assistant: "{\"functionName\": \"InstallApp\", \"deviceType\": \"tablet\", \"appName\": \"Asana\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9347826086956522, avg recall: 0.9347826086956522, avg f1: 0.9347826086956522
+-------------------
+uuid: 68a25f93-a664-4084-abbc-ce7ec532bafb
+First Round User: Can you install the "HIIT Workouts" app on my phone?Assistant: "{\"functionName\": \"InstallApp\", \"deviceType\": \"mobile phone\", \"appName\": \"HIIT Workouts\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9361702127659575, avg recall: 0.9361702127659575, avg f1: 0.9361702127659575
+-------------------
+uuid: 0798f636-d8a5-4013-af98-27fa54d72fb0
+First Round User: Bob, can you help me install Kahoot on my tablet?Assistant: "{\"functionName\": \"InstallApp\", \"deviceType\": \"tablet\", \"appName\": \"Kahoot\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9375, avg recall: 0.9375, avg f1: 0.9375
+-------------------
+uuid: bb224bb4-1d60-4ff5-b0f2-d221416a458d
+First Round User: Could you please update my Fitness Pro app?Assistant: "{\"functionName\": \"UpdateApp\", \"deviceType\": \"tablet\", \"appName\": \"Fitness Pro\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9387755102040817, avg recall: 0.9387755102040817, avg f1: 0.9387755102040817
+-------------------
+uuid: bdbe5982-6229-45f9-8f62-ebcc70f3222b
+First Round User: Can you update my Business Master app?Assistant: "{\"functionName\": \"UpdateApp\", \"deviceType\": \"mobile phone\", \"appName\": \"Business Master\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.94, avg recall: 0.94, avg f1: 0.94
+-------------------
+uuid: 9447bab8-35f8-4423-8d17-7d78032e02bf
+First Round User: Can you update my Education Assist app on my TV?Assistant: "{\"functionName\": \"UpdateApp\",\n    \"deviceType\": \"TV\",\n    \"appName\": \"Education Assist\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9411764705882353, avg recall: 0.9411764705882353, avg f1: 0.9411764705882353
+-------------------
+uuid: 0f486318-d9eb-4877-a8d1-f23a3b864d6d
+First Round User: Update the app Heart Monitor Pro.Assistant: "{\"functionName\": \"UpdateApp\", \"given parameter name\": \"deviceType\", \"parameter value\": \"watch\"}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.9230769230769231, avg recall: 0.9230769230769231, avg f1: 0.9230769230769231
+-------------------
+uuid: 88b4a5cb-37c5-49fc-bd11-4e6f1f9d58dc
+First Round User: Can you please update my Musical Bliss app?Assistant: "{ \"functionName\": \"UpdateApp\", \"deviceType\": \"speaker\", \"appName\": \"Musical Bliss\" }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9245283018867925, avg recall: 0.9245283018867925, avg f1: 0.9245283018867925
+-------------------
+uuid: 6bc6eddd-ca68-431b-be99-e329795d628e
+First Round User: Uninstall the app Weather Forecast from my phone.Assistant: "{\"functionName\": \"UninstallApp\", \"deviceType\": \"mobile phone\", \"appName\": \"Weather Forecast\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9259259259259259, avg recall: 0.9259259259259259, avg f1: 0.9259259259259259
+-------------------
+uuid: fb3dfc3d-4510-4323-b2ee-a882186f149d
+First Round User: How can I uninstall Bubble Shooter from my watch?Assistant: "{\"functionName\": \"UninstallApp\", \"deviceType\": \"watch\", \"appName\": \"Bubble Shooter\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9272727272727272, avg recall: 0.9272727272727272, avg f1: 0.9272727272727272
+-------------------
+uuid: 8f3b0db6-11e3-403c-ba60-e3a34b91951f
+First Round User: Could you please help me in uninstalling QuickHR?Fail: Arguments parse failed: {"functionName": "UninstallApp", "given parameter name": "deviceType", "parameter value": "tablet"},
+{"functionName": "UninstallApp", "given parameter name": "appName", "parameter value": "QuickHR"}uuid: cfe3b8ec-e00d-4b1b-82b3-75ea1e958817
+First Round User: Uninstall the Hulu Beta app from the office TV.Assistant: "{\"UninstallApp\": {\"deviceType\": \"TV\", \"appName\": \"Hulu Beta\"}}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.8947368421052632, avg recall: 0.8947368421052632, avg f1: 0.8947368421052632
+-------------------
+uuid: aadd7e96-a592-4d44-9116-5c7dad802712
+First Round User: Uninstall SoundWave from my device please.Assistant: "{\"functionName\": \"UninstallApp\", \"deviceType\": \"speaker\", \"appName\": \"SoundWave\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.896551724137931, avg recall: 0.896551724137931, avg f1: 0.896551724137931
+-------------------
+uuid: a3e9bb13-d700-4319-a9f9-b03cf0c51f02
+First Round User: Can you assist me to turn off the TV when the episode of Stranger Things ends?Assistant: "{\"functionName\": \"CloseMedia\", \"deviceType\": \"TV\", \"roomType\": \"bedroom\", \"appName\": \"Netflix\", \"mediaName\": \"Stranger Things\", \"mediaType\": \"TV series\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8983050847457628, avg recall: 0.8983050847457628, avg f1: 0.8983050847457628
+-------------------
+uuid: 60f1cd15-bbc4-4f2c-a1e0-bde04bd282ea
+First Round User: Can you stop playing the Workout Playlist after I finish my training?Fail: Arguments parse failed: {
+  "functionName": "CloseMedia",
+  "given parameter name": "deviceType",
+  "given parameter value": "mobile phone"
+},
+{
+  "functionName": "CloseMedia",
+  "given parameter name": "roomType",
+  "given parameter value": "living room"
+},
+{
+  "functionName": "CloseMedia",
+  "given parameter name": "appName",
+  "given parameter value": "Spotify"
+},
+{
+  "functionName": "CloseMedia",
+  "given parameter name": "mediaName",
+  "given parameter value": "Workout Playlist"
+},
+{
+  "functionName": "CloseMedia",
+  "given parameter name": "mediaType",
+  "given parameter value": "music"
+}uuid: 6d7e6a37-37ab-4e6f-870c-d57257683b0b
+First Round User: Close "Rich Dad Poor Dad" once it finishes playing.Assistant: "{\"functionName\": \"CloseMedia\", \"deviceType\": \"watch\", \"roomType\": \"office\", \"appName\": \"Audible\", \"mediaName\": \"Rich Dad Poor Dad\", \"mediaType\": \"audiobook\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8852459016393442, avg recall: 0.8852459016393442, avg f1: 0.8852459016393442
+-------------------
+uuid: 5fdc73db-3f3e-4681-be04-7d938e654840
+First Round User: Can you close the video on my tablet once it's finished?Assistant: "{\"functionName\": \"CloseMedia\", \"deviceType\": \"tablet\", \"roomType\": \"kitchen\", \"appName\": \"YouTube\", \"mediaName\": \"Italian Pasta Cooking Video\", \"mediaType\": \"video\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8870967741935484, avg recall: 0.8870967741935484, avg f1: 0.8870967741935484
+-------------------
+uuid: 70dd8d2d-dafa-47ac-b7b3-2b402ac28e5a
+First Round User: Could you play "The Best Motivational Speech Ever" on my watch?Assistant: "{\n  \"functionName\": \"PlayMedia\",\n  \"deviceType\": \"watch\",\n  \"roomType\": \"gym\",\n  \"mediaType\": \"video\",\n  \"mediaName\": \"The Best Motivational Speech Ever\",\n  \"label\": \"gym, motivational, english, audio:1:14\",\n  \"appName\": \"YouTube\"\n}"
+precision: 0.6666666666666666, recall: 1.0, f1: 0.8
+avg precision: 0.8835978835978836, avg recall: 0.8888888888888888, avg f1: 0.8857142857142857
+-------------------
+uuid: 66feea25-b498-4cc5-86e8-d91a80056da7
+First Round User: Play some music on my speaker.Assistant: "{\"functionName\": \"PlayMedia\", \"deviceType\": \"speaker\", \"roomType\": \"living room\", \"mediaType\": \"music\", \"mediaName\": \"John Coltrane's Impressions\", \"artist\": \"John Coltrane\", \"appName\": \"Spotify\", \"label\": \"Jazz, John Coltrane's Impressions, Paid, male, United States, English, Jazz\"}"
+precision: 0.7142857142857143, recall: 1.0, f1: 0.8333333333333333
+avg precision: 0.8809523809523809, avg recall: 0.890625, avg f1: 0.8848958333333333
+-------------------
+uuid: 86f7a6a9-5b0d-4e1f-83d4-eedcc4d815fc
+First Round User: Play the audiobook "Pride and Prejudice" on my tablet.Assistant: "{\n  \"functionName\": \"PlayMedia\",\n  \"deviceType\": \"tablet\",\n  \"roomType\": \"study room\",\n  \"mediaType\": \"audiobook\",\n  \"mediaName\": \"Pride and Prejudice\",\n  \"artist\": \"\",\n  \"appName\": \"Audible\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8827838827838828, avg recall: 0.8923076923076924, avg f1: 0.8866666666666667
+-------------------
+uuid: 9b24e643-0c5e-418f-95fc-938026010966
+First Round User: Play a horror movie on Netflix.Assistant: "{\"functionName\": \"PlayMedia\", \"requiredParameters\": [\"deviceType\", \"roomType\", \"mediaType\", \"mediaName\", \"artist\", \"label\"], \"deviceType\": \"TV\", \"roomType\": \"living room\", \"mediaType\": \"video\", \"mediaName\": \"The Conjuring\", \"artist\": \"\", \"appName\": \"Netflix\", \"label\": \"\"}"
+precision: 0.6, recall: 0.6, f1: 0.6
+avg precision: 0.8784992784992784, avg recall: 0.8878787878787879, avg f1: 0.8823232323232323
+-------------------
+uuid: 766d15ec-f89e-4426-9125-e89dd206366c
+First Round User: Can you play my Coding Playlist on Spotify?Assistant: "{\"functionName\": \"PlayMedia\", \"deviceType\": \"mobile phone\", \"roomType\": \"dorm room\", \"mediaType\": \"music\", \"mediaName\": \"Coding Playlist\", \"artist\": \"\", \"appName\": \"Spotify\", \"label\": \"\"}"
+precision: 0.8, recall: 1.0, f1: 0.888888888888889
+avg precision: 0.8773276474769012, avg recall: 0.8895522388059701, avg f1: 0.8824212271973466
+-------------------
+uuid: 1d6e4b4e-63a4-4a93-bee6-f90e793374af
+First Round User: Use CycleMap on my watch to find a cycling route from my home to Central Park.Fail: Arguments parse failed: {"functionName": "Navigate",
+   "deviceType": "watch",
+   "appName": "CycleMap",
+   "trafficType": "cycling",
+   "departure": "user's home",
+   "destination": "Central Park",
+   "estimateTime": True,
+   "estimateDistance": True
+  }uuid: fde48176-29bb-4ffc-b855-638b43948f4f
+First Round User: Can you navigate me to my meeting location by subway using Citynav on my tablet? Also, let me know the estimated time of arrival.Assistant: "{\"functionName\": \"Navigate\",\n    \"deviceType\": \"tablet\",\n    \"appName\": \"Citynav\",\n    \"trafficType\": \"subway\",\n    \"departure\": \"Your Office\",\n    \"destination\": \"Meeting Location\",\n    \"estimateTime\": true,\n    \"estimateDistance\": true\n    }"
+precision: 0.5714285714285714, recall: 0.5714285714285714, f1: 0.5714285714285714
+avg precision: 0.8601794340924775, avg recall: 0.8720496894409938, avg f1: 0.865125373821026
+-------------------
+uuid: 4cffaa32-d26d-45de-ab57-9760fd5305fd
+First Round User: What's the walking route from my campsite to the nearest store?Fail: Arguments parse failed: {"functionName": "Navigate",
+ "given parameter name": "deviceType",
+ "given parameter value": "mobile phone"},
+ {"given parameter name": "appName",
+ "given parameter value": "HIKEnav"},
+ {"given parameter name": "trafficType",
+ "given parameter value": "walking"},
+ {"given parameter name": "departure",
+ "given parameter value": "Campsite"},
+ {"given parameter name": "destination",
+ "given parameter value": "Store"},
+ {"given parameter name": "estimateTime",
+ "given parameter value": "true"},
+ {"given parameter name": "estimateDistance",
+ "given parameter value": "true"}uuid: e6c99456-5032-493b-b2a0-d0ec05a67f6f
+First Round User: How far is the ballet school from my home if I drive?Assistant: "{\n      \"functionName\": \"Navigate\",\n      \"deviceType\": \"mobile phone\",\n      \"appName\": \"Mom's Driver\",\n      \"trafficType\": \"driving\",\n      \"departure\": \"user's address\",\n      \"destination\": \"the ballet school's address\",\n      \"estimateTime\": true,\n      \"estimateDistance\": true\n   }"
+precision: 0.5714285714285714, recall: 0.5714285714285714, f1: 0.5714285714285714
+avg precision: 0.8439973172367538, avg recall: 0.855533199195171, avg f1: 0.8488039347194276
+-------------------
+uuid: d5fe4c7f-6a0a-43cb-8949-b6f707c63713
+First Round User: Can you use the PublicTransitNav on my mobile phone to find a bus route from my College Dorm to the Bookstore?Assistant: "{\"functionName\": \"Navigate\", \"deviceType\": \"mobile phone\", \"appName\": \"PublicTransitNav\", \"trafficType\": \"bus\", \"departure\": \"College Dorm\", \"destination\": \"Bookstore\", \"estimateTime\": true, \"estimateDistance\": false}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8461640211640211, avg recall: 0.8575396825396825, avg f1: 0.8509038800705466
+-------------------
+uuid: a99042ad-dc39-42c4-acf8-596d627427db
+First Round User: Can you remind me about the Meeting with the product team on my smartwatch?Assistant: "{\"functionName\": \"CreateNotification\", \"deviceType\": \"watch\", \"time\": \"2021-11-01T11:00:00-07:00\", \"content\": \"Meeting with product team on 11/01/2021 at 11:00 AM\", \"type\": \"calendar\"}"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.8414220482713632, avg recall: 0.8526418786692759, avg f1: 0.8460969776038268
+-------------------
+uuid: 12d39e15-74d6-4709-a165-f21a078e7960
+First Round User: Remind me to "Submit article for the Health magazine" tomorrow at 6 PM on my tablet.Assistant: "{\"functionName\": \"CreateNotification\", \"deviceType\": \"tablet\", \"time\": \"2022-01-01T18:00:00Z\", \"content\": \"Submit article for the Health magazine\", \"type\": \"todo\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.8401866151866151, avg recall: 0.8512548262548262, avg f1: 0.8447983697983698
+-------------------
+uuid: 688391d0-db8f-46a6-b883-c87c10483cf4
+First Round User: Can you set a reminder on my TV at 7 AM tomorrow to start a 30-minute cardio session?Fail: Arguments parse failed: "CreateNotification" : {
+    "functionName" : "CreateNotification",
+    "deviceType" : "TV",
+    "time" : "tomorrow at 7:00:00",
+    "content" : "Start a 30-minute cardio session at 7:00 AM tomorrow. ",
+    "type" : "reminder message"
+  }uuid: 313120ef-3c1a-413b-97ed-942c00960179
+First Round User: Set an alarm on my mobile phone at 4 PM today.Assistant: "{\"functionName\": \"CreateNotification\", \"deviceType\": \"mobile phone\", \"time\": \"2021-08-20T16:00:00\", \"content\": \"Pick up your children from school.\", \"type\": \"alarm\"}"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.8246553884711778, avg recall: 0.8354323308270676, avg f1: 0.8291457811194652
+-------------------
+uuid: 79e10da9-e704-4b8b-9ca6-a09136117730
+First Round User: Can you push my 12:00 noon lunch meeting with the client to a later time on my watch?Assistant: "{\"functionName\": \"ModifyNotification\", \"deviceType\": \"watch\", \"originalTime\": \"12:00:00\", \"targetTime\": \"13:00:00\", \"originalContent\": \"Lunch meeting with the client\", \"targetContent\": \"Lunch meeting with the client\", \"originalType\": \"calendar\", \"targetType\": \"calendar\"}"
+precision: 0.42857142857142855, recall: 0.42857142857142855, f1: 0.42857142857142855
+avg precision: 0.8195114409400123, avg recall: 0.8301484230055659, avg f1: 0.8239435168006596
+-------------------
+uuid: 2a741e36-9b7d-4392-ae30-1caa78187be0
+First Round User: Change the reminder that says "Grade English Literature assignments" to "Grade Physics assignments".Assistant: "{\n  \"functionName\": \"ModifyNotification\",\n  \"deviceType\": \"tablet\",\n  \"originalTime\": \"tomorrow at 9:00 am\",\n  \"targetTime\": \"tomorrow at 9:00 am\",\n  \"originalContent\": \"Grade English Literature assignments\",\n  \"targetContent\": \"Grade Physics assignments\",\n  \"originalType\": \"todo\",\n  \"targetType\": \"todo\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8218253968253967, avg recall: 0.8323260073260074, avg f1: 0.8262006512006511
+-------------------
+uuid: 7d862743-3dda-40c3-aeb7-bdf6969e340b
+First Round User: Can you please change my alarm into a workout reminder?Assistant: "{\"functionName\": \"ModifyNotification\", \"deviceType\": \"mobile phone\", \"originalTime\": \"07:00\", \"originalContent\": \"Morning alarm\", \"targetTime\": \"07:00\", \"targetContent\": \"Time for morning workout\", \"originalType\": \"alarm\", \"targetType\": \"reminder message\"}"
+precision: 0.7142857142857143, recall: 0.7142857142857143, f1: 0.7142857142857143
+avg precision: 0.8204641350210968, avg recall: 0.8308318264014467, avg f1: 0.8247840064295759
+-------------------
+uuid: a779d405-2efe-443e-9eab-d7845c2a7cf2
+First Round User: I need to change the reminder for my show at 8:00 pm.Assistant: "{\"functionName\": \"ModifyNotification\", \"deviceType\": \"TV\", \"originalTime\": \"20:00\", \"targetTime\": \"19:00\", \"originalContent\": \"Watch Cooking Showtime\", \"targetContent\": \"\", \"originalType\": \"reminder message\", \"targetType\": \"reminder message\"}"
+precision: 0.6666666666666666, recall: 0.5714285714285714, f1: 0.6153846153846153
+avg precision: 0.8185416666666665, avg recall: 0.8275892857142857, avg f1: 0.8221665140415139
+-------------------
+uuid: dc0b7f2b-20da-4df5-b4ae-a66d2c98f5d6
+First Round User: Can you change the "Project deadline" reminder to a different event on my speaker?Assistant: "{\"functionName\": \"ModifyNotification\", \"deviceType\": \"speaker\", \"originalTime\": \"2021-10-08T14:00:00\", \"targetTime\": \"2021-10-08T14:00:00\", \"originalContent\": \"Project deadline\", \"targetContent\": \"Client Meeting\", \"originalType\": \"todo\", \"targetType\": \"calendar\"}"
+precision: 0.42857142857142855, recall: 0.42857142857142855, f1: 0.42857142857142855
+avg precision: 0.8137272192827747, avg recall: 0.822663139329806, avg f1: 0.8173073154554634
+-------------------
+uuid: 5601a95e-7772-4bc8-b4f8-55ef4fa2ad24
+First Round User: Delete the notification that says "Your favorite cooking show will start".Assistant: "{\"functionName\": \"DeleteNotification\", \"deviceType\": \"TV\", \"time\": \"\", \"content\": \"Your favorite cooking show will start\", \"type\": \"notification\"}"
+precision: 0.6666666666666666, recall: 1.0, f1: 0.8
+avg precision: 0.8119337979094076, avg recall: 0.8248257839721255, avg f1: 0.8170962506328359
+-------------------
+uuid: 798566ba-ea17-4b3e-81c2-bec3b7b9b032
+First Round User: Bob, please delete the reminder to "Finish writing the 'Digital Marketing' article".Assistant: "{\"functionName\": \"DeleteNotification\", \"deviceType\": \"tablet\", \"time\": null, \"content\": \"Finish writing the 'Digital Marketing' article\", \"type\": \"reminder\"}"
+precision: 0.6666666666666666, recall: 1.0, f1: 0.8
+avg precision: 0.8101835915088927, avg recall: 0.8269363166953528, avg f1: 0.8168902717095486
+-------------------
+uuid: fc557d30-40c5-4dd5-9dc8-39ee491a25b6
+First Round User: Cancel my alarm set for tomorrow at 6:00AM.Assistant: "{\"functionName\": \"DeleteNotification\", \"deviceType\": \"watch\", \"time\": \"2021-05-01 06:00:00\", \"type\": \"alarm\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.8084750566893424, avg recall: 0.8250283446712019, avg f1: 0.8151018954590382
+-------------------
+uuid: efe23898-32b4-45bc-86f8-5bd0d9e7cd0c
+First Round User: Bob, please delete my calendar notification for preparing the History class lesson.Assistant: "{\"functionName\": \"DeleteNotification\", \"deviceType\": \"mobile phone\", \"time\": \"8:00 PM\", \"content\": \"preparing the History class lesson\", \"type\": \"calendar\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.8077871148459385, avg recall: 0.8241456582633054, avg f1: 0.8143359908065789
+-------------------
+uuid: c01c1a24-7271-4d77-8af0-4eb459645f87
+First Round User: Could you please delete the reminder set for 1 PM on my speaker?Assistant: "{\"DeleteNotification\": {\"functionName\": \"DeleteNotification\", \"deviceType\": \"speaker\", \"time\": \"1 PM\", \"content\": \"Time to take a break and stretch\", \"type\": \"reminder message\"}}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.7983942414174973, avg recall: 0.814562569213732, avg f1: 0.8048669676576652
+-------------------
+uuid: cabb329f-7d08-412c-95d5-9a4775537bdf
+First Round User: What is the content of my reminder on the tablet?Assistant: "{\"functionName\": \"CheckNotification\", \"deviceType\": \"tablet\", \"time\": \"2022-09-27T17:30:00.000Z\"}"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.7949644225506295, avg recall: 0.8109469074986317, avg f1: 0.8013627496386115
+-------------------
+uuid: 4e6e6611-271b-4caa-965c-b9671690f17b
+First Round User: Is there an alarm set for 6:00 in the morning on my watch?Assistant: "{\"functionName\": \"CheckNotification\", \"deviceType\": \"watch\", \"time\": \"2022-06-07T06:00:00Z\", \"content\": \"Start morning run\"}"
+precision: 0.6666666666666666, recall: 0.5, f1: 0.5714285714285715
+avg precision: 0.7935064935064936, avg recall: 0.80741341991342, avg f1: 0.7987498612498611
+-------------------
+uuid: 5f9a138a-bd8e-4ed7-9363-c6dbe198312f
+First Round User: Do I have a notification about "Speaking event at Boston Convention Centre" on my phone?Assistant: "{\"functionName\": \"CheckNotification\",\n       \"deviceType\": \"mobile phone\",\n       \"time\": \"2021-06-18T15:00:00-04:00\",\n       \"content\": \"Speaking event at Boston Convention Centre\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7920813269127878, avg recall: 0.8058319957196363, avg f1: 0.7972657804118477
+-------------------
+uuid: 7af57a44-cfcc-4d17-869a-9449a1985efb
+First Round User: What are the notifications on my tablet at 10:30 this Saturday morning?Assistant: "{\"functionName\": \"CheckNotification\", \"deviceType\": \"tablet\", \"time\": \"2022-05-07T10:30:00Z\", \"content\": \"Grade English papers\", \"type\": \"todo\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7916137566137568, avg recall: 0.8052116402116403, avg f1: 0.7967406050739383
+-------------------
+uuid: 9011cbda-8b2f-45b2-b92b-75850305a181
+First Round User: Hey Bob, can you help me to register a medical appointment on MyHealthApp for tomorrow at 10:30 in the morning with Dr. Jane Thompson in the General Medicine department of General City Hospital?Assistant: "{\"functionName\": \"RegisterMedicalAppointment\", \"deviceType\": \"mobile phone\", \"appName\": \"MyHealthApp\", \"time\": \"10:30\", \"hospitalName\": \"General City Hospital\", \"departmentName\": \"General Medicine\", \"doctorName\": \"Dr. Jane Thompson\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7939037153322869, avg recall: 0.8073521716378861, avg f1: 0.7989742247984005
+-------------------
+uuid: 53b81134-c548-41b3-b474-05f56320f8e5
+First Round User: I want to book an appointment for next Monday at 1:30 in the afternoon.Assistant: "{\"functionName\": \"RegisterMedicalAppointment\", \"deviceType\": \"tablet\", \"appName\": \"HealSure\", \"time\": \"1:30 PM\", \"hospitalName\": \"Children's Health Hospital\", \"departmentName\": \"Orthopedic\", \"doctorName\": \"Dr. Cooper\"}"
+precision: 0.8333333333333334, recall: 0.8333333333333334, f1: 0.8333333333333334
+avg precision: 0.7943322981366461, avg recall: 0.8076345755693582, avg f1: 0.7993476933694323
+-------------------
+uuid: 91e89729-9acd-4888-8d83-eaae5c60f1dc
+First Round User: On my watch, use the TimeToHeal app to register my medical appointment for Friday at 11:00 AM at Auditory Specialist Centre, in the Audiology department with Dr. Anderson.Assistant: "{\"functionName\": \"RegisterMedicalAppointment\", \"deviceType\": \"watch\", \"appName\": \"TimeToHeal\", \"time\": \"2022-08-19T11:00:00\", \"hospitalName\": \"Auditory Specialist Centre\", \"departmentName\": \"Audiology\", \"doctorName\": \"Dr. Anderson\"}"
+precision: 0.8333333333333334, recall: 0.8333333333333334, f1: 0.8333333333333334
+avg precision: 0.7947516641065029, avg recall: 0.8079109062980031, avg f1: 0.7997131303582915
+-------------------
+uuid: 5bcbb8c4-9911-4683-9566-9bfb0525468e
+First Round User: Can you book an appointment for me on Wednesday at 3:00 PM?Assistant: "{\"functionName\": \"RegisterMedicalAppointment\", \"deviceType\": \"mobile phone\", \"appName\": \"SkinHealthTrack\", \"time\": \"2022-01-05T15:00:00\", \"hospitalName\": \"Advanced Dermatology Centre\", \"departmentName\": \"Dermatology\", \"doctorName\": \"Dr. Martin\"}"
+precision: 0.8333333333333334, recall: 0.8333333333333334, f1: 0.8333333333333334
+avg precision: 0.7951621073961499, avg recall: 0.8081813576494427, avg f1: 0.8000707920920684
+-------------------
+uuid: e53c04ff-50a1-4dec-a52c-a7b9416098f1
+First Round User: Can you confirm my appointment for next Tuesday at noon?Assistant: "{\"functionName\": \"RegisterMedicalAppointment\", \"deviceType\": \"TV\", \"appName\": \"CardioCare\", \"time\": \"02:00PM\", \"hospitalName\": \"Heart and Vascular Hospital\", \"departmentName\": \"Cardiology\", \"doctorName\": \"Dr. Roberts\"}"
+precision: 0.8333333333333334, recall: 0.8333333333333334, f1: 0.8333333333333334
+avg precision: 0.795563909774436, avg recall: 0.8084461152882204, avg f1: 0.8004209241051343
+-------------------
+uuid: 11d15b49-9c2b-486c-bec0-fc7bd4869d0a
+First Round User: Open the Health App on my tablet.Assistant: "{\"CheckMedicalRegistrationRecords\": \"{\\\"deviceType\\\": \\\"tablet\\\", \\\"appName\\\": \\\"Health App\\\", \\\"time\\\": \\\"last month\\\", \\\"hospitalName\\\": \\\"City Hospital\\\"}\"}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.7872767857142856, avg recall: 0.8000248015873015, avg f1: 0.7920832061457058
+-------------------
+uuid: 36bcda14-689f-4bac-826d-f21eb79fe9e7
+First Round User: Can you please check my therapy records on the My Health Tracker app?Assistant: "{\"functionName\": \"CheckMedicalRegistrationRecords\", \"time\": \"01/01/2021-06/30/2021\", \"deviceType\": \"mobile phone\", \"appName\": \"My Health Tracker\", \"hospitalName\": \"County General Hospital\", \"departmentName\": \"Orthopedic Surgery\"}"
+precision: 0.8, recall: 0.8, f1: 0.8000000000000002
+avg precision: 0.7874079528718703, avg recall: 0.8000245459008344, avg f1: 0.7921648225771935
+-------------------
+uuid: 40259c82-bb44-4aec-b1d0-6ffc2a6a6b3f
+First Round User: What were the dates of my appointments at the Silver Lining Health Centre last year?Assistant: "{\"functionName\": \"CheckMedicalRegistrationRecords\", \"deviceType\": \"TV\", \"appName\": \"Senior Health\", \"time\": \"2021-10-01 -- 2022-01-01\", \"hospitalName\": \"Silver Lining Health Centre\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7870262390670553, avg recall: 0.799514091350826, avg f1: 0.7917345692855894
+-------------------
+uuid: 5dafdcde-b80b-4209-8bbc-a1f9c1bac910
+First Round User: Can I see my heart check-ups from the past year on my smartwatch?Assistant: "{\"functionName\": \"CheckMedicalRegistrationRecords\", \"given parameter name\": \"deviceType\", \"given parameter value\": \"watch\", \"given parameter name\": \"appName\", \"given parameter value\": \"Heart Monitor\", \"given parameter name\": \"time\", \"given parameter value\": \"Jan 2020\", \"given parameter name\": \"hospitalName\", \"given parameter value\": \"Heart Institute\", \"given parameter name\": \"departmentName\", \"given parameter value\": \"Cardiology\"}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.779076479076479, avg recall: 0.7914381914381913, avg f1: 0.7837372504039167
+-------------------
+uuid: 0f62ed3a-9002-40cf-adde-bc38b74d1498
+First Round User: Bob, please use the Healthy Living App to check my medical records.Assistant: "{\n    \"functionName\": \"CheckMedicalRegistrationRecords\",\n    \"time\": \"2020-01-01 to 2022-12-31\",\n    \"hospitalName\": \"University Clinic\",\n    \"departmentName\": \"General Medicine\"\n  }"
+precision: 0.6666666666666666, recall: 0.4, f1: 0.5
+avg precision: 0.777952380952381, avg recall: 0.7875238095238095, avg f1: 0.7808998778998776
+-------------------
+uuid: c0a6aa76-f43a-4281-92a0-d8e676a35763
+First Round User: Cancel my hotel booking on the TravelEase app.Assistant: "{\"functionName\": \"CancelHotelBooking\", \"deviceType\": \"mobile phone\", \"appName\": \"TravelEase\"}"
+precision: 1.0, recall: 0.5, f1: 0.6666666666666666
+avg precision: 0.7801508722300801, avg recall: 0.7846770391324847, avg f1: 0.7797688560064795
+-------------------
+uuid: 76e365be-1b11-46cc-bb86-0cf96427ceb4
+First Round User: Can you help me cancel my hotel booking on the TravelGo app please?Assistant: "{\"functionName\": \"CancelHotelBooking\", \"deviceType\": \"tablet\", \"appName\": \"TravelGo\", \"time\": \"2019-09-29T00:00:00Z/2019-09-02T00:00:00Z\", \"hotelName\": \"Hyde Park Suites\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7798552754435107, avg recall: 0.7843370681605976, avg f1: 0.7794770044770042
+-------------------
+uuid: f28b5cd8-1fca-4e94-8838-f20174bddddf
+First Round User: Bob, I need to cancel my reservation at Countryside Inn through my WeekendEscapes app.Assistant: "{\"functionName\": \"CancelHotelBooking\",\n \"given parameter name\": \"deviceType\",\n \"parameter value\": \"mobile phone\"\n}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.7722838650023116, avg recall: 0.776722145168747, avg f1: 0.7719092665694605
+-------------------
+uuid: 9da6f854-ab4c-4b93-b4e2-efff09487a09
+First Round User: Cancel my reservation at Disney Star Hotel.Assistant: "{\"functionName\": \"CancelHotelBooking\", \"deviceType\": \"TV\", \"appName\": \"FamilyVoyage\"}"
+precision: 1.0, recall: 0.6666666666666666, f1: 0.8
+avg precision: 0.7744734432234431, avg recall: 0.7756639194139194, avg f1: 0.7721793697755234
+-------------------
+uuid: 3a3c401c-15be-4c90-b974-a5df5fc05d6d
+First Round User: Cancel my Adventure Lodge reservation for 20th - 24th June through SoloJourney on my watch, please.Fail: Arguments parse failed: {"functionName": "CancelHotelBooking", "deviceType": "watch", "appName": "SoloJourney", "time": "2021-06-20 - 2021-06-24"}>uuid: 25363a21-59db-43a1-86fc-cfbbdadc028f
+First Round User: Could you find my hotel booking record from January 2022 on TravelBuddy?Assistant: "{\"functionName\": \"CheckHotelBookingRecord\", \"deviceType\": \"mobile phone\", \"appName\": \"TravelBuddy\", \"time\": \"January 2022\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7692946990116801, avg recall: 0.7704627133872417, avg f1: 0.767043909968438
+-------------------
+uuid: 14eac43b-94e3-4cf1-8233-c55bc119cc2b
+First Round User: Can you check to see if all my bookings through HotelQuick have been registered correctly?Assistant: "{\"functionName\": \"CheckHotelBookingRecord\", \"deviceType\": \"tablet\", \"appName\": \"HotelQuick\", \"time\": \"February 2022\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7714508233199822, avg recall: 0.7726079216733422, avg f1: 0.7692210696883591
+-------------------
+uuid: 5b019f33-6b57-4843-98c0-5fa8607330b5
+First Round User: Can you look into my TravelDiaries app and find the name of the hotel I booked in July 2021?Assistant: "{\"functionName\": \"CheckHotelBookingRecord\", \"deviceType\": \"watch\", \"appName\": \"TravelDiaries\", \"time\": \"July 2021\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7735670194003527, avg recall: 0.7747134038800705, avg f1: 0.7713579116356891
+-------------------
+uuid: 648f34c5-fa64-4342-8b0a-269c8924d593
+First Round User: Can you check my HotelBookingLite app on my TV to see my bookings for April 2022?Assistant: "{\"functionName\": \"CheckHotelBookingRecord\", \"deviceType\": \"TV\", \"appName\": \"HotelBookingLite\", \"time\": \"Apr-2022\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7725862822193097, avg recall: 0.7737221494102229, avg f1: 0.7703974414983588
+-------------------
+uuid: 4915c8e4-bd03-4041-89c6-ccc43d0c6a52
+First Round User: Check my booking record for March 2022 on TravelEase, Bob.Assistant: "{\"functionName\": \"CheckHotelBookingRecord\", \"deviceType\": \"speaker\", \"appName\": \"TravelEase\", \"time\": \"2022-03\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7716233766233767, avg recall: 0.7727489177489179, avg f1: 0.7694544344544343
+-------------------
+uuid: bf4378c7-3eff-4df3-bf7e-4c8433d330f1
+First Round User: Book a room at the Fairmont Olympic Hotel from May 25 to May 26 using my tablet.Fail: Arguments parse failed: <BookHotel>
+       <deviceType>tablet</deviceType>
+       <appName>EliteStays</appName>
+       <time>2022-05-25, 2022-05-26</time>
+       <hotelName>Fairmont Olympic Hotel</hotelName>
+       <city>Seattle</city>
+       <price>luxury</price>
+       <star>5</star>
+       <nearbyPlace>Seattle's Downtown Business District</nearbyPlace>
+   </BookHotel>uuid: 063a4174-2722-4e7c-b263-d740f7b45954
+First Round User: Can you find me a hotel in London for next week?Assistant: "{\"functionName\": \"BookHotel\", \"deviceType\": \"smartwatch\", \"appName\": \"QuickStay\", \"time\": \"next week\", \"hotelName\": \"Hilton London Metropole\", \"city\": \"London\", \"price\": \"500\", \"star\": \"4-5\", \"nearbyPlace\": \"Trafalgar Square\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7645408163265307, avg recall: 0.7656462585034014, avg f1: 0.762410605267748
+-------------------
+uuid: 2c289473-6ae6-4263-a64c-f5df69aaef3d
+First Round User: Book a hotel using the app on my TV.Assistant: "{\"functionName\": \"BookHotel\", \"deviceType\": \"TV\", \"appName\": \"FamilyTripper\", \"time\": \"July 15 - July 22\", \"hotelName\": \"Novotel Marne La Vallee\", \"city\": \"Paris\", \"price\": \"100 to 200\", \"star\": \"3 to 4\", \"nearbyPlace\": \"Disneyland\"}"
+precision: 0.875, recall: 0.875, f1: 0.875
+avg precision: 0.7655183312262959, avg recall: 0.766613990729035, avg f1: 0.7634069715928121
+-------------------
+uuid: 877147ce-e24b-4204-b411-fa846ecb6539
+First Round User: Can you use my tablet to book a room at Kabul Party Hostel in Barcelona from August 10 to August 20 via CheapStay?Assistant: "{\"functionName\": \"BookHotel\", \"deviceType\": \"tablet\", \"appName\": \"CheapStay\", \"time\": \"2022-08-10T00:00:00.000Z/2022-08-20T23:59:59.000Z\", \"hotelName\": \"Kabul Party Hostel\", \"city\": \"Barcelona\", \"price\": \"cheap\", \"star\": \"2\", \"nearbyPlace\": \"La Rambla Street\"}"
+precision: 0.875, recall: 0.875, f1: 0.875
+avg precision: 0.7664786967418546, avg recall: 0.7675647451963242, avg f1: 0.7643858578069103
+-------------------
+uuid: 8f46f299-cb93-43ff-83ad-993f362e8baa
+First Round User: Book a first-class train ticket from New York to Boston on my tablet using the TravelBuddy app.Assistant: "{\"functionName\": \"BookTicket\", \"deviceType\": \"tablet\", \"appName\": \"TravelBuddy\", \"ticketType\": \"train ticket\", \"time\": \"9:00 AM on 15th June\", \"departure\": \"New York\", \"destination\": \"Boston\", \"companyName\": \"Amtrak\", \"price\": \"<100\", \"cabinClass\": \"first class\"}"
+precision: 0.7777777777777778, recall: 0.7777777777777778, f1: 0.7777777777777778
+avg precision: 0.7665769496204279, avg recall: 0.7676535541752934, avg f1: 0.7645023092849178
+-------------------
+uuid: 6beb7f63-314b-44fe-a8d1-c116806937c0
+First Round User: Book a cheap economy class plane ticket from Los Angeles to Chicago on Delta Airlines next Wednesday at 10 AM via the FlyFast app on my mobile phone.Assistant: "{\"functionName\": \"BookTicket\", \"deviceType\": \"mobile phone\", \"appName\": \"FlyFast\", \"ticketType\": \"plane\", \"time\": \"next Wednesday at 10 AM\", \"departure\": \"Los Angeles\", \"destination\": \"Chicago\", \"companyName\": \"Delta Airlines\", \"price\": \"cheap\", \"cabinClass\": \"economy class\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7685892172961138, avg recall: 0.7696565407772304, avg f1: 0.7665324617910823
+-------------------
+uuid: b5d7ad76-1909-4416-ae7f-26d9d1e999ec
+First Round User: Can I book a ticket on BusGo app?Assistant: "{\"functionName\": \"BookTicket\", \"deviceType\": \"mobile phone\", \"appName\": \"BusGo\", \"ticketType\": \"bus\", \"time\": \"next month\", \"departure\": \"Dallas\", \"destination\": \"Houston\", \"companyName\": \"\", \"price\": \"inexpensive\", \"cabinClass\": \"sleeper\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7705670872337539, avg recall: 0.771625288291955, avg f1: 0.7685279108356029
+-------------------
+uuid: d0357c33-6323-46ee-98d0-85e98d3659df
+First Round User: Can I book a boat ticket on EcoTravels that costs below $150 from Galveston to Port Aransas three weeks from now with Aqua Lines? I'll be using my tablet to make the booking.Assistant: "{\"functionName\": \"BookTicket\", \"deviceType\": \"tablet\", \"appName\": \"EcoTravels\", \"ticketType\": \"boat\", \"time\": \"three weeks from now\", \"departure\": \"Galveston\", \"destination\": \"Port Aransas\", \"companyName\": \"Aqua Lines\", \"price\": \"below $150\", \"cabinClass\": \"economy class\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7725114339521119, avg recall: 0.773560667204735, avg f1: 0.7704895387098775
+-------------------
+uuid: bc5c6d55-9a95-47f0-ac10-b8919cf0ea80
+First Round User: I am concerned about ticket prices. Are they on the lower side?Assistant: "{\"functionName\": \"BookTicket\", \"deviceType\": \"mobile phone\", \"appName\": \"CityRail\", \"ticketType\": \"train\", \"time\": \"08:00 AM\", \"departure\": \"East City Station\", \"destination\": \"Central Business District\", \"companyName\": \"Metropolitan Railways\", \"price\": \"Range: $10 to $20\", \"cabinClass\": \"second class seat\"}"
+precision: 0.7777777777777778, recall: 0.7777777777777778, f1: 0.7777777777777778
+avg precision: 0.7725556889422435, avg recall: 0.7735961051087101, avg f1: 0.7705507844163304
+-------------------
+uuid: f205180b-a507-4b42-a00c-e427934d869b
+First Round User: Look for the latest business sector news on my tablet.Assistant: "{\"functionName\": \"UseSearchEngine\", \"deviceType\": \"tablet\", \"searchEngineName\": \"Google\", \"content\": \"latest business sector news\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7744510582010581, avg recall: 0.7754828042328042, avg f1: 0.7724628612128609
+-------------------
+uuid: 229b4b9f-aed1-439e-9f1d-c36b532d7255
+First Round User: Find new workout routines on YouTube.Assistant: "{\"functionName\": \"UseSearchEngine\", \"deviceType\": \"mobile phone\", \"searchEngineName\": \"YouTube\", \"content\": \"new workout routines\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7763150990423717, avg recall: 0.7773383182474091, avg f1: 0.7743433334342422
+-------------------
+uuid: 6b9f21d5-a398-4408-b06a-00ff70d6ce08
+First Round User: Show me the latest movie trailers on Netflix from my TV.Assistant: "{\"functionName\": \"UseSearchEngine\", \"deviceType\": \"TV\", \"searchEngineName\": \"Netflix\", \"content\": \"movie trailer\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.775416341399948, avg recall: 0.776431173562321, avg f1: 0.7734607378049999
+-------------------
+uuid: a3008d7d-aaf4-4fc7-97a1-33bcdc787783
+First Round User: Can you find me some unique recipes on Bing?Assistant: "{\"functionName\": \"UseSearchEngine\",\n    \"deviceType\": \"watch\",\n    \"searchEngineName\": \"Bing\",\n    \"content\": \"unique recipes\"\n   }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7772422248032004, avg recall: 0.7782488062975867, avg f1: 0.7753025204244715
+-------------------
+uuid: 8df1eb86-f1af-40d8-9184-a92f4eea07aa
+First Round User: Can you give me some information about dinosaurs on my tablet?Assistant: "{\n    \"functionName\": \"UseEncyclopedia\",\n    \"deviceType\": \"tablet\",\n    \"encyclopediaName\": \"Kids World Encyclopedia\",\n    \"content\": \"dinosaurs\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7790386584741423, avg recall: 0.780037122375832, avg f1: 0.7771145968726612
+-------------------
+uuid: 9bcc353d-61e9-4703-a219-f8d1791a77e4
+First Round User: Can I use Gray's Anatomy to search for information on the human circulatory system on my device?Assistant: "{\"functionName\": \"UseEncyclopedia\", \"deviceType\": \"mobile phone\", \"encyclopediaName\": \"Gray's Anatomy\", \"content\": \"human circulatory system\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7808063492063492, avg recall: 0.7817968253968254, avg f1: 0.7788976800976799
+-------------------
+uuid: 42824cf0-c0e0-4af5-bfd6-14f597c75dfe
+First Round User: Can you search the Encyclopedia of Information Technology for information on quantum computing?Assistant: "{\"functionName\": \"UseEncyclopedia\", \"deviceType\": \"TV\", \"encyclopediaName\": \"Encyclopedia of Information Technology\", \"content\": \"quantum computing\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7825459813555051, avg recall: 0.7835285966238347, avg f1: 0.780652460414365
+-------------------
+uuid: 003143a7-4241-4752-b0e2-ed6daddedb34
+First Round User: Search for global warming solutions on Wikipedia.Assistant: "{\"functionName\": \"UseEncyclopedia\", \"deviceType\": \"watch\", \"encyclopediaName\": \"Wikipedia\", \"content\": \"global warming solutions\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7842582177227846, avg recall: 0.7852330958630171, avg f1: 0.7823796063953542
+-------------------
+uuid: 27180d56-b98c-4feb-82e9-c454747c540e
+First Round User: Search Encyclopedia of World History for information on the pivotal moments of the French Revolution.Fail: Arguments parse failed: {"functionName": "UseEncyclopedia",
+ "given parameter name": "deviceType",
+ "parameter value": "speaker"},
+ {"functionName": "UseEncyclopedia",
+ "given parameter name": "encyclopediaName",
+ "parameter value": "Encyclopedia of World History"},
+ {"functionName": "UseEncyclopedia",
+ "given parameter name": "content",
+ "parameter value": "pivotal moments of the French Revolution"}uuid: 0553feb6-3949-4f1a-ab6a-6b3c5b9655a0
+First Round User: What's the weather forecast for Big Bear Mountain next week?Assistant: "{\"functionName\": \"CheckWeather\",\n        \"deviceType\": \"mobile phone\",\n        \"appName\": \"WeatherApp\",\n        \"location\": \"Big Bear Mountain\",\n        \"time\": \"next week\",\n        \"weatherType\": \"\"\n    }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7798511135720437, avg recall: 0.7808108773225052, avg f1: 0.7780016280016278
+-------------------
+uuid: 4d563d21-ca4f-40f7-8df3-0a225b3793de
+First Round User: What's the weather going to be like in Miami Beach for the next 3 days?Assistant: "{\"functionName\": \"CheckWeather\", \"deviceType\": \"tablet\", \"appName\": \"WeatherPlus\", \"location\": \"Miami Beach\", \"time\": \"Next 3 days\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7796214896214896, avg recall: 0.7805738705738706, avg f1: 0.7777862308631537
+-------------------
+uuid: 898dfa7f-bf67-4ebc-93ba-70bb8a7ed577
+First Round User: What will the weather be like in Nebraska this week?Assistant: "{\"functionName\": \"CheckWeather\", \"deviceType\": \"TV\", \"appName\": \"FarmersWeather\", \"location\": \"Nebraska\", \"time\": \"This week\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7793953713801042, avg recall: 0.7803404822488792, avg f1: 0.7775741222306106
+-------------------
+uuid: 416154d6-d5a9-4a8a-88a0-8880ebbe78c3
+First Round User: What's the weather like in New York City this evening?Assistant: "{\"functionName\": \"CheckWeather\",\n \"deviceType\": \"watch\",\n \"appName\": \"Runner's Weather\",\n \"location\": \"New York City\",\n \"time\": \"this evening\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7810666185666185, avg recall: 0.7820045695045695, avg f1: 0.7792591667591665
+-------------------
+uuid: 208f5cee-e4cc-4881-85d9-ea26113a002b
+First Round User: What will be the weather like in Central Park, New York tomorrow?Assistant: "{\"functionName\": \"CheckWeather\", \"deviceType\": \"mobile phone\", \"appName\": \"Daily Forecast\", \"location\": \"Central Park, New York\", \"time\": \"tomorrow\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7827127342164936, avg recall: 0.7836436328917532, avg f1: 0.7809188722722555
+-------------------
+uuid: 651ac227-a5f4-4e62-99e6-9ff18d9a78da
+First Round User: Can you check the air quality for Rosedale Park for the next 3 days?Fail: Arguments parse failed: "functionName": "CheckAirQuality",
+  "deviceType": "mobile phone",
+  "appName": "AirQualityMonitor",
+  "location": "Rosedale Park"
+  "time": "next 3 days"uuid: 532fcb24-dbef-46cf-a3a4-27b73162bc3e
+First Round User: What's the air quality in my living area every evening?Assistant: "{\n    \"functionName\": \"CheckAirQuality\",\n    \"appName\": \"AirSense\",\n    \"deviceType\": \"TV\",\n    \"location\": \"living area\",\n    \"time\": \"evening\"\n  }"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.7748206937095826, avg recall: 0.7757378012933569, avg f1: 0.7730534074978518
+-------------------
+uuid: b1af698f-1eef-47a7-81ee-fd8f7889059a
+First Round User: What's the air quality in Central Park next week?Assistant: "{\"functionName\": \"CheckAirQuality\", \"deviceType\": \"tablet\", \"appName\": \"AirHealth\", \"location\": \"Central Park\", \"time\": \"next week\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7764764239028945, avg recall: 0.7773867880485528, avg f1: 0.7747221324427205
+-------------------
+uuid: 7f284446-bdaa-4b3e-b348-62dd4c11fb0e
+First Round User: What's the air quality like in the HappyKids playground every afternoon?Fail: Arguments parse failed: "functionName": "CheckAirQuality",
+  "deviceType": "speaker",
+  "appName": "AirSafeguard",
+  "location": "HappyKids playground",
+  "time": "every afternoon"uuid: da71a6c1-6fe6-453c-b1d1-d4d19d8d19ce
+First Round User: Can I use AirPurity to monitor the air quality in Sydney next week?Assistant: "{\"functionName\": \"CheckAirQuality\", \"deviceType\": \"watch\", \"appName\": \"AirPurity\", \"location\": \"Sydney, Australia\", \"time\": \"next week\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.770657925005751, avg recall: 0.7715550954681389, avg f1: 0.7689290580594926
+-------------------
+uuid: 926011c8-7fbc-450f-aee7-a267006751eb
+First Round User: What's the PM2.5 value at my office?Assistant: "{\"functionName\": \"CheckPM25\", \"deviceType\": \"mobile phone\", \"appName\": \"AirQualityMonitor\", \"location\": \"user's office\", \"time\": \"12:00 PM\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7705093068402421, avg recall: 0.7714000228388718, avg f1: 0.7687928777856834
+-------------------
+uuid: 701ae94a-79e1-4b72-978d-15deeeee2b53
+First Round User: What's the PM2.5 value at the park right now?Assistant: "{\"functionName\": \"CheckPM25\", \"deviceType\": \"watch\", \"appName\": \"PolluTrack\", \"location\": \"park\"}"
+precision: 0.6666666666666666, recall: 0.5, f1: 0.5714285714285715
+avg precision: 0.7697675736961451, avg recall: 0.7694614512471656, avg f1: 0.7673831327402754
+-------------------
+uuid: 86394437-f39b-4ae6-8b39-76abc17e0e64
+First Round User: Bob, can you check the PM2.5 value of my home at 3:00 PM using AirCheck on my tablet?Fail: Arguments parse failed: "functionName": "CheckPM25",
+  "deviceType": "tablet",
+  "appName": "AirCheck",
+  "location": "user's home",
+  "time": "afternoon"uuid: 123c35b4-e176-48a1-8c4f-02506296f6d9
+First Round User: What's the PM2.5 value at the school right now?Assistant: "{\"functionName\": \"CheckPM25\", \"deviceType\": \"TV\", \"appName\": \"CleanAir\", \"location\": \"school\"}"
+precision: 0.6666666666666666, recall: 0.5, f1: 0.5714285714285715
+avg precision: 0.7636206125642746, avg recall: 0.7621450927788956, avg f1: 0.7605990644723037
+-------------------
+uuid: f4650cd0-1822-432b-b6e5-e5d3283b1ade
+First Round User: What's the PM2.5 value at Community Park for the next 3 days?Assistant: "{\"functionName\": \"CheckPM25\",\n \"location\": \"Community Park\",\n \"time\": \"Next 3 days\",\n \"deviceType\": \"speaker\",\n \"appName\": \"PurifAir\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7635253635253636, avg recall: 0.762060162060162, avg f1: 0.7605249451403295
+-------------------
+uuid: 64b304da-24aa-4c8b-bb18-9b082b7ccc14
+First Round User: Can you consult the InfantHealth Aid app for advice on my infant's symptoms?Assistant: "{\"functionName\": \"ConsultMedicalAdvice\", \"deviceType\": \"mobile phone\", \"appName\": \"InfantHealth Aid\", \"content\": \"My infant son has been crying frequently, having trouble sleeping, and he seems to have lost his appetite.\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7651675485008819, avg recall: 0.7637125220458554, avg f1: 0.7621879663546328
+-------------------
+uuid: 42fb006c-5a25-4047-958c-56e6da1cca0e
+First Round User: Can I use the FitAdvice app to get medical advice on my smartwatch?Assistant: "{\"functionName\": \"ConsultMedicalAdvice\", \"deviceType\": \"watch\", \"appName\": \"FitAdvice\", \"content\": \"joint pain after workouts\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7667870826491516, avg recall: 0.7653420908593322, avg f1: 0.7638280493452905
+-------------------
+uuid: 27155a7a-8c9d-49af-91d1-6f2b58fedbb8
+First Round User: Could you find some information on WebMD App about my symptoms?Assistant: "{\"functionName\": \"ConsultMedicalAdvice\", \"deviceType\": \"mobile phone\", \"appName\": \"WebMD\", \"content\": \"I have symptoms of Lyme disease. Please provide some advice based on the app's guidance.\"}"
+precision: 0.3333333333333333, recall: 0.3333333333333333, f1: 0.3333333333333333
+avg precision: 0.7638182213524679, avg recall: 0.7623831267666884, avg f1: 0.7608794554000031
+-------------------
+uuid: a938d5f9-f79d-442f-9458-ce471b121a49
+First Round User: Can I open the Healthcare TV app on my TV?Assistant: "{\"functionName\": \"ConsultMedicalAdvice\", \"deviceType\": \"TV\", \"appName\": \"Healthcare TV\", \"content\": \"I am feeling extra heartbeat with occasional chest tightness.\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7631573264226326, avg recall: 0.7617319943850556, avg f1: 0.7602385520752866
+-------------------
+uuid: 8072aeac-a5b5-4eb4-a7ef-6dea3b754720
+First Round User: Can you open the SkinCare Assist app on my speaker?Assistant: "{\"functionName\": \"ConsultMedicalAdvice\", \"deviceType\": \"speaker\", \"appName\": \"SkinCare Assist\", \"content\": \"Will 'Proactive Solution' help in reducing acne?\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7625053625053626, avg recall: 0.7610896610896611, avg f1: 0.7596063096063095
+-------------------
+uuid: ea0bad8f-79fc-411e-9f75-df137edabb8b
+First Round User: Can you check the bus information on Bus Tracker for me?Assistant: "{\n    \"functionName\": \"CheckBusInformation\",\n    \"deviceType\": \"mobile phone\",\n    \"appName\": \"Bus Tracker\",\n    \"busRoute\": \"Route-7\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7640992862469373, avg recall: 0.7626930861830191, avg f1: 0.7612196900787503
+-------------------
+uuid: 92abd508-c26a-4349-9a9c-9c6300214b44
+First Round User: What time does the TouristRoute-1 bus start running in the morning?Assistant: "{\"functionName\": \"CheckBusInformation\", \"deviceType\": \"tablet\", \"appName\": \"CityTransit\"}"
+precision: 1.0, recall: 0.6666666666666666, f1: 0.8
+avg precision: 0.7656719576719577, avg recall: 0.7620529100529101, avg f1: 0.7614782254782253
+-------------------
+uuid: e9801146-c596-4978-9221-3b7a7b3e273c
+First Round User: What's the operational info for Route-10?Assistant: "{\"functionName\": \"CheckBusInformation\", \"deviceType\": \"speaker\", \"appName\": \"SpeakAssist\", \"busRoute\": \"Route-10\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7672237990118785, avg recall: 0.7636287185956061, avg f1: 0.7630578398790318
+-------------------
+uuid: d27fab66-1910-4de0-9bd0-3cf9ae40ee6e
+First Round User: What is the next schedule for Route-3?Assistant: "{\n    \"functionName\": \"CheckBusInformation\",\n    \"deviceType\": \"watch\",\n    \"appName\": \"UniTransit\",\n    \"busRoute\": \"Route-3\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7687552213868004, avg recall: 0.7651837928153719, avg f1: 0.7646166698798276
+-------------------
+uuid: d6e919b3-11e8-409e-957f-6cc5ea81d054
+First Round User: Can you check the operational info for Route-12 on my TV using the TransitApp?Assistant: "{\"functionName\": \"CheckBusInformation\", \"deviceType\": \"TV\", \"appName\": \"TransitApp\", \"busRoute\": \"Route-12\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.770266625168586, avg recall: 0.766718539267559, avg f1: 0.7661551230178679
+-------------------
+uuid: 6d2f3e09-4f5c-49e9-9934-3fe95cf1c509
+First Round User: Can you help me find the recipe for "Chicken Parmesan" on QuickRecipes?Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"mobile phone\", \"appName\": \"QuickRecipes\", \"cate\": \"Chicken Parmesan\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.771758400329829, avg recall: 0.7682333539476397, avg f1: 0.7676735962450246
+-------------------
+uuid: ce425a40-44ad-4203-863d-44354ee68a30
+First Round User: Can I get the recipe for Pad Thai on GlobalTaste?Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"tablet\", \"appName\": \"GlobalTaste\", \"cate\": \"Pad Thai\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7732309267793139, avg recall: 0.7697286226318485, avg f1: 0.7691724762692502
+-------------------
+uuid: 745ba196-d27a-4994-a4b6-1da71c218ecf
+First Round User: Bob, can you put on the recipe instructions for Pizza Margherita on my TV through the KitchenTV app?Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"TV\", \"appName\": \"KitchenTV\", \"cate\": \"Pizza Margherita\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7746845746845747, avg recall: 0.7712047212047213, avg f1: 0.7706521398829089
+-------------------
+uuid: fa1b2de4-7cde-4d16-b69a-209ba51b334e
+First Round User: Show me the Quinoa Salad recipe on my watch.Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"watch\", \"appName\": \"FitFood\", \"cate\": \"Quinoa Salad\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7761197047821252, avg recall: 0.772662015974118, avg f1: 0.7721129542785592
+-------------------
+uuid: c79c0599-0104-4c87-9c2d-c1680dd85716
+First Round User: Can you provide me the detailed instructions for Chocolate Soufflé recipe from Baking 101 app on my speaker?Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"speaker\", \"appName\": \"Baking 101\", \"cate\": \"Chocolate Souffle\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.775426964034559, avg recall: 0.7719911593329316, avg f1: 0.7714455727113954
+-------------------
+uuid: 5bc84fed-9fb2-4c73-926d-ae50d94f3d8d
+First Round User: What's the current lunar date?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"tablet\", \"type\": \"current lunar date\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7768393730657882, avg recall: 0.7734251771987622, avg f1: 0.7728830219396255
+-------------------
+uuid: d21a2225-52ae-4111-a4c5-c3c0c4d7a981
+First Round User: What is the current time on my watch?Assistant: "{\n  \"functionName\": \"CheckCurrentDateTime\",\n  \"deviceType\": \"watch\",\n  \"type\": \"current exact time\"\n}"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.775109126984127, avg recall: 0.77171626984127, avg f1: 0.7711775030525029
+-------------------
+uuid: bdfe9ae2-7585-4c09-af0f-a99b82a12fd0
+First Round User: What is today's date according to the Gregorian and lunar calendars?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"mobile phone\", \"type\": \"current Gregorian date\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7765059647047226, avg recall: 0.7731341812087155, avg f1: 0.7725987607975184
+-------------------
+uuid: 3dde9792-e5fb-4e01-b992-4a67d1923815
+First Round User: What is the current Gregorian date?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"TV\", \"type\": \"current Gregorian date\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7778855575151873, avg recall: 0.7745345874975506, avg f1: 0.7740024721506201
+-------------------
+uuid: e4c17d57-1aff-4f80-9dd4-b2911f0bc23f
+First Round User: Can you tell me the current date through my speaker, Bob?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"speaker\", \"type\": \"current Gregorian date\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7792482228065051, avg recall: 0.7759178108871362, avg f1: 0.7753889600515366
+-------------------
+uuid: fe9946aa-13c8-4907-b585-8c5a1956684c
+First Round User: Check if 2022-12-27 is a national holiday in Japan on my tablet.Assistant: "{\"functionName\": \"ConvertHolidayAndDate\", \"deviceType\": \"tablet\", \"date\": \"2022-12-27\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7805942702284168, avg recall: 0.7772841656987999, avg f1: 0.7767585395634174
+-------------------
+uuid: d76e4e81-7dd6-4574-a46d-276bd2ef599e
+First Round User: When is Diwali this year?Assistant: "{\"functionName\": \"ConvertHolidayAndDate\", \"deviceType\": \"mobile phone\", \"holidayName\": \"Diwali\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7819240019240021, avg recall: 0.7786339586339588, avg f1: 0.7781115181115179
+-------------------
+uuid: a8155ded-e81b-47fe-9c7f-3eb18761f9ac
+First Round User: When is the next Chinese New Year?Assistant: "{\"functionName\": \"ConvertHolidayAndDate\", \"deviceType\": \"watch\", \"holidayName\": \"Chinese New Year\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7832377127557852, avg recall: 0.7799674890036338, avg f1: 0.7794481957132559
+-------------------
+uuid: 971fc02c-14c4-4594-8d7c-05838026f418
+First Round User: When does the Cherry Blossom festival happen this year?Assistant: "{\"functionName\": \"ConvertHolidayAndDate\", \"deviceType\": \"tablet\", \"holidayName\": \"Cherry Blossom festival\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7845356905237146, avg recall: 0.7812850489497197, avg f1: 0.7807688652000028
+-------------------
+uuid: 1dad8794-47e5-4bfc-b301-4690732f2655
+First Round User: Is November 23rd, 2022 considered a public holiday?Assistant: "{\n    \"functionName\": \"ConvertHolidayAndDate\",\n    \"deviceType\": \"TV\",\n    \"date\": \"2022-11-23\"\n  }"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.7828420256991687, avg recall: 0.7796107331821619, avg f1: 0.7790976219547646
+-------------------
+uuid: f81f1899-63c3-44aa-947e-e2dc59c07803
+First Round User: Open the ESPN app on my tablet.Assistant: "{\"functionName\": \"SearchNews\", \"deviceType\": \"tablet\", \"appName\": \"ESPN\", \"time\": \"last week\", \"category\": \"sports\", \"keyword\": \"basketball\"}"
+precision: 0.4, recall: 0.5, f1: 0.4444444444444445
+avg precision: 0.7805766882689962, avg recall: 0.7779562318023858, avg f1: 0.7771174256381356
+-------------------
+uuid: 87aebf48-163c-4f94-bb0f-9b903179db75
+First Round User: Search for recent political news on the New York Times app on my phone.Assistant: "{\"functionName\": \"SearchNews\", \"deviceType\": \"mobile phone\", \"appName\": \"New York Times\", \"category\": \"politics\", \"time\": \"yesterday\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7818674136321198, avg recall: 0.779262371615313, avg f1: 0.7784284996049701
+-------------------
+uuid: d1efb618-5e96-4cd1-ae75-c2812c3bba16
+First Round User: Show me the latest tech news on the CNN app from last month.Fail: Arguments parse failed: {"functionName": "SearchNews",
+ "given parameter name": "deviceType",
+ "parameter value": "TV"},
+ {"functionName": "SearchNews",
+ "given parameter name": "appName",
+ "parameter value": "CNN"},
+ {"functionName": "SearchNews",
+ "given parameter name": "time",
+ "parameter value": "last month"},
+ {"functionName": "SearchNews",
+ "given parameter name": "category",
+ "parameter value": "tech"}uuid: a7441fa5-9b0c-4e5b-b707-bd22dd20d9ea
+First Round User: Search for stock market news on CNBC app from last year.Assistant: "{\"functionName\": \"SearchNews\", \"deviceType\": \"watch\", \"appName\": \"CNBC\", \"time\": \"last year\"}"
+precision: 1.0, recall: 0.75, f1: 0.8571428571428571
+avg precision: 0.77858988556663, avg recall: 0.7745616463639721, avg f1: 0.774360394127836
+-------------------
+uuid: 616d2bd6-8b55-48b3-880d-47e9601fa8d1
+First Round User: Can you pull up the Hollywood Reporter app on my speaker?Assistant: "{\"functionName\": \"SearchNews\", \"deviceType\": \"speaker\", \"appName\": \"Hollywood Reporter\", \"time\": \"last weekend\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7798697128176899, avg recall: 0.7758647582347006, avg f1: 0.7756646693062877
+-------------------
+uuid: 09500dc5-8ff3-4481-a5b5-0f45823fd1e8
+First Round User: What's the meaning of Elegy on EasyDictionary?Fail: Arguments parse failed: "LookUpDictionary": {
+    "functionName": "LookUpDictionary",
+    "deviceType": "tablet",
+    "appName": "EasyDictionary",
+    "content": "Elegy"
+  }uuid: fa8a1c06-93c9-4092-a58c-42d3f6d7d029
+First Round User: I came across "Break a leg" in my text, what does it mean?Assistant: "{\"functionName\": \"LookUpDictionary\", \"deviceType\": \"mobile phone\", \"appName\": \"WordMaster\", \"content\": \"break a leg\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7747664399092972, avg recall: 0.7708072562358278, avg f1: 0.7706094540380254
+-------------------
+uuid: 80cb5783-4ae9-42bf-bae3-942f5459d865
+First Round User: Can you find the definition of "Habeas corpus" in my LawDictionary app on my tablet?Assistant: "{\"functionName\": \"LookUpDictionary\", \"deviceType\": \"tablet\", \"appName\": \"LawDictionary\", \"content\": \"Habeas corpus\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7760461760461762, avg recall: 0.7721094877344878, avg f1: 0.7719128094128093
+-------------------
+uuid: f78a6e3a-ac1e-406a-ad5f-9cccde96e75c
+First Round User: Can you help me look up a character on ChineseForYou?Assistant: "{\n    \"functionName\": \"LookUpDictionary\",\n    \"deviceType\": \"TV\",\n    \"appName\": \"ChineseForYou\",\n    \"content\": \"福\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7773114518877232, avg recall: 0.773397004752937, avg f1: 0.7732014376082171
+-------------------
+uuid: 767836db-35aa-48bb-9ca1-f327e6352c3d
+First Round User: What is the status of my package with the tracking number EX123456789 on my tablet via the Speedy Couriers app?Assistant: "{\"functionName\": \"CheckExpressInformation\", \"deviceType\": \"tablet\", \"appName\": \"Speedy Couriers\", \"idNumber\": \"EX123456789\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.778562511146781, avg recall: 0.7746700552880329, avg f1: 0.7744755868351373
+-------------------
+uuid: ca92b52c-6c5f-4654-bd9f-6ba27265d380
+First Round User: What is the status of my order on Fast logistics?Assistant: "{\n  \"functionName\": \"CheckExpressInformation\",\n  \"deviceType\": \"mobile phone\",\n  \"appName\": \"Fast logistics\",\n  \"idNumber\": \"FL987654321\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7797995920900951, avg recall: 0.7759288817948037, avg f1: 0.7757354997578461
+-------------------
+uuid: 0df3d27e-2186-4f4e-bfdc-d44515f3b9f3
+First Round User: Can you check the status of my delivery with the ID number QS102938475 on the QuickShip app on my watch?Assistant: "{\"functionName\": \"CheckExpressInformation\", \"deviceType\": \"watch\", \"appName\": \"QuickShip\", \"idNumber\": \"QS102938475\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7810229276895945, avg recall: 0.7771737213403881, avg f1: 0.7769814136480803
+-------------------
+uuid: f133ce9c-1549-44f6-856a-c9a16923bc2c
+First Round User: Can you check my delivery status on the Express Now app?Assistant: "{\"functionName\": \"CheckExpressInformation\", \"deviceType\": \"TV\", \"appName\": \"Express Now\", \"idNumber\": \"EN564738291\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7822327457686575, avg recall: 0.7784048057528722, avg f1: 0.7782135605340025
+-------------------
+uuid: 51a5f8d5-b80e-41e3-8e57-2d9a8c66b5ef
+First Round User: Hey Bob, can you check the status of my Medic Deliver order with the id number MD112233445?Assistant: "{\"functionName\": \"CheckExpressInformation\", \"deviceType\": \"speaker\", \"appName\": \"Medic Deliver\", \"idNumber\": \"MD112233445\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.783429269143555, avg recall: 0.779622361765219, avg f1: 0.7794321673442551
+-------------------
+uuid: 8ce7b289-16f0-4a1c-9ee5-10928bb97fa8
+First Round User: How's my OfficeSuppliesInc order doing?Assistant: "{\n    \"functionName\": \"CheckOrderInformation\",\n    \"deviceType\": \"tablet\",\n    \"appName\": \"OfficeSuppliesInc\",\n    \"idNumber\": \"12345ABC\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7846127157602569, avg recall: 0.7808266111544802, avg f1: 0.7806374560472921
+-------------------
+uuid: 64e850a3-ffc9-4c44-aa55-f288a95ce052
+First Round User: What is the status of my FreshGroceries order?Assistant: "{\"functionName\": \"CheckOrderInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"FreshGroceries\", \"idNumber\": \"FG67589\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7857832988267772, avg recall: 0.7820177708764666, avg f1: 0.7818296437861655
+-------------------
+uuid: ebe3e9e8-bdc5-4e5d-99b8-2b42cdab993f
+First Round User: What is the status of my order with the id number TG22105?Assistant: "{\"functionName\": \"CheckOrderInformation\", \"deviceType\": \"TV\", \"appName\": \"TechGadgets\", \"idNumber\": \"TG22105\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.786941226941227, avg recall: 0.7831960531960533, avg f1: 0.783008943008943
+-------------------
+uuid: d38bbdc9-2f00-4e1f-bc87-14f9ef9c24c5
+First Round User: Can I track my order from the BookWorld app on my smart watch?Assistant: "{\"functionName\": \"CheckOrderInformation\", \"deviceType\": \"watch\", \"appName\": \"BookWorld\", \"idNumber\": \"BW457632\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7880867042157366, avg recall: 0.7843616658132788, avg f1: 0.7841755615949163
+-------------------
+uuid: a07f5ced-5503-453a-bdd7-15a547223845
+First Round User: When will my order from the GoShopping app arrive?Assistant: "{\"functionName\": \"CheckOrderInformation\",\n  \"deviceType\": \"mobile phone\",\n  \"appName\": \"GoShopping\",\n  \"idNumber\": \"GS998877\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7892199303964011, avg recall: 0.7855148119854003, avg f1: 0.7853297029767617
+-------------------
+uuid: 7a7ea42f-2809-4628-95be-3bac2b3d2766
+First Round User: How many call minutes balance do I have left this month in my mobile phone?Assistant: "{\"functionName\": \"CheckBalance\",\n \"deviceType\": \"mobile phone\",\n \"appName\": \"BalanceCheckApp\",\n \"type\": \"call minutes balance\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.790341100979399, avg recall: 0.7866556906450525, avg f1: 0.7864715662588002
+-------------------
+uuid: 8349475b-372d-4877-92c2-ba0602f87690
+First Round User: How much data do I have left on the DataUsageApp?Assistant: "{\"functionName\": \"CheckBalance\", \"deviceType\": \"mobile phone\", \"appName\": \"DataUsageApp\", \"type\": \"data balance\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7914504073234233, avg recall: 0.7877844965146553, avg f1: 0.787601346331505
+-------------------
+uuid: fd5218ba-22da-4f0a-a968-781f062b2a51
+First Round User: How much balance do I have in my MinuteCheckApp?Assistant: "{\n  \"functionName\": \"CheckBalance\",\n  \"deviceType\": \"tablet\",\n  \"appName\": \"MinuteCheckApp\",\n  \"type\": \"call minutes balance\"\n}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7907936507936509, avg recall: 0.7871470342522975, avg f1: 0.7869648480174795
+-------------------
+uuid: 7930687b-7663-4795-8616-e9f9c528a0dc
+First Round User: What is my remaining data balance on my DataCheckApp?Assistant: "{\"functionName\": \"CheckBalance\", \"deviceType\": \"watch\", \"appName\": \"DataCheckApp\", \"type\": \"data balance\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7918889719936841, avg recall: 0.7882614476855315, avg f1: 0.7880802153053461
+-------------------
+uuid: b2557c34-b1f3-458c-b368-7ab5bd533ce1
+First Round User: Can you tell me my remaining data balance on TVDataCheck?Assistant: "{\"functionName\": \"CheckBalance\", \"deviceType\": \"TV\", \"appName\": \"TVDataCheck\"}"
+precision: 1.0, recall: 0.6666666666666666, f1: 0.8
+avg precision: 0.7929728835978836, avg recall: 0.7876281415343915, avg f1: 0.7881422975172975
+-------------------
+uuid: 85cd34dc-0ccf-4d5e-b94a-9d4994352c62
+First Round User: Can you check my mobile operator points on my tablet?Fail: Arguments parse failed: "functionName": "CheckMobileOperatorPoints",
+  "deviceType": "tablet",
+  "appName": "Points Tracker"uuid: 8ed4befa-56b1-41e5-9d95-c4f8922e3e7e
+First Round User: How many points do I have on Data Points Manager?Assistant: "{\"functionName\": \"CheckMobileOperatorPoints\", \"deviceType\": \"mobile phone\", \"appName\": \"Data Points Manager\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7899525445917199, avg recall: 0.784662902961872, avg f1: 0.7851717583676345
+-------------------
+uuid: c6f905ea-aeab-42b4-9c53-845adc3863fd
+First Round User: Check my mobile operator points on my watch.Assistant: "{\"CheckMobileOperatorPoints\": {\"deviceType\": \"watch\", \"appName\": \"Fitness Communication App\"}}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.785901505901506, avg recall: 0.7806389906389907, avg f1: 0.7811452365298518
+-------------------
+uuid: 3a14858a-57b9-4f9a-9462-22f0d7d57096
+First Round User: Open Broadband Points Tracker on my TV.Assistant: "{\"functionName\": \"CheckMobileOperatorPoints\", \"deviceType\": \"TV\", \"appName\": \"Broadband Points Tracker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7869938451571106, avg recall: 0.7817581794622611, avg f1: 0.782261842465924
+-------------------
+uuid: b9f020b3-98db-46c8-8f41-a213bec170bf
+First Round User: Can you check how many points I have on my Academic Points Checker app?Assistant: "{\"functionName\": \"CheckMobileOperatorPoints\", \"deviceType\": \"speaker\", \"appName\": \"Academic Points Checker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7880750946740795, avg recall: 0.7828660059624527, avg f1: 0.7833671123011223
+-------------------
+uuid: 289ae0b0-b3a5-4c43-ae2b-4e309c31a89d
+First Round User: Open the PhoneNumLocate app on my device.Assistant: "{\"functionName\": \"CheckAttribution\", \"deviceType\": \"mobile phone\", \"appName\": \"PhoneNumLocate\", \"type\": \"phone number\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7891454224787559, avg recall: 0.7839626422959757, avg f1: 0.784461217794551
+-------------------
+uuid: 29a7f274-ad83-4372-9934-221f1e93fa10
+First Round User: Use the SafeNet app to check where the IP address my child most frequently uses is registered.Assistant: "{\n    \"functionName\": \"CheckAttribution\",\n    \"deviceType\": \"tablet\",\n    \"appName\": \"SafeNet\",\n    \"type\": \"network IP\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7902049932200687, avg recall: 0.7850482571588099, avg f1: 0.7855443272528699
+-------------------
+uuid: 0a682301-49db-4088-8034-8ac02f39aac0
+First Round User: Can I use TraceCall to identify the location of the unknown number on my watch?Assistant: "{\n    \"functionName\": \"CheckAttribution\",\n    \"deviceType\": \"watch\",\n    \"appName\": \"TraceCall\",\n    \"type\": \"phone number\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7912539682539683, avg recall: 0.7861230158730159, avg f1: 0.7866166056166055
+-------------------
+uuid: 2091a49f-e398-4272-9bc7-b51063c4aa63
+First Round User: Open the IPTVTracker app on my smart TV.Assistant: "{\"functionName\": \"CheckAttribution\", \"deviceType\": \"TV\", \"appName\": \"IPTVTracker\", \"type\": \"network IP\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7922925057253416, avg recall: 0.7871870804706625, avg f1: 0.7876782145438861
+-------------------
+uuid: 3b9a5b0a-820b-474d-bb8f-1a3429d648e8
+First Round User: Convert the post code 10012 to its corresponding location.Assistant: "{\"functionName\": \"ConvertLocationAndPostCode\", \"deviceType\": \"mobile phone\", \"postCode\": \"10012\"}"
+precision: 1.0, recall: 0.5, f1: 0.6666666666666666
+avg precision: 0.7933207606474934, avg recall: 0.7857653622505107, avg f1: 0.7870791474751869
+-------------------
+uuid: 41ee9c1d-9f19-4f9b-9a5a-8cb04b0638ed
+First Round User: What is the postal code for Chicago?Assistant: "{\"ConvertLocationAndPostCode\": {\"deviceType\": \"tablet\", \"location\": \"Chicago, IL\", \"postCode\": \"\", \"sourceType\": \"\", \"targetType\": \"postal code\"}}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.789412776604895, avg recall: 0.7818945969192275, avg f1: 0.7832019102955062
+-------------------
+uuid: d5055e40-9665-4a17-96c7-bfdba73b4a8e
+First Round User: Where is the location for post code 90210?Assistant: "{\"functionName\": \"ConvertLocationAndPostCode\",\n  \"deviceType\": \"mobile phone\",\n  \"location\": \"90210\",\n  \"postCode\": \"90210\",\n  \"sourceType\": \"ZIP CODE\",\n  \"targetType\": \"LOCATION\"}"
+precision: 0.4, recall: 0.5, f1: 0.4444444444444445
+avg precision: 0.7875038904450671, avg recall: 0.7805127606598194, avg f1: 0.7815413344825108
+-------------------
+uuid: b965fa49-3d3a-465d-bb86-2df0b0c1ea7e
+First Round User: Bob, could you please check the current oil prices on my tablet?Assistant: "{\"functionName\": \"CheckCurrentOilPrice\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7885404568331399, avg recall: 0.7815834301200155, avg f1: 0.7826069865094255
+-------------------
+uuid: ca0d1999-8b39-407e-b94b-be7558cdea6c
+First Round User: What's the current oil price?Assistant: "{\"functionName\": \"CheckCurrentOilPrice\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7895669594698722, avg recall: 0.7826437047310834, avg f1: 0.7836622924001564
+-------------------
+uuid: f378fb8f-bf26-4d10-9a48-a4f902193a6b
+First Round User: What's the current oil price on my watch?Fail: Arguments parse failed: "functionName": "CheckCurrentOilPrice",
+  "deviceType": "watch"uuid: 6ae9d1fc-6ec8-41eb-bff5-4308d9391142
+First Round User: What is the current oil price?Assistant: "{\"functionName\": \"CheckCurrentOilPrice\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7867826617826619, avg recall: 0.7799259768009768, avg f1: 0.7809347703578472
+-------------------
+uuid: 5fd217e6-0502-439b-a56c-e266ec550588
+First Round User: What are the current oil prices?Assistant: "{\"CheckCurrentOilPrice\": {\"deviceType\": \"speaker\"}}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.7830181514392042, avg recall: 0.7761942735626947, avg f1: 0.777198240356135
+-------------------
+uuid: a91a343c-9c4d-4576-8b80-3743692618d8
+First Round User: What time does Avengers: Endgame play on the first day?Assistant: "{\"functionName\": \"CheckMovieTicketInformation\", \"deviceType\": \"tablet\", \"appName\": \"CineWorld\"}"
+precision: 1.0, recall: 0.5, f1: 0.6666666666666666
+avg precision: 0.7840513983371127, avg recall: 0.7748790627362055, avg f1: 0.7766718995290423
+-------------------
+uuid: b0718d43-db36-472b-ae28-0a54140c9fb3
+First Round User: What animated movies are playing in San Francisco this weekend?Assistant: "{\"functionName\": \"CheckMovieTicketInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"MovieMania\"}"
+precision: 1.0, recall: 0.4, f1: 0.5714285714285715
+avg precision: 0.7850748514255624, avg recall: 0.7731023847137591, avg f1: 0.7756991823342534
+-------------------
+uuid: bf9ea505-c1c4-4c41-8ef0-9161b57d2b68
+First Round User: Will there be enough tickets available for Joker next Monday on my watch?Fail: Arguments parse failed: {"functionName": "CheckMovieTicketInformation", "deviceType": "watch", "appName": "Fandango"}
+{"movieName": "Joker", "time": "next Monday"}uuid: 4d5f6c72-f2cd-471a-a8ea-5359fb41cc1c
+First Round User: Check if there are any tickets left for Insidious on TicketMaster.Assistant: "{\"functionName\": \"CheckMovieTicketInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"TicketMaster\", \"movieName\": \"Insidious\", \"time\": \"19:30\", \"city\": \"Los Angeles\", \"cinemaName\": \"\"}"
+precision: 0.6, recall: 1.0, f1: 0.7499999999999999
+avg precision: 0.7805201579849468, avg recall: 0.7705380430732544, avg f1: 0.771936748697312
+-------------------
+uuid: 4d3b1cda-82c6-4aa4-b775-3ab70868e43c
+First Round User: I want to check for movie tickets for Fast & Furious 9 next Tuesday.Assistant: "{\"functionName\": \"CheckMovieTicketInformation\", \"deviceType\": \"TV\", \"appName\": \"Moviefy\", \"movieName\": \"Fast & Furious 9\", \"time\": \"next Tuesday\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7815457647233349, avg recall: 0.7716102952084261, avg f1: 0.7730024648248947
+-------------------
+uuid: 970979a9-cf38-4f0a-abbd-1b8961c02148
+First Round User: What is the rating of Inception on the IMDb app on my mobile phone?Assistant: "{\"functionName\": \"CheckMovieRating\", \"deviceType\": \"mobile phone\", \"appName\": \"IMDb\", \"movieName\": \"Inception\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7825618309339241, avg recall: 0.772672572905131, avg f1: 0.7740582673140812
+-------------------
+uuid: 4e8f8e17-6314-49f2-8d8d-e12c49f4694a
+First Round User: Open the Rotten Tomatoes app on my tablet.Assistant: "{\"functionName\": \"CheckMovieRating\", \"deviceType\": \"tablet\", \"appName\": \"Rotten Tomatoes\", \"movieName\": \"Avengers: Endgame\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7835684891240448, avg recall: 0.773725014697237, avg f1: 0.7751042938542938
+-------------------
+uuid: 3c23800c-2037-42ce-94ec-db5c19773003
+First Round User: What is the rating of the movie "The Shawshank Redemption" on Netflix on my TV?Assistant: "{\n    \"functionName\": \"CheckMovieRating\",\n    \"deviceType\": \"TV\",\n    \"appName\": \"Netflix\",\n    \"movieName\": \"The Shawshank Redemption\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7845658693584961, avg recall: 0.7747677565649916, avg f1: 0.7761406795969008
+-------------------
+uuid: 47a4b2b2-cbda-476b-a319-c4504d5be97e
+First Round User: What's the rating of the film "Citizen Kane" on Flickmetrix?Assistant: "{\"functionName\": \"CheckMovieRating\",\n \"deviceType\": \"speaker\",\n \"appName\": \"Flickmetrix\",\n \"movieName\": \"Citizen Kane\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7855540993155673, avg recall: 0.7758009319935926, avg f1: 0.7771675572134288
+-------------------
+uuid: 45ea82a3-82a6-4ef4-977f-d7d1c53fbd39
+First Round User: What's the rating of The Godfather on my Google Movies app on my watch?Assistant: "{\"functionName\": \"CheckMovieRating\",\n \"deviceType\": \"watch\",\n \"appName\": \"Google Movies\",\n \"movieName\": \"The Godfather\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7865333043415236, avg recall: 0.7768246720301515, avg f1: 0.7781850569521802
+-------------------
+uuid: 30d57a60-7183-47b9-8949-df205a2f1deb
+First Round User: What are the box office rankings of movies for this year on my mobile phone?Assistant: "{\"functionName\": \"CheckBoxOfficeRanking\", \"deviceType\": \"mobile phone\", \"time\": \"this year\", \"area\": \"United States\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7875036075036076, avg recall: 0.7778391053391054, avg f1: 0.7791933066933067
+-------------------
+uuid: f26b73b7-3918-40f7-886c-a455f049faca
+First Round User: What are the box office rankings of movies for this month?Assistant: "{\"functionName\": \"CheckBoxOfficeRanking\", \"deviceType\": \"tablet\", \"time\": \"this month\", \"area\": \"France\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7884651296416003, avg recall: 0.778844358256123, avg f1: 0.7801924320023867
+-------------------
+uuid: 9c296266-a52a-4a55-bf0b-2fafd0e9ca75
+First Round User: What is the box office ranking of films in Asia this year?Assistant: "{\"functionName\": \"CheckBoxOfficeRanking\", \"deviceType\": \"watch\", \"time\": \"this year\", \"area\": \"Asia\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7894179894179895, avg recall: 0.7798405548405548, avg f1: 0.7811825561825562
+-------------------
+uuid: e3668932-e85c-4781-af90-2a5e94d3ed6a
+First Round User: What was my movie's box office ranking this week?Assistant: "{\"functionName\": \"CheckBoxOfficeRanking\",\n \"parameters\": {\n   \"deviceType\": \"TV\",\n   \"time\": \"this week\",\n   \"area\": \"Los Angeles\"\n }}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.7858779984340524, avg recall: 0.7763435119937362, avg f1: 0.7776794953924998
+-------------------
+uuid: 5422b1f5-a7bd-4c03-ba30-c04b3179548d
+First Round User: What are the highest grossing Hollywood movies in Europe this month?Assistant: "{\"functionName\": \"CheckBoxOfficeRanking\",\n      \"deviceType\": \"speaker\",\n      \"time\": \"this month\",\n      \"area\": \"Europe\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7868339002267575, avg recall: 0.7773419784580499, avg f1: 0.7786719976452119
+-------------------
+uuid: 4b2ecf98-f218-4470-9d61-bcbefe831b27
+First Round User: Bob, can you pull up my husband's credit record?Assistant: "{\"functionName\": \"CheckCreditRecord\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7877813051146385, avg recall: 0.778331569664903, avg f1: 0.7796556776556776
+-------------------
+uuid: 01c114aa-feff-47ca-b67b-18305ce26dcb
+First Round User: Check my credit record through the TV, please.Assistant: "{\"functionName\": \"CheckCreditRecord\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7887203258884675, avg recall: 0.7793124034274477, avg f1: 0.7806306525333073
+-------------------
+uuid: a7c1d6e7-59ea-4908-992c-8b16bb94c6c1
+First Round User: Check my credit record on my speaker.Assistant: "{\"functionName\": \"CheckCreditRecord\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.789651073351514, avg recall: 0.7802845954828334, avg f1: 0.7815970373239095
+-------------------
+uuid: ec3f213b-9abb-4dea-a59a-b81b09073c37
+First Round User: Look up my credit record on my watch.Assistant: "{\n  \"functionName\": \"CheckCreditRecord\",\n  \"deviceType\": \"watch\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7905736563631302, avg recall: 0.7812482595377332, avg f1: 0.782554945054945
+-------------------
+uuid: 48ad4a7c-3c63-4104-af61-6ab95b36d910
+First Round User: Is there any traffic restriction in Seattle tomorrow?Assistant: "{\"functionName\": \"CheckTrafficRestrictionInformation\", \"deviceType\": \"mobile phone\", \"time\": \"tomorrow\", \"city\": \"Seattle\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7914881818811951, avg recall: 0.7822035073126776, avg f1: 0.7835044867795959
+-------------------
+uuid: e5dfba4b-7143-4fd8-b108-ba2ef9ea0df1
+First Round User: Check the license plate number restriction in New York for tomorrow morning on my tablet.Assistant: "{\"functionName\": \"CheckTrafficRestrictionInformation\", \"deviceType\": \"tablet\", \"time\": \"tomorrow morning\", \"city\": \"New York\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7923947550034507, avg recall: 0.7831504485852312, avg f1: 0.7844457716196847
+-------------------
+uuid: 07654fc2-aa1e-45c6-9dc6-8e20e8c9c88c
+First Round User: What's the traffic restriction information for steering at 7AM?Assistant: "{\"functionName\": \"CheckTrafficRestrictionInformation\", \"deviceType\": \"TV\", \"city\": \"Toronto\", \"time\": \"07:00\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7918504775647633, avg recall: 0.7826461897890469, avg f1: 0.7839359053644767
+-------------------
+uuid: ab22e876-d34c-4cdb-99c0-22b3c829f995
+First Round User: Can you check traffic restriction in London this afternoon on my watch?Assistant: "{\"functionName\": \"CheckTrafficRestrictionInformation\", \"deviceType\": \"watch\", \"time\": \"14:00\", \"city\": \"London\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7913108921729611, avg recall: 0.7821462780514504, avg f1: 0.7834304345080206
+-------------------
+uuid: e6e01c99-628b-4699-8393-fdb598ed032f
+First Round User: What's the traffic restriction information in San Francisco for the evening?Assistant: "{\"functionName\": \"CheckTrafficRestrictionInformation\", \"deviceType\": \"speaker\", \"time\": \"19:00:00\", \"city\": \"San Francisco\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.7907759384154234, avg recall: 0.7816506574017302, avg f1: 0.7829293024571993
+-------------------
+uuid: 07165385-3e33-43d8-8762-71746e2985a0
+First Round User: Tell me some information about Apple's new smartwatch.Assistant: "{\"functionName\": \"CheckBrandInformation\", \"deviceType\": \"watch\", \"brand\": \"Apple\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.791670058336725, avg recall: 0.7825837742504408, avg f1: 0.783856955010801
+-------------------
+uuid: 6dd41235-7cb4-4010-a829-c9b5fe761410
+First Round User: Tell me more about the Microsoft Surface Pro features.Assistant: "{\"functionName\": \"CheckBrandInformation\", \"deviceType\": \"tablet\", \"brand\": \"Microsoft Surface Pro\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7925565687267815, avg recall: 0.7835089496791624, avg f1: 0.7847767126490529
+-------------------
+uuid: 011d29b2-29ec-4021-ae7c-04ec9d30ba15
+First Round User: What are the features of the Garmin fitness watch?Assistant: "{\"functionName\": \"CheckBrandInformation\", \"deviceType\": \"mobile phone\", \"brand\": \"Garmin\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7934355663169222, avg recall: 0.7844262846381489, avg f1: 0.7856886757310485
+-------------------
+uuid: 4adda00f-2e87-482f-8726-e4d167638e02
+First Round User: Can you check the specifications of Bose for me?Assistant: "{\"functionName\": \"CheckBrandInformation\", \"deviceType\": \"speaker\", \"brand\": \"Bose\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7943071462058804, avg recall: 0.785335878373853, avg f1: 0.7865929429220567
+-------------------
+uuid: d2212358-2867-4ab1-8c1a-a7f1a319b8a8
+First Round User: What's the current price of gold on the Finance 24/7 app on my mobile phone?Assistant: "{\"functionName\": \"CheckFinancialProductInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"Finance 24/7\", \"productType\": \"gold\", \"productId\": \"GOL123\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.795171401894091, avg recall: 0.7862378284647191, avg f1: 0.7874896112291069
+-------------------
+uuid: 7874f43f-b8de-4d86-be72-aa4706ad5f95
+First Round User: What's the current price of my GOOG stock?Assistant: "{\"functionName\": \"CheckFinancialProductInformation\",\n  \"deviceType\": \"tablet\",\n  \"appName\": \"Stock Tracker\",\n  \"productType\": \"stock\",\n  \"productId\": \"GOOG\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7960284253171283, avg recall: 0.7871322308560801, avg f1: 0.7883787760356796
+-------------------
+uuid: e7a33748-ffa1-419d-8210-72d3b7b872d3
+First Round User: What's the current performance of my VTSAX fund on my Retirement Fund Tracker app?Assistant: "{\"functionName\": \"CheckFinancialProductInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"Retirement Fund Tracker\", \"productType\": \"fund\", \"productId\": \"VTSAX\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7968783068783069, avg recall: 0.7880191798941798, avg f1: 0.789260531135531
+-------------------
+uuid: 70239a44-654b-463f-b3d6-5af6b21b7242
+First Round User: What is the latest price for AAPL stock on Market Watcher app?Assistant: "{\"functionName\": \"CheckFinancialProductInformation\", \"deviceType\": \"watch\", \"appName\": \"Market Watcher\", \"productType\": \"stock\", \"productId\": \"AAPL\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7977211354804715, avg recall: 0.7888987683593491, avg f1: 0.790134968765674
+-------------------
+uuid: e7de9b40-f832-4d24-98e0-71ad5202b39a
+First Round User: Check the current gold prices on my TV using the Gold Market Info app.Assistant: "{\"functionName\": \"CheckFinancialProductInformation\",\n   \"deviceType\": \"TV\",\n   \"appName\": \"Gold Market Info app\",\n   \"productType\": \"gold\",\n   \"productId\": \"6575\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7975239407057588, avg recall: 0.7887380296471205, avg f1: 0.7899691217873035
+-------------------
+uuid: 42581b8b-3864-4d2e-9914-8eadf21534b9
+First Round User: What's the current exchange rate between USD and EUR?Assistant: "{\"functionName\": \"CheckExchangeRate\", \"deviceType\": \"mobile phone\", \"sourceCurrency\": \"USD\", \"targetCurrency\": \"EUR\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7983571755176693, avg recall: 0.7896074204716179, avg f1: 0.7908334463890018
+-------------------
+uuid: ddbdaf0f-6fec-4ddd-bd05-f2f2a7e14d61
+First Round User: What's the current exchange rate of Bitcoin?Assistant: "{\"functionName\": \"CheckExchangeRate\", \"deviceType\": \"tablet\", \"sourceCurrency\": \"Bitcoin\", \"targetCurrency\": \"US Dollar\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7991835805360396, avg recall: 0.7904696851418161, avg f1: 0.7916906863628174
+-------------------
+uuid: 6ee771e0-82b1-40bc-870e-06db44e911cb
+First Round User: What's the exchange rate between Japanese Yen and British Pounds on my watch right now?Assistant: "{\"functionName\": \"CheckExchangeRate\", \"deviceType\": \"watch\", \"sourceCurrency\": \"JPY\", \"targetCurrency\": \"GBP\"}"
+precision: 0.3333333333333333, recall: 0.3333333333333333, f1: 0.3333333333333333
+avg precision: 0.7972821509556204, avg recall: 0.7886038224813734, avg f1: 0.7898198400239216
+-------------------
+uuid: 6b00acf0-41fc-414f-82ee-be0d7ac9ad3a
+First Round User: What's the current exchange rate from Australian dollar to CAD?Assistant: "{\n  \"functionName\": \"CheckExchangeRate\",\n  \"deviceType\": \"TV\",\n  \"sourceCurrency\": \"Australian dollar\",\n  \"targetCurrency\": \"CAD\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7981062072525487, avg recall: 0.7894631565363273, avg f1: 0.7906742309181333
+-------------------
+uuid: cff050b4-43d0-462b-b502-617ef7083baa
+First Round User: What's the current exchange rate from EUR to USD?Assistant: "{\n      \"functionName\": \"CheckExchangeRate\",\n      \"deviceType\": \"speaker\",\n      \"sourceCurrency\": \"EUR\",\n      \"targetCurrency\": \"USD\"\n   }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7989235910288541, avg recall: 0.7903155324207956, avg f1: 0.7915217036674526
+-------------------
+uuid: 5978696f-4bd4-44aa-b3c4-b9dbf87c3d33
+First Round User: Can you check the balance of the account on the BusinessBank app?Assistant: "{\"functionName\": \"CheckCurrentAccountBalance\", \"deviceType\": \"tablet\", \"appName\": \"BusinessBank\", \"account\": \"Company123Account\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.799734383000512, avg recall: 0.7911610343061956, avg f1: 0.792362341959116
+-------------------
+uuid: 77c51045-5d9b-40a9-8733-507f04379c1d
+First Round User: Check the balance on my FamilyFinance app.Assistant: "{\"functionName\": \"CheckCurrentAccountBalance\", \"deviceType\": \"mobile phone\", \"appName\": \"FamilyFinance\", \"account\": \"LindaFamilySavings\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8005386625868554, avg recall: 0.7919997450117932, avg f1: 0.793196228135987
+-------------------
+uuid: f850a7a5-fbae-48b7-bfe0-5988543dcf08
+First Round User: Check the balance in my GaryPensionAccount.Assistant: "{\n    \"functionName\": \"CheckCurrentAccountBalance\",\n    \"deviceType\": \"watch\",\n    \"appName\": \"RetireeFinance\",\n    \"account\": \"GaryPensionAccount\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8013365079365079, avg recall: 0.792831746031746, avg f1: 0.7940234432234431
+-------------------
+uuid: e6a0137e-f293-4165-b2c5-e026d1939289
+First Round User: What's my balance in my StudentBank app?Assistant: "{\"functionName\": \"CheckCurrentAccountBalance\", \"deviceType\": \"mobile phone\", \"appName\": \"StudentBank\", \"account\": \"EllaCheckingAccount\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8021279959526971, avg recall: 0.7936571175614999, avg f1: 0.7948440669556206
+-------------------
+uuid: 04eedec1-5cbe-4cc7-8c86-dcd40542930f
+First Round User: What's my current balance in the Bank app on my TV?Assistant: "{\n    \"functionName\": \"CheckCurrentAccountBalance\",\n    \"deviceType\": \"TV\",\n    \"appName\": \"Bank\",\n    \"account\": \"NoahSavingsAccount\"\n  }"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.8015904509952129, avg recall: 0.7931531872008062, avg f1: 0.7943354264782835
+-------------------
+uuid: 2f1157b1-285a-4ff3-af5c-36f3e97222dc
+First Round User: Is it possible for you to identify the insect in my image named "captured_insect.jpeg"?Fail: Arguments parse failed: ObjectRecognition: {
+      functionName: "ObjectRecognition",
+      deviceType: "mobile phone"
+   }uuid: 3fc53e0f-113c-483a-8c9f-3e58a47ac3c3
+First Round User: Can you recognize the architectural style of the image new_york_skyscraper.png on my tablet?Assistant: "{\n  \"functionName\": \"ObjectRecognition\",\n  \"deviceType\": \"tablet\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7992157230346206, avg recall: 0.7908448943882014, avg f1: 0.7920178246949899
+-------------------
+uuid: 3d69de81-abcd-4f7f-b94c-b5e1b9a8c880
+First Round User: I need you to identify this bird species in my photo.Assistant: "{\"functionName\": \"ObjectRecognition\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8000031123560535, avg recall: 0.7916651104886399, avg f1: 0.792833441068735
+-------------------
+uuid: 84db5647-52b7-482e-80db-720c8f667f8a
+First Round User: Extract the information from the photo named Attendance_Session2.png.Assistant: "{\"functionName\": \"ExtractFormInformation\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8007843501984127, avg recall: 0.7924789186507936, avg f1: 0.7936426854395603
+-------------------
+uuid: 813e88f8-fb96-46f1-a624-0e46f4ec9de3
+First Round User: Extract the information from the file named stockchart_today.jpeg.Assistant: "{\n  \"functionName\": \"ExtractFormInformation\",\n  \"deviceType\": \"mobile phone\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8015595083688468, avg recall: 0.7932863936754987, avg f1: 0.7944456321888227
+-------------------
+uuid: 568d200c-5e48-4a5a-9cea-fba8fffc6c00
+First Round User: Give me the information from the picture food_diary_Amy_10thNov.jpeg.Assistant: "{ \"functionName\": \"ExtractFormInformation\", \"given parameter name\": \"deviceType\", \"parameter value\": \"mobile phone\" }"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.7984526885689676, avg recall: 0.7902116402116401, avg f1: 0.7913663855524319
+-------------------
+uuid: 8402bb60-261a-4528-adc7-cd47abae5404
+First Round User: Can you extract information from the picture named event_schedule_saturday.jpg on my watch?Assistant: "{\"functionName\": \"ExtractFormInformation\", \"given parameter name\": \"deviceType\", \"parameter value\": \"watch\"}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.7953698596555739, avg recall: 0.7871606300177728, avg f1: 0.7883109168823453
+-------------------
+uuid: c1cfc34e-7bc7-43a2-998c-174d74d93b8b
+First Round User: Extract the ingredients and methods from the picture titled beef_stew_recipe.jpg.Assistant: "{\"functionName\": \"ExtractFormInformation\", \"given parameter name\": \"deviceType\", \"deviceType\": \"TV\"}"
+precision: 0.5, recall: 1.0, f1: 0.6666666666666666
+avg precision: 0.7942338217338217, avg recall: 0.7879792429792429, avg f1: 0.7878430543815157
+-------------------
+uuid: e68b66b8-f9e4-49cb-90e0-f0e13d7c1111
+First Round User: Open the file named ProjectXYZConcept1.png and generate a caption.Assistant: "{\n      \"functionName\": \"ImageCaption\",\n      \"deviceType\": \"tablet\"\n   }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7950221978957611, avg recall: 0.7887915830444565, avg f1: 0.788655916242123
+-------------------
+uuid: 65d1eac2-7259-4667-b8b9-dd61a2967156
+First Round User: Translate this Spanish text in English using SoMTranslator on my mobile phone.Assistant: "{\n    \"functionName\": \"Translate\",\n    \"deviceType\": \"mobile phone\",\n    \"appName\": \"SoMTranslator\",\n    \"sourceLanguage\": \"Spanish\",\n    \"targetLanguage\": \"English\",\n    \"content\": \"Hola, ¿Cómo estás?\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7958045559190597, avg recall: 0.7895977220404701, avg f1: 0.7894625730503592
+-------------------
+uuid: 022dd068-baf1-4eb8-88a3-1f88e6332583
+First Round User: Can you open BusinessTranslator on my tablet?Assistant: "{\"functionName\": \"Translate\",\n   \"sourceLanguage\": \"de\",\n   \"targetLanguage\": \"en\",\n   \"content\": \"Guten Tag, Ich hoffe es geht Ihnen gut\"}"
+precision: 0.3333333333333333, recall: 0.2, f1: 0.25
+avg precision: 0.7940461102058061, avg recall: 0.7873559056068561, avg f1: 0.7874113845596733
+-------------------
+uuid: c7793c81-aea8-4501-85ca-9d74318b081e
+First Round User: Translate this message from Chinese to English on my TravelTranslator app.Assistant: "{\"functionName\": \"Translate\", \"deviceType\": \"watch\", \"appName\": \"TravelTranslator\", \"sourceLanguage\": \"Chinese\", \"targetLanguage\": \"English\", \"content\": \"你好，待会见\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7948262385762386, avg recall: 0.7881613756613756, avg f1: 0.7882166444666443
+-------------------
+uuid: 4e4bbf32-0f65-4f27-88af-30a28fcb1250
+First Round User: Open CulinaryTranslator on my TV.Assistant: "{\"functionName\": \"Translate\",\n    \"deviceType\": \"TV\",\n    \"appName\": \"CulinaryTranslator\",\n    \"sourceLanguage\": \"Italian\",\n    \"targetLanguage\": \"English\",\n    \"content\": \"Mescolare gli ingredienti in una ciotola grande\"\n   }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7956004791853848, avg recall: 0.7889607666966156, avg f1: 0.7890158269403551
+-------------------
+uuid: 2828b45b-362d-41e4-93df-19fc0d9d61c4
+First Round User: Can you convert the resolution of this picture on my tablet to dots per inch?Fail: Arguments parse failed: {"functionName": "ConvertMeasurementUnit",
+ "given parameter name": "deviceType",
+ "given parameter value": "tablet"},
+ {"functionName": "ConvertMeasurementUnit",
+ "given parameter name": "sourceUnit",
+ "given parameter value": "pixels"},
+ {"functionName": "ConvertMeasurementUnit",
+ "given parameter name": "targetUnit",
+ "given parameter value": "dots per inch"}uuid: 73dc120e-c11e-4d33-8be9-da843fd70418
+First Round User: Convert 2 pounds to grams on my mobile phone.Assistant: "{\"functionName\": \"ConvertMeasurementUnit\", \"deviceType\": \"mobile phone\", \"sourceUnit\": \"pounds\", \"targetUnit\": \"grams\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7933862433862434, avg recall: 0.7867962665715473, avg f1: 0.7868509143790041
+-------------------
+uuid: fdd4d3d9-ca62-47a9-90c2-b3b751559829
+First Round User: How many miles is 5 kilometers on my watch?Assistant: "{\"functionName\": \"ConvertMeasurementUnit\",\n   \"deviceType\": \"watch\",\n   \"sourceUnit\": \"kilometer\",\n   \"targetUnit\": \"mile\" }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7941571902392798, avg recall: 0.7875918028903103, avg f1: 0.7876462467880376
+-------------------
+uuid: 6dc897b9-f366-40b4-b65a-9f7c4ff830c5
+First Round User: Convert the temperature from Fahrenheit to Celsius on my computer.Assistant: "{\"functionName\": \"ConvertMeasurementUnit\", \"deviceType\": \"mobile phone\", \"sourceUnit\": \"Fahrenheit\", \"targetUnit\": \"Celsius\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7949224051454534, avg recall: 0.7883814244409039, avg f1: 0.7884356659449594
+-------------------
+uuid: c2ca5827-7087-4632-9a14-93f13e94cfd2
+First Round User: Can you convert 10 horsepower to watt on my mobile phone?Assistant: "{\"functionName\": \"ConvertMeasurementUnit\", \"deviceType\": \"mobile phone\", \"sourceUnit\": \"horsepower\", \"targetUnit\": \"watt\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7956819517930629, avg recall: 0.7891651969429746, avg f1: 0.7892192375525707
+-------------------
+uuid: 586239e6-3fd0-4403-b74f-c0e84853d2d7
+First Round User: Calculate the area of a room that is 12 feet long.Assistant: "{\"functionName\": \"UseCalculator\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7964358929303579, avg recall: 0.789943185146137, avg f1: 0.7899970263438897
+-------------------
+uuid: 7d59626c-3cf6-4956-9a15-13ccdf67349a
+First Round User: Can I please send this email through the Gmail app?Assistant: "{\"functionName\": \"SendEmail\", \"deviceType\": \"tablet\", \"appName\": \"Gmail\", \"targetEmailAddress\": \"editor@publishinghouse.com\", \"content\": \"Attaching my final drafts for review and publishing.\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7971842903828198, avg recall: 0.7907154528478056, avg f1: 0.7907690960999783
+-------------------
+uuid: a0865667-9c5e-487d-93c6-326c109847c7
+First Round User: Open Yahoo Mail on my device.Fail: Arguments parse failed: {"functionName": "SendEmail", "given parameter name": "deviceType", "given parameter value": "mobile phone"},
+ {"functionName": "SendEmail", "given parameter name": "appName", "given parameter value": "Yahoo Mail"},
+ {"functionName": "SendEmail", "given parameter name": "targetEmailAddress", "given parameter value": "husband@yahoo.com"},
+ {"functionName": "SendEmail", "given parameter name": "content", "given parameter value": "Updated shopping list attached. Please pick up the groceries on your way back."}uuid: 95a2c937-7e04-4f67-9f60-21bcf0e076de
+First Round User: Can you use my Outlook app on my watch to send an email to gamebuddy@outlook.com?Assistant: "{\"functionName\": \"SendEmail\", \"deviceType\": \"watch\", \"appName\": \"Outlook\", \"targetEmailAddress\": \"gamebuddy@outlook.com\", \"content\": \"Tomorrow's game strategy attached. Please review.\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7950150619858649, avg recall: 0.7885934422430771, avg f1: 0.7886466939386646
+-------------------
+uuid: cec460ad-4ddb-481d-8214-7136b60cd0cb
+First Round User: Send the email using Gmail on my smart TV.Assistant: "{\"functionName\": \"SendEmail\", \"deviceType\": \"TV\", \"appName\": \"Gmail\", \"targetEmailAddress\": \"class@musiccollege.com\", \"content\": \"Next class's setlist attached. Please take note.\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7957604617604618, avg recall: 0.7893621933621933, avg f1: 0.7894152514152513
+-------------------
+uuid: 172b5542-6a63-455c-9adc-3e306f186859
+First Round User: Open the Alexa app.Assistant: "{\n    \"functionName\": \"SendEmail\",\n    \"deviceType\": \"speaker\",\n    \"appName\": \"Amazon Mail\",\n    \"targetEmailAddress\": \"client@fitgym.com\",\n    \"content\": \"New workout plan attached. Start from tomorrow morning.\"\n  }"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.7955946629859674, avg recall: 0.7892195767195765, avg f1: 0.789272442533312
+-------------------
+agent results:
+trials: 1
+precision_avg: 0.7955946629859674
+recall_avg: 0.7892195767195765
+f1_avg: 0.789272442533312
+precision_var: 0.0
+recall_var: 0.0
+f1_var: 0.0
+f1_var_unbiased: nan
+f1_std_unbiased: nan

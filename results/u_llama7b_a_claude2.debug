@@ -1,0 +1,243 @@
+uuid: 2b3a38aa-a19e-4900-bace-1331c86e2aae
+Assistant: To make the API call to turn on Bluetooth, I need the device type. What device would you like to turn Bluetooth on for?
+User: Great! I'd like to turn on Bluetooth for my smartwatch. Can I get the TurnOnBluetooth API call for that?
+Assistant: 
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.0, avg recall: 0.0, avg f1: 0.0
+-------------------
+uuid: 2b3a38aa-a19e-4900-bace-1331c86e2aae
+Assistant: Ok, to turn on Bluetooth on your watch, I need the deviceType parameter. What is the device type?
+User: Great! The device type is "watch".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5, avg recall: 0.5, avg f1: 0.5
+-------------------
+uuid: 2b3a38aa-a19e-4900-bace-1331c86e2aae
+Assistant: To turn on the Bluetooth on your watch, I need the device type. What is the device type of your watch?
+User: Great, thank you for asking! My watch is a Fitbit Versa. 😊
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.6666666666666666, avg recall: 0.6666666666666666, avg f1: 0.6666666666666666
+-------------------
+uuid: 2b3a38aa-a19e-4900-bace-1331c86e2aae
+Assistant: To turn on Bluetooth on your watch, I need to know the device type. What is the device type of your watch?
+User: Great, thank you for letting me know! My watch is a Fitbit Versa.
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.75, avg recall: 0.75, avg f1: 0.75
+-------------------
+uuid: 2b3a38aa-a19e-4900-bace-1331c86e2aae
+Assistant: Let me check if I have all the information to call the TurnOnBluetooth API. I will need the device type to turn on Bluetooth. What type of device would you like me to turn on Bluetooth for?
+User: Great! I'm glad you're ready to help me with that. I would like you to turn on Bluetooth for my smartwatch. My device type is "watch".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8, avg recall: 0.8, avg f1: 0.8
+-------------------
+uuid: 89fc0e8a-8750-4cb5-86e8-abb29b22c0d7
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 89fc0e8a-8750-4cb5-86e8-abb29b22c0d7
+Assistant: It seems you want to call the TurnOnBluetooth API. It requires the "deviceType" parameter. What is the device type you want to turn Bluetooth on for?
+User: Ah, cool! I'm glad you're excited about the API, Bob! *adjusts glasses*
+For this scenario, I want to turn on Bluetooth for my mobile phone. So, the device type I'd like to pass is "mobile phone". *nods*
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 89fc0e8a-8750-4cb5-86e8-abb29b22c0d7
+Assistant: Thank you for your request. To turn on Bluetooth, I need to know the device type. What device type would you like to turn Bluetooth on for?
+User: Great, thanks for asking! I'd like to turn on Bluetooth for my mobile phone, please. 📱
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 89fc0e8a-8750-4cb5-86e8-abb29b22c0d7
+Assistant: Okay, it sounds like you want me to call the TurnOnBluetooth API to turn on Bluetooth on your phone. 
+
+To call this API, I need the "deviceType" parameter. Can you provide the device type?
+User: Oh, right! *nerdly excitement* Yes, of course! *adjusts glasses* The device type is "mobile phone". 📱
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 89fc0e8a-8750-4cb5-86e8-abb29b22c0d7
+Assistant: Could you please provide the device type for the TurnOnBluetooth API? The supported device types are: mobile phone, tablet, TV, speaker, watch.
+User: Oh, cool! As a tech-savvy user, I'm glad you asked! 😃 The device type for the TurnOnBluetooth API is... *drumroll* mobile phone! 📱
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: c6eef4c5-8120-4abe-819b-3659608f505b
+Assistant: To turn off Bluetooth on your mobile phone, I need to know the device type. What is the device type?
+User: Great, thank you for letting me know! My device type is a "mobile phone".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: c6eef4c5-8120-4abe-819b-3659608f505b
+Assistant: I'm afraid you did not provide the required "deviceType" parameter. Could you please specify the device type you want to turn off Bluetooth for?
+User: Oh, my apologies! I'm looking to turn off Bluetooth for my mobile phone. So, the device type is "mobile phone". Please proceed with the command.
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: c6eef4c5-8120-4abe-819b-3659608f505b
+Assistant: To turn off Bluetooth on your mobile phone, I need to know the device type. What is the device type of your mobile phone?
+User: Great, thank you for letting me know! My mobile phone is an iPhone XS Max.
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: c6eef4c5-8120-4abe-819b-3659608f505b
+Assistant: Could you tell me the device type you want to turn off Bluetooth for? The supported device types are: mobile phone, tablet, TV, speaker, watch.
+User: Sure, I want to turn off Bluetooth for my mobile phone. Can you please turn it off for me?
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: c6eef4c5-8120-4abe-819b-3659608f505b
+Assistant: To turn off Bluetooth on your mobile phone, I need to know the device type. What is the device type?
+User: Great, thank you for letting me know! The device type of my mobile phone is "Samsung Galaxy S21".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 2c85c315-1637-4eab-8bc9-4cff1a7a7ca4
+Assistant: To turn off Bluetooth on your watch, I need the device type. What is the device type for your watch?
+User: Great, thank you for asking! My watch is a smartwatch, so the device type is {"deviceType": "watch"}.
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 2c85c315-1637-4eab-8bc9-4cff1a7a7ca4
+Assistant: To turn off Bluetooth on your watch, I need the device type. What is the device type for your watch?
+User: Great, thank you for asking! My watch is a smartwatch, specifically the "X".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 2c85c315-1637-4eab-8bc9-4cff1a7a7ca4
+Assistant: What is the device type for your watch?
+User: Great, thank you for asking! My watch is a smartwatch, specifically a "watch" device type. 😊
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 2c85c315-1637-4eab-8bc9-4cff1a7a7ca4
+Assistant: To turn off Bluetooth on your watch, I need to know the device type. What is the device type of your watch?
+User: Great, thank you for confirming! My watch is a smartwatch with the device type "watch".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 2c85c315-1637-4eab-8bc9-4cff1a7a7ca4
+Assistant: I need to know the device type in order to turn off Bluetooth. What kind of device would you like me to turn off Bluetooth for?
+User: Great, thank you for asking! I would like you to turn off Bluetooth for my smartwatch. Can you please tell me the device type of my smartwatch so I can proceed with turning off Bluetooth?
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: e661eb35-4920-4c72-b627-3f578bd41354
+Assistant: Hello, to turn off Bluetooth I need to know what device type you want to turn it off on. Can you please provide the device type? The supported options are: mobile phone, tablet, TV, speaker, watch.
+User: Hello Bob! Sure, I want to turn off Bluetooth on my tablet. So, the device type I want to turn off Bluetooth for is "tablet".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: e661eb35-4920-4c72-b627-3f578bd41354
+Assistant: I'm sorry, I need some more information to turn off Bluetooth. Could you please tell me what device type you want to turn it off for? The supported device types are: mobile phone, tablet, TV, speaker, watch.
+User: Of course! I'm Kim, and I want to turn off Bluetooth for my tablet. Can you please turn it off?
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: e661eb35-4920-4c72-b627-3f578bd41354
+Assistant: Hello! Could you please provide the device type that you want to turn off Bluetooth for? The supported device types are: mobile phone, tablet, TV, speaker, watch.
+User: Of course! As a professional speaker, I want to ensure that my tablet is free from any potential Bluetooth interruptions before my big presentation. Can you please turn off Bluetooth for my tablet? 📱
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: e661eb35-4920-4c72-b627-3f578bd41354
+Assistant: Hello, to turn off Bluetooth I need to know what device type you want to turn it off on. Can you tell me the device type?
+User: Of course! As a professional speaker, I want to ensure that my tablet is free from any potential Bluetooth interruptions during my upcoming presentation. Can you please turn off the Bluetooth on my tablet? The device type is "tablet".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: e661eb35-4920-4c72-b627-3f578bd41354
+Assistant: Hello! It seems you want to turn off Bluetooth. To do that, I need to know the device type. What type of device would you like to turn off Bluetooth for? The supported options are mobile phone, tablet, TV, speaker, or watch.
+User: Great, thank you for clarifying! I would like to turn off Bluetooth for my tablet. Can you please proceed with turning it off?
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+Assistant: Hello, to call the TurnOffBluetooth API, I need the deviceType parameter. What type of device would you like to turn off Bluetooth for?
+User: Hey there, Bob! For this party at home, I'd like to turn off Bluetooth for a speaker. So, the deviceType parameter should be set to "speaker", right? 🎵
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+Assistant: Let me check if I have all the information to turn off Bluetooth on your speaker. I need the device type to call the TurnOffBluetooth API. Can you please confirm the device type?
+User: Of course! The device type is "speaker".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+Assistant: What is the device type of your speaker?
+User: Great, thanks for asking! My speaker is a "Sony SRS-XB41".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+Assistant: Okay, to turn off Bluetooth on your speaker, I need the device type. What is the device type of your speaker?
+User: Great, thank you for asking! My speaker is a "Sony SRS-XB41".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: b4da5809-f362-473f-993e-c767add6ab1c
+Assistant: What is the device type of your speaker that you want me to increase the volume for? The supported device types are: mobile phone, tablet, TV, speaker, watch.
+User: Oh, great! I'm so glad you asked! I'm using a speaker as my device. It's a pretty cool one, actually. It's called the "TurnUpVolume" speaker. Would you be able to increase the volume on that for me? 😊
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: b4da5809-f362-473f-993e-c767add6ab1c
+Assistant: To increase the volume on your smart speaker, I need the device type. What type of device would you like me to turn up the volume on?
+User: Great, thanks for asking! I'd like you to turn up the volume on my speaker. It's a smart speaker model "TurnUpVolume" with the device type "speaker".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: b4da5809-f362-473f-993e-c767add6ab1c
+Assistant: Let me check if I have all the information to call the TurnUpVolume API. I will need the device type for this API. What type of device would you like me to increase the volume on?
+User: Great! I'd like you to increase the volume on my smart speaker. The device type is "speaker".
+Assistant: 
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: b4da5809-f362-473f-993e-c767add6ab1c
+Assistant: Okay, let me check if I have all the information I need to increase the volume on your smart speaker. Could you tell me what type of device you want to increase the volume on? The supported device types are: mobile phone, tablet, TV, speaker, watch.
+User: Sure thing! I'd like to increase the volume on my speaker. 🎧
+uuid: b4da5809-f362-473f-993e-c767add6ab1c
+uuid: b4da5809-f362-473f-993e-c767add6ab1c

@@ -1,0 +1,1806 @@
+uuid: 2b3a38aa-a19e-4900-bace-1331c86e2aae
+First Round User: Can you turn on the Bluetooth on my watch?Assistant: "{\"functionName\": \"TurnOnBluetooth\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 89fc0e8a-8750-4cb5-86e8-abb29b22c0d7
+First Round User: Can you turn on Bluetooth on my phone?Assistant: "{\"functionName\": \"TurnOnBluetooth\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: c6eef4c5-8120-4abe-819b-3659608f505b
+First Round User: Turn off the Bluetooth on my mobile phone.Assistant: "{\"functionName\": \"TurnOffBluetooth\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: 2c85c315-1637-4eab-8bc9-4cff1a7a7ca4
+First Round User: Turn off the Bluetooth on my watch.Assistant: "{\"functionName\": \"TurnOffBluetooth\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 1.0, avg recall: 1.0, avg f1: 1.0
+-------------------
+uuid: e661eb35-4920-4c72-b627-3f578bd41354
+First Round User: Turn off the Bluetooth.Fail: Arguments parse failed: <func name="TurnOffBluetooth"/>
+<func param name="deviceType">tabletuuid: ebd6c8ea-5d9b-4014-b499-22fc6c9905ed
+First Round User: Bob, please turn off the Bluetooth on my speaker.Assistant: "{\"functionName\": \"TurnOffBluetooth\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8333333333333334, avg recall: 0.8333333333333334, avg f1: 0.8333333333333334
+-------------------
+uuid: b4da5809-f362-473f-993e-c767add6ab1c
+First Round User: Can you increase the volume on my smart speaker?Assistant: "{\"functionName\": \"TurnUpVolume\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8571428571428571, avg recall: 0.8571428571428571, avg f1: 0.8571428571428571
+-------------------
+uuid: 2b3475a2-9202-4501-ac00-0edc032bcb4b
+First Round User: Increase the volume on the TV.Assistant: "{\"functionName\": \"TurnUpVolume\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.875, avg recall: 0.875, avg f1: 0.875
+-------------------
+uuid: c470f2f8-de8c-4a24-8a73-d004f3dcc817
+First Round User: Can you please turn up the volume on my watch?Assistant: "{\"functionName\": \"TurnUpVolume\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8888888888888888, avg recall: 0.8888888888888888, avg f1: 0.8888888888888888
+-------------------
+uuid: 08cfccb4-b5eb-4f01-b88b-6f0b33fa06d5
+First Round User: Can you increase the volume on my mobile phone, please?Assistant: "{\"functionName\": \"TurnUpVolume\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.9, avg recall: 0.9, avg f1: 0.9
+-------------------
+uuid: bddd9b84-63bf-4440-8479-8f6236b3998e
+First Round User: Bob, could you please lower the volume on my tablet?Fail: Arguments parse failed: <func>
+    <func>
+        {
+            "functionName": "TurnDownVolume",
+            "deviceType": "tablet"
+        }uuid: 797505cb-5813-4b0f-8092-e0bbe4c4884d
+First Round User: Bob, please turn down the volume on my mobile phone.Fail: Arguments parse failed: <functionName>TurnDownVolume</functionName>
+  <deviceType>mobile phone</deviceType>uuid: 58248514-6848-4861-8f33-6ce761f79578
+First Round User: Lower the volume of the TV.Assistant: "{\"functionName\": \"TurnDownVolume\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7692307692307693, avg recall: 0.7692307692307693, avg f1: 0.7692307692307693
+-------------------
+uuid: ee0912c1-11c9-4009-a268-8eb4ffb189dc
+First Round User: Turn down the volume on my speaker.Assistant: "{\"functionName\": \"TurnDownVolume\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7857142857142857, avg recall: 0.7857142857142857, avg f1: 0.7857142857142857
+-------------------
+uuid: 12123124-4666-4f1d-a002-47ba9b64202a
+First Round User: Would you please lower the volume on my watch, Bob?Assistant: "{\"functionName\": \"TurnDownVolume\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8, avg recall: 0.8, avg f1: 0.8
+-------------------
+uuid: c0dbdce7-4d31-4702-b2b7-c7230c975f03
+First Round User: Set the volume to max on my mobile phone.Assistant: "{\"functionName\": \"SetVolume\",\n\"deviceType\": \"mobile phone\",\n\"targetValue\": \"max\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.8125, avg recall: 0.8125, avg f1: 0.8125
+-------------------
+uuid: c0f7e6d7-b716-4e46-91b4-4f66ba2b359f
+First Round User: Can you please increase the volume to 80% on my tablet?Fail: Arguments parse failed: <func name="SetVolume">
+    <params>
+      <param name="deviceType" value="tablet"/>
+      <param name="targetValue" value="80%"/>
+    </params>uuid: 7286973b-8726-4646-b14b-efc871c5e318
+First Round User: Lower the volume to level 2 on my TV.Assistant: "{\n    \"functionName\": \"SetVolume\",\n    \"deviceType\": \"TV\",\n    \"targetValue\": \"level 2\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7777777777777778, avg recall: 0.7777777777777778, avg f1: 0.7777777777777778
+-------------------
+uuid: ad8e2e92-afd2-4763-bc3c-2e869d1e0c1d
+First Round User: Bob, please decrease the watch volume to 60%.Fail: Arguments parse failed: <doc>
+      <func name="SetVolume">
+         <parameters>
+            <parameter name="deviceType" type="string" required="true"
+               description="Supported device types, including mobile phone, tablet, TV, speaker, watch">
+            <parameter name="targetValue" type="string" required="true"
+               description="Target volume size to adjust to, usually a number, can also be percentage, level, max, min, etc.">
+         </parameters>
+         <requiredParameters>
+            <requiredParameter name="deviceType" />
+            <requiredParameter name="targetValue" />
+         </requiredParameters>uuid: b0321bfe-b6b3-4b3f-a959-2734b596fc71
+First Round User: Please, set the volume level to max.Assistant: "{\"functionName\": \"SetVolume\", \"deviceType\": \"speaker\", \"targetValue\": \"max\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.75, avg recall: 0.75, avg f1: 0.75
+-------------------
+uuid: 9322edcc-666d-4f36-84ec-7d4993de0684
+First Round User: Can you turn up the luminance on my TV?Assistant: "{\"functionName\": \"TurnUpLuminance\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7619047619047619, avg recall: 0.7619047619047619, avg f1: 0.7619047619047619
+-------------------
+uuid: 07bdfcf7-37f0-4b17-b68b-3c744bbd96fe
+First Round User: Increase the brightness on my tablet.Assistant: "{\"functionName\": \"TurnUpLuminance\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7727272727272727, avg recall: 0.7727272727272727, avg f1: 0.7727272727272727
+-------------------
+uuid: 4be6e02c-f2ba-4700-97ac-a74ff9fca021
+First Round User: Increase the brightness on my watch, please.Assistant: "{\"functionName\": \"TurnUpLuminance\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.782608695652174, avg recall: 0.782608695652174, avg f1: 0.782608695652174
+-------------------
+uuid: 9949ff17-ff47-4bbd-946c-737e46415c03
+First Round User: Can you increase the brightness on my mobile phone?Fail: Arguments parse failed: <func/>
+"TurnUpLuminance"
+<struct>
+<member>
+<name>functionName</name>
+<value>"TurnUpLuminance"</value>
+</member>
+<member>
+<name>deviceType</name>
+<value>"mobile phone"</value>
+</member>
+</struct>uuid: 55f34ba6-bf5d-4a33-a394-7ba3c45fff01
+First Round User: Can you reduce the brightness on my mobile phone, Bob?Assistant: "{\"functionName\": \"TurnDownLuminance\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.76, avg recall: 0.76, avg f1: 0.76
+-------------------
+uuid: df18df9d-a245-4129-a002-0c0c8d9eeefb
+First Round User: Could you lower the brightness on my TV?Fail: Arguments parse failed: <call>
+    <func>TurnDownLuminanceuuid: a53e68a6-6e6f-4f41-be89-284122e25438
+First Round User: Lower the brightness on my tablet, please.Fail: Arguments parse failed: <func>
+    <name>TurnDownLuminance</name>
+    <parameters>
+      <item>
+        <name>deviceType</name>
+        <value>tablet</value>
+      </item>
+    </parameters>
+    <func>
+      <name>setLuminance</name>
+      <parameters>
+        <item>
+          <name>deviceId</name>
+          <value>1</value>
+        </item>
+        <item>
+          <name>luminanceLevel</name>
+          <value>60.0</value>
+        </item>
+      </parameters>uuid: af96b684-311c-4678-92cd-5eb2cc9b8ade
+First Round User: Can you dim the light on my speaker, please?Assistant: "{\"functionName\": \"TurnDownLuminance\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7142857142857143, avg recall: 0.7142857142857143, avg f1: 0.7142857142857143
+-------------------
+uuid: c1e23257-f465-4105-a34b-9e1fb5ab4e54
+First Round User: Bob, could you turn down the brightness on my watch, please?Assistant: "{\n    \"functionName\": \"TurnDownLuminance\",\n    \"deviceType\": \"watch\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7241379310344828, avg recall: 0.7241379310344828, avg f1: 0.7241379310344828
+-------------------
+uuid: dfaa3e3d-f135-407d-8edc-56cb77c9440c
+First Round User: Can you help me reduce the brightness of my tablet?Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"tablet\", \"targetValue\": \"10%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7333333333333333, avg recall: 0.7333333333333333, avg f1: 0.7333333333333333
+-------------------
+uuid: d39f6612-8af8-4f2c-ac48-15bbc30fb91b
+First Round User: Set the TV brightness to 35%.Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"TV\", \"targetValue\": \"35%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7419354838709677, avg recall: 0.7419354838709677, avg f1: 0.7419354838709677
+-------------------
+uuid: 56e21ada-2333-45b1-a88e-95a183efb3ca
+First Round User: I am going for my outdoor workout, turn the brightness up to the max on my watch please.Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"watch\", \"targetValue\": \"max\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.75, avg recall: 0.75, avg f1: 0.75
+-------------------
+uuid: 9d6fa301-6dc3-43a9-9662-88c78caeed72
+First Round User: Can you set my phone brightness to 70% please?Fail: Arguments parse failed: <SetLuminance>
+    <deviceType>mobile phone</deviceType>
+    <targetValue>70%</targetValue>
+  </SetLuminance>uuid: e0781275-7d76-4677-8d65-a275475c9373
+First Round User: Can you please make the luminance of my phone 20%?Assistant: "{\"functionName\": \"SetLuminance\", \"deviceType\": \"mobile phone\", \"targetValue\": \"20%\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7352941176470589, avg recall: 0.7352941176470589, avg f1: 0.7352941176470589
+-------------------
+uuid: 34ddcc83-0a28-4c2d-a82e-40294f3cfe5c
+First Round User: Turn on the WiFi on my tablet.Assistant: "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7428571428571429, avg recall: 0.7428571428571429, avg f1: 0.7428571428571429
+-------------------
+uuid: 0df99faa-a0c1-4034-90a0-8e89898ec4cd
+First Round User: Can you turn on the WiFi on my mobile phone?Fail: Arguments parse failed: <method>POST</method>
+  <path>/TurnOnWifi</path>
+  <body>
+    {"deviceType": "mobile phone"}
+  </body>uuid: 1ee5fe46-13d8-40e4-8bf4-db720fcf4585
+First Round User: Bob, can you turn on the WiFi on my classroom's smart TV?Assistant: "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7297297297297297, avg recall: 0.7297297297297297, avg f1: 0.7297297297297297
+-------------------
+uuid: bfe8d87a-67ea-4872-9199-312f945252c1
+First Round User: Can you please turn on the WiFi on my watch?Assistant: "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7368421052631579, avg recall: 0.7368421052631579, avg f1: 0.7368421052631579
+-------------------
+uuid: d5cd22bb-97c3-4755-b394-51ca90129c32
+First Round User: Could you please turn on the wifi on my speaker?Assistant: "{\"functionName\": \"TurnOnWifi\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7435897435897436, avg recall: 0.7435897435897436, avg f1: 0.7435897435897436
+-------------------
+uuid: 184b8915-19ea-4a06-a753-225005f41d14
+First Round User: Can you turn off the wifi on my mobile phone?Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.75, avg recall: 0.75, avg f1: 0.75
+-------------------
+uuid: 01d1c463-c8d3-47c8-a83b-545e327a656f
+First Round User: Please turn off the Wi-Fi on my TV.Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7560975609756098, avg recall: 0.7560975609756098, avg f1: 0.7560975609756098
+-------------------
+uuid: 63229807-c820-47bf-b3bb-94779d2faf62
+First Round User: Bob, could you please turn off the Wi-Fi on my tablet?Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7619047619047619, avg recall: 0.7619047619047619, avg f1: 0.7619047619047619
+-------------------
+uuid: 83d7007c-f91e-40b5-8f66-7f78f3c6ba74
+First Round User: Turn off the Wi-Fi on my watch.Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7674418604651163, avg recall: 0.7674418604651163, avg f1: 0.7674418604651163
+-------------------
+uuid: aa7a015d-b957-4a70-82cb-bec58477118d
+First Round User: Turn off the Wi-Fi on my speaker.Assistant: "{\"functionName\": \"TurnOffWifi\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7727272727272727, avg recall: 0.7727272727272727, avg f1: 0.7727272727272727
+-------------------
+uuid: 43304ec8-d9f1-4e27-9cc1-8cbe4948bdf0
+First Round User: Install the Cycling Route Tracker app on my smartwatch.Fail: Arguments parse failed: <func type="installApp">
+      <param name="deviceType">watch</param>
+      <param name="appName">Cycling Route Tracker</param>uuid: 5bb96cb9-242e-4ecd-a23e-6b14aa24692a
+First Round User: Could you please install Asana on my device?Assistant: "{\"functionName\": \"InstallApp\", \"deviceType\": \"tablet\", \"appName\": \"Asana\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7608695652173914, avg recall: 0.7608695652173914, avg f1: 0.7608695652173914
+-------------------
+uuid: 68a25f93-a664-4084-abbc-ce7ec532bafb
+First Round User: Can you install the "HIIT Workouts" app on my phone?Fail: Arguments parse failed: <func/>
+  
+  <func>
+    <func>
+      <name>InstallApp</name>
+      <parameters>
+        <parameter>
+          <name>deviceType</name>
+          <value>mobile phone</value>
+        </parameter>
+        <parameter>
+          <name>appName</name>
+          <value>HIIT Workouts</value>
+        </parameter>
+      </parameters>uuid: 0798f636-d8a5-4013-af98-27fa54d72fb0
+First Round User: Bob, can you help me install Kahoot on my tablet?Fail: Arguments parse failed: <func name="InstallApp">
+      <arg name="functionName">InstallApp</arg>
+      <arg name="deviceType">tablet</arg>
+      <arg name="appName">Kahoot</arg>uuid: bb224bb4-1d60-4ff5-b0f2-d221416a458d
+First Round User: Could you please update my Fitness Pro app?Fail: Arguments parse failed: <func/>
+   {"name": "UpdateApp", "deviceType": "tablet", "appName": "Fitness Pro"}uuid: bdbe5982-6229-45f9-8f62-ebcc70f3222b
+First Round User: Can you update my Business Master app?Assistant: "{\"functionName\": \"UpdateApp\", \"deviceType\": \"mobile phone\", \"appName\": \"Business Master\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.72, avg recall: 0.72, avg f1: 0.72
+-------------------
+uuid: 9447bab8-35f8-4423-8d17-7d78032e02bf
+First Round User: Can you update my Education Assist app on my TV?Assistant: "{\"functionName\": \"UpdateApp\", \"deviceType\": \"TV\", \"appName\": \"Education Assist\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7254901960784313, avg recall: 0.7254901960784313, avg f1: 0.7254901960784313
+-------------------
+uuid: 0f486318-d9eb-4877-a8d1-f23a3b864d6d
+First Round User: Update the app Heart Monitor Pro.Assistant: "{\"functionName\": \"UpdateApp\", \"deviceType\": \"watch\", \"appName\": \"Heart Monitor Pro\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7307692307692307, avg recall: 0.7307692307692307, avg f1: 0.7307692307692307
+-------------------
+uuid: 88b4a5cb-37c5-49fc-bd11-4e6f1f9d58dc
+First Round User: Can you please update my Musical Bliss app?Assistant: "{\"functionName\": \"UpdateApp\", \"deviceType\": \"speaker\", \"appName\": \"Musical Bliss\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7358490566037735, avg recall: 0.7358490566037735, avg f1: 0.7358490566037735
+-------------------
+uuid: 6bc6eddd-ca68-431b-be99-e329795d628e
+First Round User: Uninstall the app Weather Forecast from my phone.Assistant: "{\"functionName\": \"UninstallApp\",\n   \"deviceType\": \"mobile phone\",\n   \"appName\": \"Weather Forecast\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7407407407407407, avg recall: 0.7407407407407407, avg f1: 0.7407407407407407
+-------------------
+uuid: fb3dfc3d-4510-4323-b2ee-a882186f149d
+First Round User: How can I uninstall Bubble Shooter from my watch?Assistant: "{\"functionName\": \"UninstallApp\", \"deviceType\": \"watch\", \"appName\": \"Bubble Shooter\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7454545454545455, avg recall: 0.7454545454545455, avg f1: 0.7454545454545455
+-------------------
+uuid: 8f3b0db6-11e3-403c-ba60-e3a34b91951f
+First Round User: Could you please help me in uninstalling QuickHR?Assistant: "{\"functionName\": \"UninstallApp\", \"deviceType\": \"tablet\", \"appName\": \"QuickHR\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.75, avg recall: 0.75, avg f1: 0.75
+-------------------
+uuid: cfe3b8ec-e00d-4b1b-82b3-75ea1e958817
+First Round User: Uninstall the Hulu Beta app from the office TV.Assistant: "{\"functionName\": \"UninstallApp\",\n      \"deviceType\": \"TV\",\n      \"appName\": \"Hulu Beta\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7543859649122807, avg recall: 0.7543859649122807, avg f1: 0.7543859649122807
+-------------------
+uuid: aadd7e96-a592-4d44-9116-5c7dad802712
+First Round User: Uninstall SoundWave from my device please.Assistant: "{\"functionName\": \"UninstallApp\", \"deviceType\": \"speaker\", \"appName\": \"SoundWave\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7586206896551724, avg recall: 0.7586206896551724, avg f1: 0.7586206896551724
+-------------------
+uuid: a3e9bb13-d700-4319-a9f9-b03cf0c51f02
+First Round User: Can you assist me to turn off the TV when the episode of Stranger Things ends?Fail: Arguments parse failed: <func>
+    {"functionName": "CloseMedia", "deviceType": "TV", "roomType": "bedroom", "appName": "Netflix", "mediaName": "Stranger Things", "mediaType": "TV series"}uuid: 60f1cd15-bbc4-4f2c-a1e0-bde04bd282ea
+First Round User: Can you stop playing the Workout Playlist after I finish my training?Assistant: "{\"functionName\": \"CloseMedia\",\n      \"deviceType\": \"mobile phone\",\n      \"roomType\": \"living room\",\n      \"appName\": \"Spotify\",\n      \"mediaName\": \"Workout Playlist\",\n      \"mediaType\": \"music\"\n   }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.75, avg recall: 0.75, avg f1: 0.75
+-------------------
+uuid: 6d7e6a37-37ab-4e6f-870c-d57257683b0b
+First Round User: Close "Rich Dad Poor Dad" once it finishes playing.Assistant: "{\"functionName\": \"CloseMedia\", \"deviceType\": \"smartwatch\", \"roomType\": \"office\", \"appName\": \"Audible\", \"mediaName\": \"Rich Dad Poor Dad\", \"mediaType\": \"audiobook\"}"
+precision: 0.8, recall: 0.8, f1: 0.8000000000000002
+avg precision: 0.7508196721311475, avg recall: 0.7508196721311475, avg f1: 0.7508196721311475
+-------------------
+uuid: 5fdc73db-3f3e-4681-be04-7d938e654840
+First Round User: Can you close the video on my tablet once it's finished?Assistant: "{\"functionName\": \"CloseMedia\", \"deviceType\": \"tablet\", \"roomType\": \"kitchen\", \"appName\": \"YouTube\", \"mediaName\": \"Italian Pasta Cooking Video\", \"mediaType\": \"video\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7548387096774193, avg recall: 0.7548387096774193, avg f1: 0.7548387096774193
+-------------------
+uuid: 70dd8d2d-dafa-47ac-b7b3-2b402ac28e5a
+First Round User: Could you play "The Best Motivational Speech Ever" on my watch?Assistant: "{\"functionName\": \"PlayMedia\", \"deviceType\": \"watch\", \"roomType\": \"gym\", \"mediaType\": \"video\", \"mediaName\": \"The Best Motivational Speech Ever\", \"appName\": \"YouTube\"}"
+precision: 0.8, recall: 1.0, f1: 0.888888888888889
+avg precision: 0.7555555555555554, avg recall: 0.7587301587301587, avg f1: 0.7569664902998235
+-------------------
+uuid: 66feea25-b498-4cc5-86e8-d91a80056da7
+First Round User: Play some music on my speaker.Assistant: "{\"functionName\": \"PlayMedia\", \"deviceType\": \"speaker\", \"roomType\": \"living room\", \"mediaType\": \"music\", \"mediaName\": \"\", \"artist\": \"John Coltrane\", \"appName\": \"Spotify\", \"label\": \"\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7593749999999999, avg recall: 0.7625, avg f1: 0.7607638888888888
+-------------------
+uuid: 86f7a6a9-5b0d-4e1f-83d4-eedcc4d815fc
+First Round User: Play the audiobook "Pride and Prejudice" on my tablet.Fail: Arguments parse failed: <func.playMedia>
+    <func.playMedia.deviceType>tablet</func.playMedia.deviceType>
+    <func.playMedia.roomType>studyRoom</func.playMedia.roomType>
+    <func.playMedia.mediaType>audiobook</func.playMedia.mediaType>
+    <func.playMedia.mediaName>Pride and Prejudice</func.playMedia.mediaName>
+    <func.playMedia.appName>Audible</func.playMedia.appName>
+    <func.playMedia.label>English, paid, romantic fiction, classic</func.playMedia.label>
+  </func.playMedia>uuid: 9b24e643-0c5e-418f-95fc-938026010966
+First Round User: Play a horror movie on Netflix.Fail: Arguments parse failed: <PlayMedia>
+    <deviceType>TV</deviceType>
+    <roomType>living room</roomType>
+    <mediaType>video</mediaType>
+    <mediaName>The Shining</mediaName>
+    <appName>Netflix</appName>
+    <label>horror, paid, English, movie genre: psychological thriller, US production</label>
+  </PlayMedia>uuid: 766d15ec-f89e-4426-9125-e89dd206366c
+First Round User: Can you play my Coding Playlist on Spotify?Assistant: "{\"functionName\": \"PlayMedia\", \"deviceType\": \"mobile phone\", \"roomType\": \"dorm room\", \"mediaType\": \"music\", \"mediaName\": \"Coding Playlist\", \"artist\": \"Unknown artists\", \"label\": \"Coding-related songs\", \"appName\": \"Spotify\"}"
+precision: 0.5714285714285714, recall: 1.0, f1: 0.7272727272727273
+avg precision: 0.7339019189765458, avg recall: 0.7432835820895521, avg f1: 0.7375546509874867
+-------------------
+uuid: 1d6e4b4e-63a4-4a93-bee6-f90e793374af
+First Round User: Use CycleMap on my watch to find a cycling route from my home to Central Park.Fail: Arguments parse failed: <func.deviceType>watch</func.deviceType>
+  <func.appName>CycleMap</func.appName>
+  <func.trafficType>cycling</func.appName>
+  <func.departure>your home</func.departure>
+  <func.destination>Central Park</func.destination>
+  <func.estimateTime>true</func.estimateTime>
+  <func.estimateDistance>true</func.estimateDistance>uuid: fde48176-29bb-4ffc-b855-638b43948f4f
+First Round User: Can you navigate me to my meeting location by subway using Citynav on my tablet? Also, let me know the estimated time of arrival.Fail: Arguments parse failed: <func/>
+  <Func>
+    <Request Method="POST" Content-Type="application/json"
+             Url="https://navigationapi.com/api/navigate" />
+    <Response>
+      <statuscode value="200" />
+      <body>
+        <func>
+          <Func>
+            <Request Method="POST" Content-Type="application/json"
+                    Url="https://navigationapi.com/api/navigate" />
+            <Response>
+              <statuscode value="200" />
+              <body>
+                {"functionName": "Navigate", "deviceType": "tablet", "appName": "Citynav", "trafficType": "subway", "departure": "Office address", "destination": "Meeting location address", "estimateTime": True, "estimateDistance": True}
+              </body>
+            </Response>
+          </Func>uuid: 4cffaa32-d26d-45de-ab57-9760fd5305fd
+First Round User: What's the walking route from my campsite to the nearest store?Assistant: "{\"functionName\": \"Navigate\",\n   \"deviceType\": \"mobile phone\",\n   \"appName\": \"HIKEnav\",\n   \"trafficType\": \"walking\",\n   \"departure\": \"Campsite X\",\n   \"destination\": \"Nearest Store\",\n   \"estimateTime\": \"true\",\n   \"estimateDistance\": \"true\"}"
+precision: 0.42857142857142855, recall: 0.42857142857142855, f1: 0.42857142857142855
+avg precision: 0.7085714285714285, avg recall: 0.7175510204081632, avg f1: 0.7120676149247577
+-------------------
+uuid: e6c99456-5032-493b-b2a0-d0ec05a67f6f
+First Round User: How far is the ballet school from my home if I drive?Assistant: "{\"functionName\": \"Navigate\", \"deviceType\": \"mobile phone\", \"appName\": \"Mom's Driver\", \"trafficType\": \"driving\", \"departure\": \"123 Main St\", \"destination\": \"345 Elm St\", \"estimateTime\": \"True\", \"estimateDistance\": \"False\"}"
+precision: 0.42857142857142855, recall: 0.42857142857142855, f1: 0.42857142857142855
+avg precision: 0.7046277665995976, avg recall: 0.7134808853118713, avg f1: 0.7080747108916122
+-------------------
+uuid: d5fe4c7f-6a0a-43cb-8949-b6f707c63713
+First Round User: Can you use the PublicTransitNav on my mobile phone to find a bus route from my College Dorm to the Bookstore?Assistant: "{\"functionName\": \"Navigate\", \"deviceType\": \"mobile phone\", \"appName\": \"PublicTransitNav\", \"trafficType\": \"bus\", \"departure\": \"College Dorm\", \"destination\": \"Bookstore\", \"estimateTime\": true, \"estimateDistance\": false}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.7087301587301587, avg recall: 0.7174603174603175, avg f1: 0.7121292287958955
+-------------------
+uuid: a99042ad-dc39-42c4-acf8-596d627427db
+First Round User: Can you remind me about the Meeting with the product team on my smartwatch?Fail: Arguments parse failed: <name>CreateNotification</name>
+  <parameters>
+    <parameter>
+      <name>deviceType</name>
+      <value>watch</value>
+    </parameter>
+    <parameter>
+      <name>time</name>
+      <value>2022-06-20T11:00:00Z</value>
+    </parameter>
+    <parameter>
+      <name>content</name>
+      <value>Meeting with the product team</value>
+    </parameter>
+    <parameter>
+      <name>type</name>
+      <value>calendar</value>
+    </parameter>
+  </parameters>uuid: 12d39e15-74d6-4709-a165-f21a078e7960
+First Round User: Remind me to "Submit article for the Health magazine" tomorrow at 6 PM on my tablet.Assistant: "{\"functionName\": \"CreateNotification\", \"deviceType\": \"tablet\", \"time\": \"6 PM\", \"content\": \"Submit article for the Health magazine\", \"type\": \"todo\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.6997104247104247, avg recall: 0.7082046332046332, avg f1: 0.703017628017628
+-------------------
+uuid: 688391d0-db8f-46a6-b883-c87c10483cf4
+First Round User: Can you set a reminder on my TV at 7 AM tomorrow to start a 30-minute cardio session?Assistant: "{\n  \"functionName\": \"CreateNotification\",\n  \"deviceType\": \"TV\",\n  \"time\": \"2022-05-10T07:00:00\",\n  \"content\": \"Start a 30-minute cardio session at 7 AM tomorrow\",\n  \"type\": \"reminder message\"\n}"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.697047619047619, avg recall: 0.7054285714285714, avg f1: 0.7003107263107263
+-------------------
+uuid: 313120ef-3c1a-413b-97ed-942c00960179
+First Round User: Set an alarm on my mobile phone at 4 PM today.Fail: Arguments parse failed: <CreateNotification>
+    <deviceType>mobile phone</deviceType>
+    <time>2022-08-17 16:00:00</time>
+    <content>It's time to pick up the kids from school! </content>
+    <type>alarm</type>
+  </CreateNotification>uuid: 79e10da9-e704-4b8b-9ca6-a09136117730
+First Round User: Can you push my 12:00 noon lunch meeting with the client to a later time on my watch?Assistant: "{\n       \"functionName\": \"ModifyNotification\",\n       \"deviceType\": \"watch\",\n       \"originalTime\": \"12:00:00\",\n       \"targetTime\": \"13:00:00\",\n       \"originalContent\": \"Lunch meeting with the client\",\n       \"targetContent\": \"Lunch meeting with the client\",\n       \"originalType\": \"reminder message\",\n       \"targetType\": \"reminder message\"\n   }"
+precision: 0.14285714285714285, recall: 0.14285714285714285, f1: 0.14285714285714285
+avg precision: 0.6807977736549164, avg recall: 0.688961038961039, avg f1: 0.6839761248852158
+-------------------
+uuid: 2a741e36-9b7d-4392-ae30-1caa78187be0
+First Round User: Change the reminder that says "Grade English Literature assignments" to "Grade Physics assignments".Assistant: "{\"functionName\": \"ModifyNotification\", \"deviceType\": \"tablet\", \"originalTime\": \"tomorrow at 9:00 am\", \"targetContent\": \"Grade Physics assignments\", \"originalContent\": \"Grade English Literature assignments\", \"originalType\": \"todo\", \"targetType\": \"todo\"}"
+precision: 1.0, recall: 0.8571428571428571, f1: 0.923076923076923
+avg precision: 0.6848901098901099, avg recall: 0.6911172161172161, avg f1: 0.6870415197338274
+-------------------
+uuid: 7d862743-3dda-40c3-aeb7-bdf6969e340b
+First Round User: Can you please change my alarm into a workout reminder?Fail: Arguments parse failed: <func>
+   {"functionName": "ModifyNotification",
+   "deviceType": "mobile phone",
+   "originalTime": "07:00",
+   "targetTime": "07:00",
+   "originalContent": "Morning alarm",
+   "targetContent": "Time for morning workout",
+   "originalType": "alarm",
+   "targetType": "reminder message"}uuid: a779d405-2efe-443e-9eab-d7845c2a7cf2
+First Round User: I need to change the reminder for my show at 8:00 pm.Assistant: "{\"functionName\": \"ModifyNotification\", \"deviceType\": \"TV\", \"originalTime\": \"20:00\", \"targetTime\": \"19:00\", \"originalContent\": \"Watch Cooking Showtime\", \"targetContent\": \"Watch Cooking Showtime\", \"originalType\": \"reminder message\", \"targetType\": \"reminder message\"}"
+precision: 0.7142857142857143, recall: 0.7142857142857143, f1: 0.7142857142857143
+avg precision: 0.6766964285714285, avg recall: 0.6827678571428571, avg f1: 0.6787940531690532
+-------------------
+uuid: dc0b7f2b-20da-4df5-b4ae-a66d2c98f5d6
+First Round User: Can you change the "Project deadline" reminder to a different event on my speaker?Fail: Arguments parse failed: <func.ModifyNotification functionName="ModifyNotification">
+    <func.ModifyNotification.deviceType>speaker</func.ModifyNotification.deviceType>
+    <func.ModifyNotification.originalTime>2022-03-25T14:00:00.000Z</func.ModifyNotification.originalTime>
+    <func.ModifyNotification.targetTime>2022-03-25T14:00:00.000Z</func.ModifyNotification.targetTime>
+    <func.ModifyNotification.originalContent>Project deadline</func.ModifyNotification.originalContent>
+    <func.ModifyNotification.targetContent>Meet client</func.ModifyNotification.targetContent>
+    <func.ModifyNotification.originalType>todo</func.ModifyNotification.originalType>
+    <func.ModifyNotification.targetType>calendar</func.ModifyNotification.targetType>
+  </func.ModifyNotification>uuid: 5601a95e-7772-4bc8-b4f8-55ef4fa2ad24
+First Round User: Delete the notification that says "Your favorite cooking show will start".Assistant: "{\"functionName\": \"DeleteNotification\", \"deviceType\": \"TV\", \"time\": \"\", \"content\": \"Your favorite cooking show will start\", \"type\": \"\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.6723867595818815, avg recall: 0.6783101045296167, avg f1: 0.6744332226039543
+-------------------
+uuid: 798566ba-ea17-4b3e-81c2-bec3b7b9b032
+First Round User: Bob, please delete the reminder to "Finish writing the 'Digital Marketing' article".Fail: Arguments parse failed: <func.functionName>DeleteNotification</func.functionName>
+  <func.givenParameterName>deviceType</func.givenParameterName>
+  <func.givenParameterValue>tablet</func.givenParameterValue>
+  <func.givenParameterName>time</func.givenParameterName>
+  <func.givenParameterValue></func.givenParameterValue>
+  <func.givenParameterName>content</func.givenParameterName>
+  <func.givenParameterValue>Finish writing the 'Digital Marketing' article</func.givenParameterValue>
+  <func.givenParameterName>type</func.givenParameterName>
+  <func.givenParameterValue>reminder</func.givenParameterValue>uuid: fc557d30-40c5-4dd5-9dc8-39ee491a25b6
+First Round User: Cancel my alarm set for tomorrow at 6:00AM.Fail: Arguments parse failed: <!xml version="1.0" encoding="UTF-8"?>
+<func>
+  <name>DeleteNotification</name>
+  <params>
+    <param>
+      <name>deviceType</name>
+      <value>watch</value>
+    </param>
+    <param>
+      <name>time</name>
+      <value>2022-01-10 06:00:00</value>
+    </param>
+    <param>
+      <name>content</name>
+      <value>Wake up, it's Monday</value>
+    </param>
+    <param>
+      <name>type</name>
+      <value>alarm</value>
+    </param>
+  </params>uuid: efe23898-32b4-45bc-86f8-5bd0d9e7cd0c
+First Round User: Bob, please delete my calendar notification for preparing the History class lesson.Assistant: "{\n  \"functionName\": \"DeleteNotification\",\n  \"deviceType\": \"mobile phone\",\n  \"time\": \"2022-09-24T20:00:00\",\n  \"content\": \"preparing the History class lesson\",\n  \"type\": \"calendar\"\n}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.6574789915966387, avg recall: 0.6631932773109244, avg f1: 0.6594532265120501
+-------------------
+uuid: c01c1a24-7271-4d77-8af0-4eb459645f87
+First Round User: Could you please delete the reminder set for 1 PM on my speaker?Fail: Arguments parse failed: <func>
+{"functionName": "DeleteNotification", "deviceType": "speaker", "time": "13:00", "content": "Time to take a break and stretch"}uuid: cabb329f-7d08-412c-95d5-9a4775537bdf
+First Round User: What is the content of my reminder on the tablet?Assistant: "{\"functionName\": \"CheckNotification\", \"deviceType\": \"tablet\", \"time\": \"17:30\", \"content\": \"Please submit the final report by 5 PM tomorrow\"}"
+precision: 0.3333333333333333, recall: 0.5, f1: 0.4
+avg precision: 0.6461959496442256, avg recall: 0.6536945812807882, avg f1: 0.6488910833738419
+-------------------
+uuid: 4e6e6611-271b-4caa-965c-b9671690f17b
+First Round User: Is there an alarm set for 6:00 in the morning on my watch?Fail: Arguments parse failed: <func>
+    <name>CheckNotification</name>
+    <parameters>
+      <deviceType>watch</deviceType>
+      <time>06:00</time>
+      <content>Start morning run</content>
+      <type>alarm</type>
+    </parameters>uuid: 5f9a138a-bd8e-4ed7-9363-c6dbe198312f
+First Round User: Do I have a notification about "Speaking event at Boston Convention Centre" on my phone?Assistant: "{\"functionName\": \"CheckNotification\", \"deviceType\": \"mobile phone\", \"time\": \"3:00 PM\"}"
+precision: 1.0, recall: 0.6666666666666666, f1: 0.8
+avg precision: 0.6429106474050295, avg recall: 0.6464954521134296, avg f1: 0.6432980253204972
+-------------------
+uuid: 7af57a44-cfcc-4d17-869a-9449a1985efb
+First Round User: What are the notifications on my tablet at 10:30 this Saturday morning?Fail: Arguments parse failed: <func>
+  <name>CheckNotification</name>
+  <parameters>
+    <deviceType>tablet</deviceType>
+    <time>Saturday 10:30 AM</time>
+    <content>Grade English papers</content>
+    <type>todo</type>
+  </parameters>uuid: 9011cbda-8b2f-45b2-b92b-75850305a181
+First Round User: Hey Bob, can you help me to register a medical appointment on MyHealthApp for tomorrow at 10:30 in the morning with Dr. Jane Thompson in the General Medicine department of General City Hospital?Fail: Arguments parse failed: <func>
+{"functionName": "RegisterMedicalAppointment", "deviceType": "mobile phone", "appName": "MyHealthApp", "time": "2022-04-03T10:30:00Z", "hospitalName": "General City Hospital", "departmentName": "General Medicine", "doctorName": "Dr. Jane Thompson"}uuid: 53b81134-c548-41b3-b474-05f56320f8e5
+First Round User: I want to book an appointment for next Monday at 1:30 in the afternoon.Fail: Arguments parse failed: <RegisterMedicalAppointment>
+      <deviceType>tablet</deviceType>
+      <appName>HealSure</appName>
+      <time>13:30:00</time>
+      <hospitalName>Children's Health Hospital</hospitalName>
+      <departmentName>Orthopedic</departmentName>
+      <doctorName>Dr. Cooper</doctorName>
+   </RegisterMedicalAppointment>uuid: 91e89729-9acd-4888-8d83-eaae5c60f1dc
+First Round User: On my watch, use the TimeToHeal app to register my medical appointment for Friday at 11:00 AM at Auditory Specialist Centre, in the Audiology department with Dr. Anderson.Assistant: "{\"functionName\": \"RegisterMedicalAppointment\", \"appName\": \"TimeToHeal\", \"time\": \"2021-05-14T11:00:00\", \"hospitalName\": \"Auditory Specialist Centre\", \"departmentName\": \"Audiology\", \"doctorName\": \"Dr. Anderson\"}"
+precision: 0.8, recall: 0.6666666666666666, f1: 0.7272727272727272
+avg precision: 0.6238607270865335, avg recall: 0.625857654889913, avg f1: 0.6234494299010427
+-------------------
+uuid: 5bcbb8c4-9911-4683-9566-9bfb0525468e
+First Round User: Can you book an appointment for me on Wednesday at 3:00 PM?Fail: Arguments parse failed: <func.functionName>RegisterMedicalAppointment</func.functionName>
+  <func.parameters>
+    <func.param name="deviceType">mobile phone</func.param>
+    <func.param name="appName">SkinHealthTrack</func.param>
+    <func.param name="time">2021-12-08T15:00:00.000+08:00</func.param>
+    <func.param name="hospitalName">Advanced Dermatology Centre</func.param>
+    <func.param name="departmentName">Dermatology</func.param>
+    <func.param name="doctorName">Dr. Martin</func.param>
+  </func.parameters>uuid: e53c04ff-50a1-4dec-a52c-a7b9416098f1
+First Round User: Can you confirm my appointment for next Tuesday at noon?Assistant: "{\"functionName\": \"RegisterMedicalAppointment\", \"deviceType\": \"TV\", \"appName\": \"CardioCare\", \"time\": \"12:00\", \"hospitalName\": \"Heart and Vascular Hospital\", \"departmentName\": \"Cardiology\", \"doctorName\": \"Dr. Roberts\"}"
+precision: 0.8333333333333334, recall: 0.8333333333333334, f1: 0.8333333333333334
+avg precision: 0.619498746867168, avg recall: 0.621453634085213, avg f1: 0.6190961085697927
+-------------------
+uuid: 11d15b49-9c2b-486c-bec0-fc7bd4869d0a
+First Round User: Open the Health App on my tablet.Fail: Arguments parse failed: <func/>
+   <func>
+     {"functionName": "CheckMedicalRegistrationRecords",
+      "deviceType": "tablet",
+      "appName": "Health App",
+      "time": "last month",
+      "hospitalName": "City Hospital",
+      "requiredParameters": ["deviceType", "appName", "time", "hospitalName"]}uuid: 36bcda14-689f-4bac-826d-f21eb79fe9e7
+First Round User: Can you please check my therapy records on the My Health Tracker app?Fail: Arguments parse failed: <functionName>CheckMedicalRegistrationRecords</functionName>
+  <given parameter name>deviceType</given parameter name>
+  <given parameter value>mobile phone</given parameter value>
+  <given parameter name>appName</given parameter name>
+  <given parameter value>My Health Tracker</given parameter value>
+  <given parameter name>time</given parameter name>
+  <given parameter value>past 6 months</given parameter value>
+  <given parameter name>hospitalName</given parameter name>
+  <given parameter value>County General Hospital</given parameter value>
+  <given parameter name>departmentName</given parameter name>
+  <given parameter value>Orthopedic Surgery</given parameter value>uuid: 40259c82-bb44-4aec-b1d0-6ffc2a6a6b3f
+First Round User: What were the dates of my appointments at the Silver Lining Health Centre last year?Assistant: "{\"functionName\": \"CheckMedicalRegistrationRecords\", \"deviceType\": \"TV\", \"appName\": \"Senior Health\", \"time\": \"last year\", \"hospitalName\": \"Silver Lining Health Centre\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.6107385811467444, avg recall: 0.6126336248785228, avg f1: 0.6103482685115338
+-------------------
+uuid: 5dafdcde-b80b-4209-8bbc-a1f9c1bac910
+First Round User: Can I see my heart check-ups from the past year on my smartwatch?Fail: Arguments parse failed: <doc>
+{"name": "CheckMedicalRegistrationRecords", "description": "On a certain device, use a certain app to query the record of medical services during a certain time period, can specify the name of the hospital, department and doctor. The call must contain at least one of the following parameters: departmentName, doctorName", "parameters": {"deviceType": {"type": "string", "description": "Supported device types, including mobile phone, tablet, TV, speaker, watch", "enum": ["mobile phone", "tablet", "TV", "speaker", "watch"]}, "appName": {"type": "string", "description": "Name of app that supports querying medical records"}, "time": {"type": "string", "description": "Time to query the medical records"}, "hospitalName": {"type": "string", "description": "Name of the hospital"}, "departmentName": {"type": "string", "description": "Name of the department"}, "doctorName": {"type": "string", "description": "Name of the doctor"}}, "requiredParameters": ["deviceType", "appName", "time", "hospitalName", "departmentName", "doctorName"]}
+</doc>
+<func>
+<doc>
+{"deviceType": "watch", "appName": "Heart Monitor", "time": "2021-01-01 - 2021-06-30", "hospitalName": "Heart Institute", "departmentName": "Cardiology"}
+</doc>uuid: 0f62ed3a-9002-40cf-adde-bc38b74d1498
+First Round User: Bob, please use the Healthy Living App to check my medical records.Assistant: "{\"functionName\": \"CheckMedicalRegistrationRecords\", \"deviceType\": \"speaker\", \"appName\": \"Healthy Living App\", \"time\": \"2020-01-01 - 2022-12-31\", \"hospitalName\": \"University Clinic\", \"departmentName\": \"General Medicine\"}"
+precision: 0.8, recall: 0.8, f1: 0.8000000000000002
+avg precision: 0.6065238095238095, avg recall: 0.6083809523809524, avg f1: 0.6061413031413031
+-------------------
+uuid: c0a6aa76-f43a-4281-92a0-d8e676a35763
+First Round User: Cancel my hotel booking on the TravelEase app.Fail: Arguments parse failed: <CancellationRequest>
+    <TimeStay>
+      <Start>2022-09-07</Start>
+      <End>2022-09-09</End>
+    </TimeStay>
+    <HotelInfo>
+      <Name>The Grand Plaza</Name>
+    </HotelInfo>
+    <ClientInfo>
+      <Name>John Doe</Name>
+      <Email>johndoe@example.com</Email>
+      <Phone>123-456-7890</Phone>
+    </ClientInfo>
+    <Device>
+      <DeviceType>mobile phone</DeviceType>
+    </Device>
+    <App>
+      <AppName>TravelEase</AppName>
+    </App>
+  </CancellationRequest>uuid: 76e365be-1b11-46cc-bb86-0cf96427ceb4
+First Round User: Can you help me cancel my hotel booking on the TravelGo app please?Assistant: "{\"functionName\": \"CancelHotelBooking\", \"deviceType\": \"tablet\", \"appName\": \"TravelGo\", \"time\": \"29/09/2021-02/10/2021\", \"hotelName\": \"Hyde Park Suites\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.601984126984127, avg recall: 0.6038048552754435, avg f1: 0.6016091207267678
+-------------------
+uuid: f28b5cd8-1fca-4e94-8838-f20174bddddf
+First Round User: Bob, I need to cancel my reservation at Countryside Inn through my WeekendEscapes app.Fail: Arguments parse failed: <func>
+{"functionName": "CancelHotelBooking", "deviceType": "mobile phone", "appName": "WeekendEscapes"}uuid: 9da6f854-ab4c-4b93-b4e2-efff09487a09
+First Round User: Cancel my reservation at Disney Star Hotel.Assistant: "{\"functionName\": \"CancelHotelBooking\", \"deviceType\": \"TV\", \"appName\": \"FamilyVoyage\"}"
+precision: 1.0, recall: 0.6666666666666666, f1: 0.8
+avg precision: 0.6000228937728938, avg recall: 0.5986034798534798, avg f1: 0.5977320222512529
+-------------------
+uuid: 3a3c401c-15be-4c90-b974-a5df5fc05d6d
+First Round User: Cancel my Adventure Lodge reservation for 20th - 24th June through SoloJourney on my watch, please.Assistant: "{\"functionName\": \"CancelHotelBooking\",\n \"deviceType\": \"watch\",\n \"appName\": \"SoloJourney\",\n \"time\": \"20-24th June\"\n}"
+precision: 0.6666666666666666, recall: 0.5, f1: 0.5714285714285715
+avg precision: 0.6006575963718821, avg recall: 0.5976643990929704, avg f1: 0.5974815131957988
+-------------------
+uuid: 25363a21-59db-43a1-86fc-cfbbdadc028f
+First Round User: Could you find my hotel booking record from January 2022 on TravelBuddy?Assistant: "{\"functionName\": \"CheckHotelBookingRecord\", \"time\": \"January 2022\", \"hotelName\": \"TravelBuddy\", \"deviceType\": \"mobile phone\", \"appName\": \"TravelBuddy\"}"
+precision: 0.75, recall: 1.0, f1: 0.8571428571428571
+avg precision: 0.6020664869721474, avg recall: 0.6014600179694519, avg f1: 0.599931148516054
+-------------------
+uuid: 14eac43b-94e3-4cf1-8233-c55bc119cc2b
+First Round User: Can you check to see if all my bookings through HotelQuick have been registered correctly?Assistant: "{}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.5964396973742768, avg recall: 0.595838896306186, avg f1: 0.5943243153523526
+-------------------
+uuid: 5b019f33-6b57-4843-98c0-5fa8607330b5
+First Round User: Can you look into my TravelDiaries app and find the name of the hotel I booked in July 2021?Fail: Arguments parse failed: <func xmlns="http://www.w3.org/2005/Atom">
+    <name>CheckHotelBookingRecord</name>
+    <request>
+        <method>GET</method>
+        <url>https://example.com/api/hotels</url>
+    </request>
+    <response>
+        <status>200</status>
+        <atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+            <title>Booking History</title>
+            <summary>Lists all confirmed and unconfirmed bookings made using TravelDiaries app.</summary>
+            <updated>2022-01-01T00:00:00-08:00</updated>
+            <link rel="self" href="https://example.com/api/hotels?page=1" title="Hotel booking history, page 1" type="application/xml; charset=utf-8"/>
+            <link rel="first" href="https://example.com/api/hotels?page=1" title="First page of hotel booking history" type="application/xml; charset=utf-8"/>
+            <link rel="last" href="https://example.com/api/hotels?page=5" title="Last page of hotel booking history" type="application/xml; charset=utf-8"/>
+            <entry>
+                <title>Stay at Marriott Hotel New York Times Square, July 1-10, 2021</title>
+                <summary>Stay details: check-in date July 1, 2021, check-out date July 10, 2021, total nights: 9, room type: Deluxe, number of guests: 2, total cost: $3,500, confirmed status.</summary>
+                <updated>2022-01-01T00:00:00-08:00</updated>
+                <link rel="self" href="https://example.com/api/hotels?hotel=Marriott%20Hotel%20New%20York%20Times%20Square&amp;startDate=2021-07-01T00:00:00&amp;endDate=2021-07-10T00:00:00&amp;status=confirmed" title="Booking details, hotel: Marriott Hotel New York Times Square, check-in date: July 1, 2021, check-out date: July 10, 2021, total nights: 9, room type: Deluxe, number of guests: 2, total cost: $3,500" type="application/xml; charset=utf-8"/>
+                <author><name>TravelDiaries</name></author>
+            </entry>
+        </atom:entry>
+    </response>uuid: 648f34c5-fa64-4342-8b0a-269c8924d593
+First Round User: Can you check my HotelBookingLite app on my TV to see my bookings for April 2022?Assistant: "{\n  \"functionName\": \"CheckHotelBookingRecord\",\n  \"deviceType\": \"TV\",\n  \"appName\": \"HotelBookingLite\",\n  \"time\": \"April 2022\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5946701616426386, avg recall: 0.5940803844473568, avg f1: 0.5925935939697407
+-------------------
+uuid: 4915c8e4-bd03-4041-89c6-ccc43d0c6a52
+First Round User: Check my booking record for March 2022 on TravelEase, Bob.Assistant: "{\n  \"functionName\": \"CheckHotelBookingRecord\",\n  \"deviceType\": \"speaker\",\n  \"appName\": \"TravelEase\",\n  \"time\": \"March 2022\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5983549783549783, avg recall: 0.5977705627705626, avg f1: 0.5962972885700157
+-------------------
+uuid: bf4378c7-3eff-4df3-bf7e-4c8433d330f1
+First Round User: Book a room at the Fairmont Olympic Hotel from May 25 to May 26 using my tablet.Assistant: "{\n    \"functionName\": \"BookHotel\",\n    \"deviceType\": \"tablet\",\n    \"appName\": \"EliteStays\",\n    \"time\": \"5/25-5/26\",\n    \"hotelName\": \"Fairmont Olympic Hotel\",\n    \"city\": \"Seattle\",\n    \"price\": \"Luxury\",\n    \"star\": \"5\",\n    \"nearbyPlace\": \"Business district\"\n  }"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.5974688974688974, avg recall: 0.5968897468897468, avg f1: 0.5954297454297454
+-------------------
+uuid: 063a4174-2722-4e7c-b263-d740f7b45954
+First Round User: Can you find me a hotel in London for next week?Assistant: "{}"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.5921343537414965, avg recall: 0.5915603741496598, avg f1: 0.5901134084169798
+-------------------
+uuid: 2c289473-6ae6-4263-a64c-f5df69aaef3d
+First Round User: Book a hotel using the app on my TV.Fail: Arguments parse failed: <func/>
+   {"functionName": "BookHotel", "deviceType": "TV", "appName": "FamilyTripper", "time": "2019-07-15 to 2019-07-22", "hotelName": "Novotel Marne La Vallee", "city": "Paris", "price": "100 to 200", "star": "3 to 4", "nearbyPlace": "Disneyland"}uuid: 877147ce-e24b-4204-b411-fa846ecb6539
+First Round User: Can you use my tablet to book a room at Kabul Party Hostel in Barcelona from August 10 to August 20 via CheapStay?Assistant: "{\"functionName\": \"BookHotel\", \"deviceType\": \"tablet\", \"appName\": \"CheapStay\", \"time\": \"August 10 - August 20\", \"hotelName\": \"Kabul Party Hostel\", \"city\": \"Barcelona\", \"price\": \"cheap\", \"star\": \"2\", \"nearbyPlace\": \"La Rambla Street\"}"
+precision: 0.875, recall: 0.875, f1: 0.875
+avg precision: 0.5894214703425229, avg recall: 0.5888575605680868, avg f1: 0.587435980199138
+-------------------
+uuid: 8f46f299-cb93-43ff-83ad-993f362e8baa
+First Round User: Book a first-class train ticket from New York to Boston on my tablet using the TravelBuddy app.Assistant: "{\"functionName\": \"BookTicket\", \"deviceType\": \"tablet\", \"appName\": \"TravelBuddy\", \"ticketType\": \"train\", \"time\": \"15th June 9:00 AM\", \"departure\": \"New York\", \"destination\": \"Boston\", \"companyName\": \"Amtrak\", \"price\": \"0-200\", \"cabinClass\": \"First Class\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5900931677018633, avg recall: 0.5895341614906832, avg f1: 0.58812494269016
+-------------------
+uuid: 6beb7f63-314b-44fe-a8d1-c116806937c0
+First Round User: Book a cheap economy class plane ticket from Los Angeles to Chicago on Delta Airlines next Wednesday at 10 AM via the FlyFast app on my mobile phone.Fail: Arguments parse failed: <func/>
+      <doc>
+         <doc>
+            {"name": "BookTicket", "description": "On a certain device, use a certain app to book a transportation ticket. Can specify ticket type, time, departure location, destination, name of carrier, price range, seat type.", "parameters": {"deviceType": {"type": "string", "description": "Supported device types, including mobile phone, tablet, TV, speaker, watch", "enum": ["mobile phone", "tablet", "TV", "speaker", "watch"]}, "appName": {"type": "string", "description": "Name of app that supports booking transportation tickets"}, "ticketType": {"type": "string", "description": "Ticket type, can be plane ticket, train ticket, boat ticket, bus ticket", "enum": ["plane", "train", "boat", "bus"]}, "time": {"type": "string", "description": "Time of the ticket, can be a specific time or time range like this week, next month, September etc."}, "departure": {"type": "string", "description": "Departure location"}, "destination": {"type": "string", "description": "Destination"}, "companyName": {"type": "string", "description": "Name of the carrier company"}, "price": {"type": "string", "description": "Price of the ticket, can be a number value, range of numbers, or vague terms like cheap, expensive"}, "cabinClass": {"type": "string", "description": "Cabin class, including first class, business class, economy class, hard seat, sleeper, first class seat, second class seat, etc."}}, "requiredParameters": ["deviceType", "appName", "ticketType", "time", "departure", "destination", "companyName", "price", "cabinClass"]}
+         </doc>
+         <func>
+            <func/>
+            <func/>
+               <doc>
+                  <doc>
+                     <xml>
+                        <func>
+                           <func/>
+                              <doc>
+                                 <doc>
+                                    <xml>
+                                       <data>
+                                          <data>
+                                             <string>POST</string>
+                                          </data>
+                                          <data>
+                                             <string>https://flyfast.com/booking</string>
+                                          </data>
+                                          <data>
+                                             <xml>
+                                                <param xmlns="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="data">
+                                                   <data>
+                                                      <param name="deviceType">mobile phone</param>
+                                                      <param name="appName">FlyFast</param>
+                                                      <param name="ticketType">plane</param>
+                                                      <param name="time">10:00 AM</param>
+                                                      <param name="departure">Los Angeles</param>
+                                                      <param name="destination">Chicago</param>
+                                                      <param name="companyName">Delta Airlines</param>
+                                                      <param name="price">cheap</param>
+                                                      <param name="cabinClass">economy class</param>
+                                                   </data>
+                                                </param>
+                                             </xml>
+                                          </data>
+                                       </data>
+                                    </xml>
+                                 </doc>uuid: b5d7ad76-1909-4416-ae7f-26d9d1e999ec
+First Round User: Can I book a ticket on BusGo app?Fail: Arguments parse failed: <![CDATA[
+   {"functionName": "BookTicket", "deviceType": "mobile phone", "appName": "BusGo", "ticketType": "bus", "time": "next month", "departure": "Dallas", "destination": "Houston", "companyName": "", "price": "cheap", "cabinClass": "sleeper" }
+]]>uuid: d0357c33-6323-46ee-98d0-85e98d3659df
+First Round User: Can I book a boat ticket on EcoTravels that costs below $150 from Galveston to Port Aransas three weeks from now with Aqua Lines? I'll be using my tablet to make the booking.Fail: Arguments parse failed: <xml>
+        <func>
+            {"functionName": "BookTicket", "deviceType": "tablet", "appName": "EcoTravels", "ticketType": "boat", "time": "next three weeks", "departure": "Galveston", "destination": "Port Aransas", "companyName": "Aqua Lines", "price": "below $150", "cabinClass": "economy"}uuid: bc5c6d55-9a95-47f0-ac10-b8919cf0ea80
+First Round User: I am concerned about ticket prices. Are they on the lower side?Fail: Arguments parse failed: <func/>
+    <name>BookTicket</name>
+    <deviceType>mobile phone</deviceType>
+    <appName>CityRail</appName>
+    <ticketType>train</ticketType>
+    <time>Monday at 8:00 AM</time>
+    <departure>East City Station</departure>
+    <destination>Central Business District</destination>
+    <companyName>Metropolitan Railways</companyName>
+    <price>second class seat</price>
+    <cabinClass>second class seat</cabinClass>
+  </func/>uuid: f205180b-a507-4b42-a00c-e427934d869b
+First Round User: Look for the latest business sector news on my tablet.Assistant: "{\"functionName\": \"UseSearchEngine\", \"deviceType\": \"tablet\", \"searchEngineName\": \"Google\", \"content\": \"latest business sector news\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5738392857142857, avg recall: 0.5733035714285714, avg f1: 0.5719530700780701
+-------------------
+uuid: 229b4b9f-aed1-439e-9f1d-c36b532d7255
+First Round User: Find new workout routines on YouTube.Fail: Arguments parse failed: <func/>
+  <func name="UseSearchEngine">
+    <name>UseSearchEngine</name>
+    <parameters>
+      <deviceType>
+        <type>string</type>
+      </deviceType>
+      <searchEngineName>
+        <type>string</type>
+      </searchEngineName>
+      <content>
+        <type>string</type>
+      </content>
+    </parameters>
+    <requiredParameters>
+      <requiredParameter name="deviceType"/>
+      <requiredParameter name="searchEngineName"/>
+      <requiredParameter name="content"/>
+    </requiredParameters>uuid: 6b9f21d5-a398-4408-b06a-00ff70d6ce08
+First Round User: Show me the latest movie trailers on Netflix from my TV.Assistant: "{\"functionName\": \"UseSearchEngine\", \"deviceType\": \"TV\", \"searchEngineName\": \"Netflix\", \"content\": \"movie trailers\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5698965651834504, avg recall: 0.5693696330991412, avg f1: 0.5680412711150417
+-------------------
+uuid: a3008d7d-aaf4-4fc7-97a1-33bcdc787783
+First Round User: Can you find me some unique recipes on Bing?Assistant: "{\"functionName\": \"UseSearchEngine\", \"deviceType\": \"watch\", \"searchEngineName\": \"Bing\", \"content\": \"unique recipes\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5733933410762679, avg recall: 0.5728706929926441, avg f1: 0.5715531306994722
+-------------------
+uuid: 8df1eb86-f1af-40d8-9184-a92f4eea07aa
+First Round User: Can you give me some information about dinosaurs on my tablet?Fail: Arguments parse failed: <func name="UseEncyclopedia">
+        <param name="deviceType">tablet</param>
+        <param name="encyclopediaName">Kids World Encyclopedia</param>
+        <param name="content">dinosaurs</param>uuid: 9bcc353d-61e9-4703-a219-f8d1791a77e4
+First Round User: Can I use Gray's Anatomy to search for information on the human circulatory system on my device?Assistant: "{\"functionName\": \"UseEncyclopedia\", \"deviceType\": \"mobile phone\", \"encyclopediaName\": \"Gray's Anatomy\", \"content\": \"human circulatory system\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5722190476190476, avg recall: 0.5717047619047618, avg f1: 0.5704082806082806
+-------------------
+uuid: 42824cf0-c0e0-4af5-bfd6-14f597c75dfe
+First Round User: Can you search the Encyclopedia of Information Technology for information on quantum computing?Assistant: "{\"functionName\": \"UseEncyclopedia\", \"deviceType\": \"TV\", \"encyclopediaName\": \"Encyclopedia of Information Technology\", \"content\": \"quantum computing\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5756141345427059, avg recall: 0.5751039304610733, avg f1: 0.5738177386986911
+-------------------
+uuid: 003143a7-4241-4752-b0e2-ed6daddedb34
+First Round User: Search for global warming solutions on Wikipedia.Fail: Arguments parse failed: <func>
+      <name>UseEncyclopedia</name>
+      <given parameter name>deviceType</given parameter name>
+      <given parameter value>watch</given parameter value>
+      <given parameter name>encyclopediaName</given parameter name>
+      <given parameter value>Wikipedia</given parameter value>
+      <given parameter name>content</given parameter name>
+      <given parameter value>global warming solutions</given parameter value>uuid: 27180d56-b98c-4feb-82e9-c454747c540e
+First Round User: Search Encyclopedia of World History for information on the pivotal moments of the French Revolution.Assistant: "{\n    \"functionName\": \"UseEncyclopedia\",\n    \"deviceType\": \"speaker\",\n    \"encyclopediaName\": \"Encyclopedia of World History\",\n    \"content\": \"French Revolution\"\n  }"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5718284970238096, avg recall: 0.5713262648809524, avg f1: 0.5700601698648574
+-------------------
+uuid: 0553feb6-3949-4f1a-ab6a-6b3c5b9655a0
+First Round User: What's the weather forecast for Big Bear Mountain next week?Fail: Arguments parse failed: <functionName>
+      "CheckWeather"
+  </functionName>
+  <parameters>
+      <parameterName>
+          "deviceType"
+      </parameterName>
+      <parameterValue>
+          "mobile phone"
+      </parameterValue>
+  </parameters>
+  <parameters>
+      <parameterName>
+          "appName"
+      </parameterName>
+      <parameterValue>
+          "WeatherApp"
+      </parameterValue>
+  </parameters>
+  <parameters>
+      <parameterName>
+          "location"
+      </parameterName>
+      <parameterValue>
+          "Big Bear Mountain"
+      </parameterValue>
+  </parameters>
+  <parameters>
+      <parameterName>
+          "time"
+      </parameterName>
+      <parameterValue>
+          "next week"
+      </parameterValue>
+  </parameters>
+  <parameters>
+      <parameterName>
+          "weatherType"
+      </parameterName>
+      <parameterValue>
+          ""
+      </parameterValue>
+  </parameters>uuid: 4d563d21-ca4f-40f7-8df3-0a225b3793de
+First Round User: What's the weather going to be like in Miami Beach for the next 3 days?Assistant: "{\"functionName\": \"CheckWeather\",\n    \"deviceType\": \"tablet\",\n    \"appName\": \"WeatherPlus\",\n    \"location\": \"Miami Beach\",\n    \"time\": \"next 3 days\" }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5707234432234433, avg recall: 0.5702289377289378, avg f1: 0.5689823210977057
+-------------------
+uuid: 898dfa7f-bf67-4ebc-93ba-70bb8a7ed577
+First Round User: What will the weather be like in Nebraska this week?Assistant: "{\"functionName\": \"CheckWeather\",\n \"deviceType\": \"TV\",\n \"appName\": \"FarmersWeather\",\n \"location\": \"Nebraska\",\n \"time\": \"this week\",\n \"weatherType\": \"\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5740003635041804, avg recall: 0.5735096328607779, avg f1: 0.5722725323870362
+-------------------
+uuid: 416154d6-d5a9-4a8a-88a0-8880ebbe78c3
+First Round User: What's the weather like in New York City this evening?Assistant: "{\"functionName\": \"CheckWeather\", \"deviceType\": \"watch\", \"appName\": \"Runner's Weather\", \"location\": \"New York City\", \"time\": \"6:00 PM\", \"weatherType\": \"\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.5753336940836942, avg recall: 0.5748466810966811, avg f1: 0.5736189525962254
+-------------------
+uuid: 208f5cee-e4cc-4881-85d9-ea26113a002b
+First Round User: What will be the weather like in Central Park, New York tomorrow?Assistant: "{\"functionName\": \"CheckWeather\", \"deviceType\": \"mobile phone\", \"appName\": \"Daily Forecast\", \"location\": \"Central Park, New York\", \"time\": \"tomorrow\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5785266738274257, avg recall: 0.5780433225921948, avg f1: 0.5768248251330959
+-------------------
+uuid: 651ac227-a5f4-4e62-99e6-9ff18d9a78da
+First Round User: Can you check the air quality for Rosedale Park for the next 3 days?Assistant: "{\"functionName\": \"CheckAirQuality\", \"deviceType\": \"mobile phone\", \"appName\": \"AirQualityMonitor\", \"location\": \"Rosedale Park\", \"time\": \"next 3 days\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5816719971570719, avg recall: 0.5811922530206113, avg f1: 0.5799828488261325
+-------------------
+uuid: 532fcb24-dbef-46cf-a3a4-27b73162bc3e
+First Round User: What's the air quality in my living area every evening?Assistant: "{\n   \"functionName\": \"CheckAirQuality\",\n   \"deviceType\": \"TV\",\n   \"appName\": \"AirSense\",\n   \"location\": \"Living Area\",\n   \"time\": \"6 PM\"\n}"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.5810670194003528, avg recall: 0.5805908289241622, avg f1: 0.5793903832792722
+-------------------
+uuid: b1af698f-1eef-47a7-81ee-fd8f7889059a
+First Round User: What's the air quality in Central Park next week?Assistant: "{\"functionName\": \"CheckAirQuality\", \"deviceType\": \"tablet\", \"appName\": \"AirHealth\", \"location\": \"Central Park\", \"time\": \"next week\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5841474089635854, avg recall: 0.5836747198879552, avg f1: 0.5824831010492776
+-------------------
+uuid: 7f284446-bdaa-4b3e-b348-62dd4c11fb0e
+First Round User: What's the air quality like in the HappyKids playground every afternoon?Assistant: "{\"functionName\": \"CheckAirQuality\", \"deviceType\": \"speaker\", \"appName\": \"AirSafeguard\", \"location\": \"HappyKids playground\", \"time\": \"every afternoon\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.587182829336114, avg recall: 0.5867135905457074, avg f1: 0.5855306696547573
+-------------------
+uuid: da71a6c1-6fe6-453c-b1d1-d4d19d8d19ce
+First Round User: Can I use AirPurity to monitor the air quality in Sydney next week?Assistant: "{\"functionName\": \"CheckAirQuality\", \"deviceType\": \"watch\", \"appName\": \"AirPurity\", \"location\": \"Sydney\", \"time\": \"next week\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5901742581090408, avg recall: 0.589708419599724, avg f1: 0.5885340705992881
+-------------------
+uuid: 926011c8-7fbc-450f-aee7-a267006751eb
+First Round User: What's the PM2.5 value at my office?Assistant: "{\"functionName\": \"CheckPM25\", \"deviceType\": \"mobile phone\", \"appName\": \"AirQualityMonitor\", \"location\": \"Your Office\", \"time\": \"12:00 PM\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.5913240835902707, avg recall: 0.590861596437136, avg f1: 0.5896956959906601
+-------------------
+uuid: 701ae94a-79e1-4b72-978d-15deeeee2b53
+First Round User: What's the PM2.5 value at the park right now?Assistant: "{\n   \"functionName\": \"CheckPM25\",\n   \"deviceType\": \"watch\",\n   \"appName\": \"PolluTrack\",\n   \"location\": \"Park\"\n}"
+precision: 0.6666666666666666, recall: 0.5, f1: 0.5714285714285715
+avg precision: 0.5918622448979592, avg recall: 0.5902125850340136, avg f1: 0.5895652165295022
+-------------------
+uuid: 86394437-f39b-4ae6-8b39-76abc17e0e64
+First Round User: Bob, can you check the PM2.5 value of my home at 3:00 PM using AirCheck on my tablet?Fail: Arguments parse failed: <CheckPM25>
+    <deviceType>tablet</deviceType>
+    <appName>AirCheck</appName>
+    <location>home</location>
+    <time>3:00 PM</time>
+  </CheckPM25>uuid: 123c35b4-e176-48a1-8c4f-02506296f6d9
+First Round User: What's the PM2.5 value at the school right now?Assistant: "{\"functionName\": \"CheckPM25\", \"deviceType\": \"TV\", \"appName\": \"CleanAir\", \"location\": \"school\"}"
+precision: 0.6666666666666666, recall: 0.5, f1: 0.5714285714285715
+avg precision: 0.5882209926224011, avg recall: 0.5854208584842387, avg f1: 0.5852856259546401
+-------------------
+uuid: f4650cd0-1822-432b-b6e5-e5d3283b1ade
+First Round User: What's the PM2.5 value at Community Park for the next 3 days?Assistant: "{\"functionName\": \"CheckPM25\", \"deviceType\": \"speaker\", \"appName\": \"PurifAir\", \"location\": \"Community Park\", \"time\": \"next 3 days\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5911005661005662, avg recall: 0.5883200133200134, avg f1: 0.5881857264724398
+-------------------
+uuid: 64b304da-24aa-4c8b-bb18-9b082b7ccc14
+First Round User: Can you consult the InfantHealth Aid app for advice on my infant's symptoms?Assistant: "{\"functionName\": \"ConsultMedicalAdvice\", \"deviceType\": \"mobile phone\", \"appName\": \"InfantHealth Aid\", \"content\": \"infant son: frequently crying, trouble sleeping, and lost appetite\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5916253306878309, avg recall: 0.5888640873015873, avg f1: 0.5887307330015664
+-------------------
+uuid: 42fb006c-5a25-4047-958c-56e6da1cca0e
+First Round User: Can I use the FitAdvice app to get medical advice on my smartwatch?Fail: Arguments parse failed: <name>ConsultMedicalAdvice</name>
+   <parameters>
+      <deviceType>watch</deviceType>
+      <appName>FitAdvice</appName>
+      <content>joint pain after workouts</content>
+   </parameters>uuid: 27155a7a-8c9d-49af-91d1-6f2b58fedbb8
+First Round User: Could you find some information on WebMD App about my symptoms?Fail: Arguments parse failed: <name>ConsultMedicalAdvice</name>
+  <func/>>
+    <parameters>
+      <deviceType>mobile phone</deviceType>
+      <appName>WebMD</appName>
+      <content>Symptoms of Lyme disease.</content>
+    </parameters>
+  </func/>>uuid: a938d5f9-f79d-442f-9458-ce471b121a49
+First Round User: Can I open the Healthcare TV app on my TV?Assistant: "{\"functionName\": \"ConsultMedicalAdvice\", \"deviceType\": \"TV\", \"appName\": \"Healthcare TV\", \"content\": \"Can you help me understand what my extra heartbeat and chest tightness may mean?\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5840864917395531, avg recall: 0.5813816002591513, avg f1: 0.5812509674754573
+-------------------
+uuid: 8072aeac-a5b5-4eb4-a7ef-6dea3b754720
+First Round User: Can you open the SkinCare Assist app on my speaker?Fail: Arguments parse failed: <func/>
+    <func>
+      <name>ConsultMedicalAdvice</name>
+      <func/>
+      <parameter>
+        <name>deviceType</name>
+        <value>speaker</value>
+      </parameter>
+      <parameter>
+        <name>appName</name>
+        <value>SkinCare Assist</value>
+      </parameter>
+      <parameter>
+        <name>content</name>
+        <value>Will 'Proactive Solution' help in reducing my acne?</value>
+      </parameter>uuid: ea0bad8f-79fc-411e-9f75-df137edabb8b
+First Round User: Can you check the bus information on Bus Tracker for me?Assistant: "{\"functionName\": \"CheckBusInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"Bus Tracker\", \"busRoute\": \"Route-7\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5829578139980827, avg recall: 0.5802892297858742, avg f1: 0.5801603504623639
+-------------------
+uuid: 92abd508-c26a-4349-9a9c-9c6300214b44
+First Round User: What time does the TouristRoute-1 bus start running in the morning?Assistant: "{\n      \"functionName\": \"CheckBusInformation\",\n      \"deviceType\": \"tablet\",\n      \"appName\": \"CityTransist\",\n      \"busRoute\": \"TouristRoute-1\"\n   }"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5835158730158732, avg recall: 0.5808650793650795, avg f1: 0.5807370592370593
+-------------------
+uuid: e9801146-c596-4978-9221-3b7a7b3e273c
+First Round User: What's the operational info for Route-10?Fail: Arguments parse failed: <checkBusInformation>
+    <deviceType>speaker</deviceType>
+    <appName>SpeakAssist</appName>
+    <busRoute>Route-10</busRoute>
+  </checkBusInformation>uuid: d27fab66-1910-4de0-9bd0-3cf9ae40ee6e
+First Round User: What is the next schedule for Route-3?Fail: Arguments parse failed: <func>
+  {"functionName": "CheckBusInformation", "deviceType": "watch", "appName": "UniTransit", "busRoute": "3"}uuid: d6e919b3-11e8-409e-957f-6cc5ea81d054
+First Round User: Can you check the operational info for Route-12 on my TV using the TransitApp?Fail: Arguments parse failed: <func>
+    <doc>
+      <param name="deviceType">string</param>
+      <param name="appName">string</param>
+      <param name="busRoute">string</param>
+    </doc>
+    <func>
+      <elem name="CheckBusInformation">
+        <elem name="functionName">CheckBusInformation</elem>
+        <elem name="parameters">
+          <elem name="deviceType">TV</elem>
+          <elem name="appName">TransitApp</elem>
+          <elem name="busRoute">Route-12</elem>
+        </elem>
+      </elem>uuid: 6d2f3e09-4f5c-49e9-9934-3fe95cf1c509
+First Round User: Can you help me find the recipe for "Chicken Parmesan" on QuickRecipes?Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"mobile phone\", \"appName\": \"QuickRecipes\", \"cate\": \"Chicken Parmesan\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.574853123067409, avg recall: 0.5722711811997527, avg f1: 0.572146486269863
+-------------------
+uuid: ce425a40-44ad-4203-863d-44354ee68a30
+First Round User: Can I get the recipe for Pad Thai on GlobalTaste?Fail: Arguments parse failed: <name>CheckRecipe</name>
+  <arguments>
+    <argument>
+      <name>deviceType</name>
+      <value>tablet</value>
+    </argument>
+    <argument>
+      <name>appName</name>
+      <value>GlobalTaste</value>
+    </argument>
+    <argument>
+      <name>cate</name>
+      <value>Pad Thai</value>
+    </argument>
+  </arguments>uuid: 745ba196-d27a-4994-a4b6-1da71c218ecf
+First Round User: Bob, can you put on the recipe instructions for Pizza Margherita on my TV through the KitchenTV app?Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"TV\", \"appName\": \"KitchenTV\", \"cate\": \"Pizza Margherita\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5738934676434678, avg recall: 0.5713446275946277, avg f1: 0.5712215313176853
+-------------------
+uuid: fa1b2de4-7cde-4d16-b69a-209ba51b334e
+First Round User: Show me the Quinoa Salad recipe on my watch.Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"watch\", \"appName\": \"FitFood\", \"cate\": \"Quinoa Salad\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5766075219896878, avg recall: 0.5740749165908403, avg f1: 0.5739526043666172
+-------------------
+uuid: c79c0599-0104-4c87-9c2d-c1680dd85716
+First Round User: Can you provide me the detailed instructions for Chocolate Soufflé recipe from Baking 101 app on my speaker?Assistant: "{\"functionName\": \"CheckRecipe\", \"deviceType\": \"speaker\", \"appName\": \"Baking 101\", \"cate\": \"Chocolate Soufflé\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5792872212176011, avg recall: 0.5767706449668476, avg f1: 0.576649106870626
+-------------------
+uuid: 5bc84fed-9fb2-4c73-926d-ae50d94f3d8d
+First Round User: What's the current lunar date?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"tablet\", \"type\": \"current lunar date\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5819332135369873, avg recall: 0.5794324648098234, avg f1: 0.579311691104144
+-------------------
+uuid: d21a2225-52ae-4111-a4c5-c3c0c4d7a981
+First Round User: What is the current time on my watch?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"watch\", \"type\": \"current exact time\"}"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.5814211309523811, avg recall: 0.578936011904762, avg f1: 0.5788159930347432
+-------------------
+uuid: bdfe9ae2-7585-4c09-af0f-a99b82a12fd0
+First Round User: What is today's date according to the Gregorian and lunar calendars?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"mobile phone\", \"type\": \"current Gregorian date\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5840209997042297, avg recall: 0.5815513161786454, avg f1: 0.5814320427674466
+-------------------
+uuid: 3dde9792-e5fb-4e01-b992-4a67d1923815
+First Round User: What is the current Gregorian date?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"TV\", \"type\": \"current Gregorian date\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5865887713109937, avg recall: 0.5841343327454439, avg f1: 0.5840157955898697
+-------------------
+uuid: e4c17d57-1aff-4f80-9dd4-b2911f0bc23f
+First Round User: Can you tell me the current date through my speaker, Bob?Assistant: "{\"functionName\": \"CheckCurrentDateTime\", \"deviceType\": \"speaker\", \"type\": \"current Gregorian date\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5891250365176747, avg recall: 0.5866856558574352, avg f1: 0.5865678459236743
+-------------------
+uuid: fe9946aa-13c8-4907-b585-8c5a1956684c
+First Round User: Check if 2022-12-27 is a national holiday in Japan on my tablet.Assistant: "{\"functionName\": \"ConvertHolidayAndDate\", \"deviceType\": \"tablet\", \"date\": \"2022-12-27\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5916303716608596, avg recall: 0.5892058652729385, avg f1: 0.5890887736924323
+-------------------
+uuid: d76e4e81-7dd6-4574-a46d-276bd2ef599e
+First Round User: When is Diwali this year?Fail: Arguments parse failed: <func>
+        <doc>
+            {"name": "ConvertHolidayAndDate", "description": "On a certain device, query the date of a certain festival, or whether a certain date is a festival. The call must contain at least one of the following parameters: holidayName, date", "parameters": {"deviceType": {"type": "string", "description": "Supported device types, including mobile phone, tablet, TV, speaker, watch", "enum": ["mobile phone", "tablet", "TV", "speaker", "watch"]}, "holidayName": {"type": "string", "description": "Name of the festival"}, "date": {"type": "string", "description": "Date"}}, "requiredParameters": ["deviceType", "holidayName", "date"]}
+        </doc>
+        <func>
+            <param name="deviceType">mobile phone</param>
+            <param name="holidayName">Diwali</param>
+            <param name="date"/>uuid: a8155ded-e81b-47fe-9c7f-3eb18761f9ac
+First Round User: When is the next Chinese New Year?Fail: Arguments parse failed: <func/>
+  <parameters>
+    <deviceType>watch</deviceType>
+    <holidayName>Chinese New Year</holidayName>
+    <date>__DATE__</date>
+  </parameters>uuid: 971fc02c-14c4-4594-8d7c-05838026f418
+First Round User: When does the Cherry Blossom festival happen this year?Fail: Arguments parse failed: <func/>
+      <call>
+         <func>
+            <name>ConvertHolidayAndDate</name>
+            <parameters>
+               <deviceType>tablet</deviceType>
+               <holidayName>Cherry Blossom festival</holidayName>
+               <date></date>
+            </parameters>uuid: 1dad8794-47e5-4bfc-b301-4690732f2655
+First Round User: Is November 23rd, 2022 considered a public holiday?Assistant: "{\"functionName\": \"ConvertHolidayAndDate\", \"deviceType\": \"TV\", \"holidayName\": \"\", \"date\": \"11/23/2022\"}"
+precision: 0.5, recall: 0.5, f1: 0.5
+avg precision: 0.5805201247165535, avg recall: 0.5781533446712019, avg f1: 0.5780390409854697
+-------------------
+uuid: f81f1899-63c3-44aa-947e-e2dc59c07803
+First Round User: Open the ESPN app on my tablet.Assistant: "{\"functionName\": \"SearchNews\",\n   \"deviceType\": \"tablet\",\n   \"appName\": \"ESPN\",\n   \"time\": \"last week\",\n   \"category\": \"basketball\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.581522964215272, avg recall: 0.5791701887855735, avg f1: 0.5790565614530112
+-------------------
+uuid: 87aebf48-163c-4f94-bb0f-9b903179db75
+First Round User: Search for recent political news on the New York Times app on my phone.Fail: Arguments parse failed: <functionName>SearchNews</functionName>
+  <deviceType>mobile phone</deviceType>
+  <appName>New York Times</appName>
+  <category>politics</category>
+  <time>yesterday</time>uuid: d1efb618-5e96-4cd1-ae75-c2812c3bba16
+First Round User: Show me the latest tech news on the CNN app from last month.Assistant: "{\"functionName\": \"SearchNews\", \"deviceType\": \"TV\", \"appName\": \"CNN\", \"time\": \"last month\", \"category\": null, \"keyword\": null}"
+precision: 1.0, recall: 0.75, f1: 0.8571428571428571
+avg precision: 0.58056947925369, avg recall: 0.5767822333611808, avg f1: 0.5772965014193085
+-------------------
+uuid: a7441fa5-9b0c-4e5b-b707-bd22dd20d9ea
+First Round User: Search for stock market news on CNBC app from last year.Fail: Arguments parse failed: <doc>
+{"name": "SearchNews", "description": "On a certain device, use a certain app to query news. Can specify time, type, or keywords of the news. The call must contain at least one of the following parameters: time, category, or keyword", "parameters": {"deviceType": {"type": "string", "description": "Supported device types, including mobile phone, tablet, TV, speaker, watch", "enum": ["mobile phone", "tablet", "TV", "speaker", "watch"]}, "appName": {"type": "string", "description": "Name of news app"}, "time": {"type": "string", "description": "Time of news, can be a day or range like last week, last year etc."}, "category": {"type": "string", "description": "Category of news, e.g. sports, politics, entertainment"}, "keyword": {"type": "string", "description": "Keywords contained in the news search"}}, "requiredParameters": ["deviceType", "appName", "time", "category", "keyword"]}
+</doc>
+<func>
+{
+  "functionName": "SearchNews",
+  "deviceType": "watch",
+  "appName": "CNBC",
+  "time": "last year",
+  "category": ""
+}uuid: 616d2bd6-8b55-48b3-880d-47e9601fa8d1
+First Round User: Can you pull up the Hollywood Reporter app on my speaker?Fail: Arguments parse failed: <func/>
+    {"name": "SearchNews", "functionName": "SearchNews", "deviceType": "speaker", "appName": "Hollywood Reporter", "time": "last weekend"}uuid: 09500dc5-8ff3-4481-a5b5-0f45823fd1e8
+First Round User: What's the meaning of Elegy on EasyDictionary?Assistant: "{\"functionName\": \"LookUpDictionary\", \"deviceType\": \"tablet\", \"appName\": \"EasyDictionary\", \"content\": \"Elegy\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5763067870826493, avg recall: 0.5725848385331145, avg f1: 0.5730902399005848
+-------------------
+uuid: fa8a1c06-93c9-4092-a58c-42d3f6d7d029
+First Round User: I came across "Break a leg" in my text, what does it mean?Fail: Arguments parse failed: <func1>
+      {"functionName": "LookUpDictionary",
+         "deviceType": "mobile phone",
+         "appName": "WordMaster",
+         "content": "break a leg"
+         }
+      </func1>uuid: 80cb5783-4ae9-42bf-bae3-942f5459d865
+First Round User: Can you find the definition of "Habeas corpus" in my LawDictionary app on my tablet?Assistant: "{\"functionName\": \"LookUpDictionary\",\n      \"deviceType\": \"tablet\",\n      \"appName\": \"LawDictionary\",\n      \"content\": \"Habeas corpus\"\n   }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5754396645021647, avg recall: 0.5717600108225109, avg f1: 0.5722596689926237
+-------------------
+uuid: f78a6e3a-ac1e-406a-ad5f-9cccde96e75c
+First Round User: Can you help me look up a character on ChineseForYou?Assistant: "{\"functionName\": \"LookUpDictionary\", \"deviceType\": \"TV\", \"appName\": \"ChineseForYou\", \"content\": \"福\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5778383104654292, avg recall: 0.5741794457896153, avg f1: 0.5746762810322134
+-------------------
+uuid: 767836db-35aa-48bb-9ca1-f327e6352c3d
+First Round User: What is the status of my package with the tracking number EX123456789 on my tablet via the Speedy Couriers app?Assistant: "{\"functionName\": \"CheckExpressInformation\", \"deviceType\": \"tablet\", \"appName\": \"Speedy Couriers\", \"idNumber\": \"EX123456789\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.580210005350455, avg recall: 0.5765716960941681, avg f1: 0.577065740127538
+-------------------
+uuid: ca92b52c-6c5f-4654-bd9f-6ba27265d380
+First Round User: What is the status of my order on Fast logistics?Fail: Arguments parse failed: <name>CheckExpressInformation</name>
+  <parameters>
+    <deviceType>mobile phone</deviceType>
+    <appName>Fast logistics</appName>
+    <idNumber>FL987654321</idNumber>
+  </parameters>uuid: 0df3d27e-2186-4f4e-bfdc-d44515f3b9f3
+First Round User: Can you check the status of my delivery with the ID number QS102938475 on the QuickShip app on my watch?Assistant: "{\n      \"functionName\": \"CheckExpressInformation\",\n      \"deviceType\": \"watch\",\n      \"appName\": \"QuickShip\",\n      \"idNumber\": \"QS102938475\"\n   }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5793187830687833, avg recall: 0.5757208994708995, avg f1: 0.5762094541261209
+-------------------
+uuid: f133ce9c-1549-44f6-856a-c9a16923bc2c
+First Round User: Can you check my delivery status on the Express Now app?Fail: Arguments parse failed: <func/>
+   <func name="CheckExpressInformation">
+      <key>functionName</key>
+      <value>CheckExpressInformation</value>
+      <key>deviceType</key>
+      <value>TV</value>
+      <key>appName</key>
+      <value>Express Now</value>
+      <key>idNumber</key>
+      <value>EN564738291</value>uuid: 51a5f8d5-b80e-41e3-8e57-2d9a8c66b5ef
+First Round User: Hey Bob, can you check the status of my Medic Deliver order with the id number MD112233445?Assistant: "{\"functionName\": \"CheckExpressInformation\", \"deviceType\": \"speaker\", \"appName\": \"Medicine Deliver\", \"idNumber\": \"MD112233445\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5766156462585036, avg recall: 0.5730572998430142, avg f1: 0.5735404857657607
+-------------------
+uuid: 8ce7b289-16f0-4a1c-9ee5-10928bb97fa8
+First Round User: How's my OfficeSuppliesInc order doing?Fail: Arguments parse failed: <func doc:CheckOrderInformation>
+<func xmlns="http://ws.apache.org/ns/syn/0.4">
+<func xmlns="http://ws.apache.org/ns/syn/0.4">
+  <func:CheckOrderInformation>
+    <deviceType>tablet</deviceType>
+    <appName>OfficeSuppliesInc</appName>
+    <idNumber>12345ABC</idNumber>
+  </func:CheckOrderInformation>uuid: 64e850a3-ffc9-4c44-aa55-f288a95ce052
+First Round User: What is the status of my FreshGroceries order?Assistant: "{\"functionName\": \"CheckOrderInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"FreshGroceries\", \"idNumber\": \"FG67589\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5757828674948242, avg recall: 0.5722631987577641, avg f1: 0.572741132659611
+-------------------
+uuid: ebe3e9e8-bdc5-4e5d-99b8-2b42cdab993f
+First Round User: What is the status of my order with the id number TG22105?Fail: Arguments parse failed: <func>
+    {"functionName": "CheckOrderInformation",
+     "deviceType": "TV",
+     "appName": "TechGadgets",
+     "idNumber": "TG22105"
+    }uuid: d38bbdc9-2f00-4e1f-bc87-14f9ef9c24c5
+First Round User: Can I track my order from the BookWorld app on my smart watch?Fail: Arguments parse failed: <func>
+    <method>POST</method>
+    <request>
+      <resource>https://bookworldapi.com/orders</resource>
+      <body>
+        <input>{ "deviceType": "watch", "appName": "BookWorld", "idNumber": "BW457632" }</input>
+      </body>
+    </request>uuid: a07f5ced-5503-453a-bdd7-15a547223845
+First Round User: When will my order from the GoShopping app arrive?Fail: Arguments parse failed: <func name="CheckOrderInformation" />
+  <func parameter name="deviceType">mobile phoneuuid: 7a7ea42f-2809-4628-95be-3bac2b3d2766
+First Round User: How many call minutes balance do I have left this month in my mobile phone?Assistant: "{\"functionName\": \"CheckBalance\", \"deviceType\": \"mobile phone\", \"appName\": \"BalanceCheckApp\", \"type\": \"call minutes balance\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5688513171225938, avg recall: 0.5654065349544074, avg f1: 0.5658743000498321
+-------------------
+uuid: 8349475b-372d-4877-92c2-ba0602f87690
+First Round User: How much data do I have left on the DataUsageApp?Assistant: "{\"functionName\": \"CheckBalance\", \"deviceType\": \"mobile phone\", \"appName\": \"DataUsageApp\", \"type\": \"data balance\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5711325270849082, avg recall: 0.5677059712774, avg f1: 0.5681712614252298
+-------------------
+uuid: fd5218ba-22da-4f0a-a968-781f062b2a51
+First Round User: How much balance do I have in my MinuteCheckApp?Assistant: "{\"functionName\": \"CheckBalance\", \"deviceType\": \"tablet\", \"appName\": \"MinuteCheckApp\", \"type\": \"call minutes balance\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5716353383458649, avg recall: 0.5682268170426067, avg f1: 0.5686896582949216
+-------------------
+uuid: 7930687b-7663-4795-8616-e9f9c528a0dc
+First Round User: What is my remaining data balance on my DataCheckApp?Assistant: "{\"functionName\": \"CheckBalance\", \"deviceType\": \"watch\", \"appName\": \"DataCheckApp\", \"type\": \"data balance\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.57387808526552, avg recall: 0.5704874096235354, avg f1: 0.5709478276232205
+-------------------
+uuid: b2557c34-b1f3-458c-b368-7ab5bd533ce1
+First Round User: Can you tell me my remaining data balance on TVDataCheck?Fail: Arguments parse failed: <func name="CheckBalance">
+    <arg name="deviceType">TV</arg>
+    <arg name="appName">TVDataCheck</arg>
+    <arg name="type">data balance</arg>uuid: 85cd34dc-0ccf-4d5e-b94a-9d4994352c62
+First Round User: Can you check my mobile operator points on my tablet?Fail: Arguments parse failed: <func name="CheckMobileOperatorPoints">
+    <param name="deviceType">tablet</param>
+    <param name="appName">Points Tracker</param>uuid: 8ed4befa-56b1-41e5-9d95-c4f8922e3e7e
+First Round User: How many points do I have on Data Points Manager?Fail: Arguments parse failed: <doc>
+{"name": "CheckMobileOperatorPoints", "description": "On a certain device, use a certain app to query accumulated points from the mobile carrier.", "parameters": {"deviceType": {"type": "string", "description": "Supported device types, including mobile phone, tablet, TV, speaker, watch", "enum": ["mobile phone", "tablet", "TV", "speaker", "watch"]}, "appName": {"type": "string", "description": "Name of points query app"}}, "requiredParameters": ["deviceType", "appName"]}
+</doc>
+<func>
+{"functionName": "CheckMobileOperatorPoints", "deviceType": "mobile phone", "appName": "Data Points Manager"}uuid: c6f905ea-aeab-42b4-9c53-845adc3863fd
+First Round User: Check my mobile operator points on my watch.Fail: Arguments parse failed: <funcname>CheckMobileOperatorPoints</funcname>
+   <functionparams>
+      <functionparam name="deviceType">watch</functionparam>
+      <functionparam name="appName">Fitness Communication App</functionparam>
+   </functionparams>uuid: 3a14858a-57b9-4f9a-9462-22f0d7d57096
+First Round User: Open Broadband Points Tracker on my TV.Fail: Arguments parse failed: <func name="CheckMobileOperatorPoints">
+        <param name="deviceType">TV</param>
+        <param name="appName">Broadband Points Tracker</param>uuid: b9f020b3-98db-46c8-8f41-a213bec170bf
+First Round User: Can you check how many points I have on my Academic Points Checker app?Assistant: "{\"functionName\": \"CheckMobileOperatorPoints\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 0.5, f1: 0.6666666666666666
+avg precision: 0.5614757070340829, avg recall: 0.5556502296350013, avg f1: 0.5569426484401105
+-------------------
+uuid: 289ae0b0-b3a5-4c43-ae2b-4e309c31a89d
+First Round User: Open the PhoneNumLocate app on my device.Fail: Arguments parse failed: <funcName>CheckAttribution</funcName>
+  <deviceType>mobile phone</deviceType>
+  <appName>PhoneNumLocate</appName>
+  <type>phone number</type>uuid: 29a7f274-ad83-4372-9934-221f1e93fa10
+First Round User: Use the SafeNet app to check where the IP address my child most frequently uses is registered.Assistant: "{\"functionName\": \"CheckAttribution\", \"deviceType\": \"tablet\", \"appName\": \"SafeNet\", \"type\": \"network IP\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5608578607322328, avg recall: 0.5550909308446998, avg f1: 0.5563703605160893
+-------------------
+uuid: 0a682301-49db-4088-8034-8ac02f39aac0
+First Round User: Can I use TraceCall to identify the location of the unknown number on my watch?Assistant: "{\"functionName\": \"CheckAttribution\",\n \"deviceType\": \"watch\",\n \"appName\": \"TraceCall\",\n \"type\": \"phone number\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5630535714285716, avg recall: 0.5573154761904763, avg f1: 0.5585885087135088
+-------------------
+uuid: 2091a49f-e398-4272-9bc7-b51063c4aa63
+First Round User: Open the IPTVTracker app on my smart TV.Assistant: "{\"functionName\": \"CheckAttribution\", \"deviceType\": \"TV\", \"appName\": \"IPTVTracker\", \"type\": \"network IP\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5652274342572852, avg recall: 0.5595178867566929, avg f1: 0.560784585784586
+-------------------
+uuid: 3b9a5b0a-820b-474d-bb8f-1a3429d648e8
+First Round User: Convert the post code 10012 to its corresponding location.Fail: Arguments parse failed: <convertLocationAndPostCode>
+    <deviceType>mobile phone</deviceType>
+    <location>10012</location>
+    <sourceType>post code</sourceType>
+    <targetType>location</targetType>
+  </convertLocationAndPostCode>uuid: 41ee9c1d-9f19-4f9b-9a5a-8cb04b0638ed
+First Round User: What is the postal code for Chicago?Assistant: "{\n      \"functionName\": \"ConvertLocationAndPostCode\",\n      \"deviceType\": \"tablet\",\n      \"location\": \"Chicago, IL, United States\",\n      \"sourceType\": \"zip code\",\n      \"targetType\": \"location\"\n   }"
+precision: 0.25, recall: 0.25, f1: 0.25
+avg precision: 0.5608902181562282, avg recall: 0.5552369223551491, avg f1: 0.556491141589664
+-------------------
+uuid: d5055e40-9665-4a17-96c7-bfdba73b4a8e
+First Round User: Where is the location for post code 90210?Fail: Arguments parse failed: <func name="ConvertLocationAndPostCode">
+    <parameter name="deviceType">mobile phone</parameter>
+    <parameter name="location">
+      <parameter name="postCode">90210</parameter>
+    </parameter>
+    <parameter name="sourceType">postal code</parameter>
+    <parameter name="targetType">city or town</parameter>uuid: b965fa49-3d3a-465d-bb86-2df0b0c1ea7e
+First Round User: Bob, could you please check the current oil prices on my tablet?Fail: Arguments parse failed: <func/>
+     <func>
+        <func>
+           <query>
+              <![CDATA[{"functionName": "CheckCurrentOilPrice", "deviceType": "tablet"}]>
+           </query>uuid: ca0d1999-8b39-407e-b94b-be7558cdea6c
+First Round User: What's the current oil price?Assistant: "{\"functionName\": \"CheckCurrentOilPrice\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5575762829403608, avg recall: 0.5520053166897828, avg f1: 0.5532412705956397
+-------------------
+uuid: f378fb8f-bf26-4d10-9a48-a4f902193a6b
+First Round User: What's the current oil price on my watch?Assistant: "{\"functionName\": \"CheckCurrentOilPrice\", \"deviceType\": \"watch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.559713595583161, avg recall: 0.5541695422130206, avg f1: 0.5553995253270617
+-------------------
+uuid: 6ae9d1fc-6ec8-41eb-bff5-4308d9391142
+First Round User: What is the current oil price?Fail: Arguments parse failed: <func>
+    {"functionName": "CheckCurrentOilPrice", "deviceType": "TV"}uuid: 5fd217e6-0502-439b-a56c-e266ec550588
+First Round User: What are the current oil prices?Fail: Arguments parse failed: <func xmlns="http://ws.cdyne.com/schemas/2007/03" soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding" soap:role="http://tempuri.org/SubmitAPIRole" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <Body>
+         <CheckCurrentOilPrice xmlns="http://tempuri.org/">
+            <CheckCurrentOilPriceRequest xmlns:a="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+               <a:KeyValuePairOfstringanyType>
+                  <a:key>functionName</a:key>
+                  <a:value xsi:type="xsd:string">CheckCurrentOilPrice</a:value>
+               </a:KeyValuePairOfstringanyType>
+               <a:KeyValuePairOfstringanyType>
+                  <a:key>given parameter name</a:key>
+                  <a:value xsi:type="xsd:string">deviceType</a:value>
+               </a:KeyValuePairOfstringanyType>
+               <a:KeyValuePairOfstringanyType>
+                  <a:key>given parameter value</a:key>
+                  <a:value xsi:type="xsd:string">speaker</a:value>
+               </a:KeyValuePairOfstringanyType>
+            </CheckCurrentOilPriceRequest>
+         </CheckCurrentOilPrice>
+      </Body>uuid: a91a343c-9c4d-4576-8b80-3743692618d8
+First Round User: What time does Avengers: Endgame play on the first day?Assistant: "{\"functionName\": \"CheckMovieTicketInformation\", \"deviceType\": \"tablet\", \"appName\": \"CineWorld\", \"movieName\": \"Avengers: Endgame\", \"time\": \"First day\"}"
+precision: 0.75, recall: 0.75, f1: 0.75
+avg precision: 0.5552891156462587, avg recall: 0.5498242630385489, avg f1: 0.5510366749652466
+-------------------
+uuid: b0718d43-db36-472b-ae28-0a54140c9fb3
+First Round User: What animated movies are playing in San Francisco this weekend?Fail: Arguments parse failed: <func name="CheckMovieTicketInformation">
+      <arg name="deviceType">mobile phone</arg>
+      <arg name="appName">MovieMania</arg>
+      <arg name="movieName">Inside Out</arg>
+      <arg name="time">This weekend</arg>
+      <arg name="city">San Francisco</arg>
+      <arg name="cinemaName">AMC Metreon 16</arg>uuid: bf9ea505-c1c4-4c41-8ef0-9161b57d2b68
+First Round User: Will there be enough tickets available for Joker next Monday on my watch?Fail: Arguments parse failed: {"functionName": "CheckMovieTicketInformation", "deviceType": "watch", "appName": "Fandango"}
+    {"movieName": "Joker", "time": "Next Monday", "city": null, "cinemaName": null}uuid: 4d5f6c72-f2cd-471a-a8ea-5359fb41cc1c
+First Round User: Check if there are any tickets left for Insidious on TicketMaster.Fail: Arguments parse failed: <func/>
+   <doc>
+      <doc/>
+   </doc>
+   <func>
+      <name>CheckMovieTicketInformation</name>
+      <parameters>
+         <parameter>
+            <name>deviceType</name>
+            <type>string</type>
+            <description>Supported device types, including mobile phone, tablet, TV, speaker, watch</description>
+            <enum>
+               <value>mobile phone</value>
+            </enum>
+         </parameter>
+         <parameter>
+            <name>appName</name>
+            <type>string</type>
+            <description>Name of movie ticket app</description>
+         </parameter>
+         <parameter>
+            <name>movieName</name>
+            <type>string</type>
+            <description>Name of the movie to query</description>
+         </parameter>
+         <parameter>
+            <name>time</name>
+            <type>string</type>
+            <description>Time of the movie ticket, can be a day or range like next week, next month etc.</description>
+         </parameter>
+         <parameter>
+            <name>city</name>
+            <type>string</type>
+            <description>Name of the city</description>
+         </parameter>
+         <parameter>
+            <name>cinemaName</name>
+            <type>string</type>
+            <description>Name of the cinema</description>
+         </parameter>
+      </parameters>
+      <requiredParameters>
+         <requiredParameter>deviceType</requiredParameter>
+         <requiredParameter>appName</requiredParameter>
+         <requiredParameter>movieName</requiredParameter>
+         <requiredParameter>time</requiredParameter>
+         <requiredParameter>city</requiredParameter>
+         <requiredParameter>cinemaName</requiredParameter>
+      </requiredParameters>uuid: 4d3b1cda-82c6-4aa4-b775-3ab70868e43c
+First Round User: I want to check for movie tickets for Fast & Furious 9 next Tuesday.Assistant: "{\"functionName\": \"CheckMovieTicketInformation\",\n    \"deviceType\": \"TV\",\n    \"appName\": \"Moviefy\",\n    \"movieName\": \"Fast & Furious 9\",\n    \"time\": \"next Tuesday\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5495827770360482, avg recall: 0.5442200712060526, avg f1: 0.5454098212275784
+-------------------
+uuid: 970979a9-cf38-4f0a-abbd-1b8961c02148
+First Round User: What is the rating of Inception on the IMDb app on my mobile phone?Assistant: "{\"functionName\": \"CheckMovieRating\", \"deviceType\": \"mobile phone\", \"appName\": \"IMDb\", \"movieName\": \"Inception\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5516777408637875, avg recall: 0.5463399778516059, avg f1: 0.5475241941521013
+-------------------
+uuid: 4e8f8e17-6314-49f2-8d8d-e12c49f4694a
+First Round User: Open the Rotten Tomatoes app on my tablet.Assistant: "{\n    \"functionName\": \"CheckMovieRating\",\n    \"deviceType\": \"tablet\",\n    \"appName\": \"Rotten Tomatoes\",\n    \"movieName\": \"Avengers: Endgame\"\n  }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.553753306878307, avg recall: 0.5484402557319226, avg f1: 0.5496189895495452
+-------------------
+uuid: 3c23800c-2037-42ce-94ec-db5c19773003
+First Round User: What is the rating of the movie "The Shawshank Redemption" on Netflix on my TV?Assistant: "{\n      \"functionName\": \"CheckMovieRating\",\n      \"deviceType\": \"TV\",\n      \"appName\": \"Netflix\",\n      \"movieName\": \"The Shawshank Redemption\"\n   }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5558097432521397, avg recall: 0.5505211762124206, avg f1: 0.5516944780769667
+-------------------
+uuid: 47a4b2b2-cbda-476b-a319-c4504d5be97e
+First Round User: What's the rating of the film "Citizen Kane" on Flickmetrix?Assistant: "{\"functionName\": \"CheckMovieRating\", \"deviceType\": \"speaker\", \"appName\": \"Flickmetrix\", \"movieName\": \"Citizen Kane\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5578473132372217, avg recall: 0.552583005679336, avg f1: 0.5537509254252375
+-------------------
+uuid: 45ea82a3-82a6-4ef4-977f-d7d1c53fbd39
+First Round User: What's the rating of The Godfather on my Google Movies app on my watch?Assistant: "{\"functionName\": \"CheckMovieRating\", \"deviceType\": \"watch\", \"appName\": \"Google Movies\", \"movieName\": \"The Godfather\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5598662752772343, avg recall: 0.554626005653403, avg f1: 0.5557885924324282
+-------------------
+uuid: 30d57a60-7183-47b9-8949-df205a2f1deb
+First Round User: What are the box office rankings of movies for this year on my mobile phone?Fail: Arguments parse failed: <functionName>CheckBoxOfficeRanking</functionName>
+  <param name="deviceType" value="mobile phone" />
+  <param name="time" value="this year" />
+  <param name="area" value="United States" />uuid: f26b73b7-3918-40f7-886c-a455f049faca
+First Round User: What are the box office rankings of movies for this month?Fail: Arguments parse failed: <func>
+      <functionName>CheckBoxOfficeRanking</functionName>
+      <deviceType>tablet</deviceType>
+      <time>this month</time>
+      <area>France</area>uuid: 9c296266-a52a-4a55-bf0b-2fafd0e9ca75
+First Round User: What is the box office ranking of films in Asia this year?Assistant: "{\"functionName\": \"CheckBoxOfficeRanking\", \"deviceType\": \"watch\", \"time\": \"this year\", \"area\": \"Asia\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5568050193050195, avg recall: 0.5516355641355642, avg f1: 0.5527824402824404
+-------------------
+uuid: e3668932-e85c-4781-af90-2a5e94d3ed6a
+First Round User: What was my movie's box office ranking this week?Assistant: "{\"functionName\": \"CheckBoxOfficeRanking\", \"deviceType\": \"TV\", \"area\": \"Los Angeles\"}"
+precision: 1.0, recall: 0.6666666666666666, f1: 0.8
+avg precision: 0.5587924407431135, avg recall: 0.5521513986760624, avg f1: 0.5538910392049406
+-------------------
+uuid: 5422b1f5-a7bd-4c03-ba30-c04b3179548d
+First Round User: What are the highest grossing Hollywood movies in Europe this month?Assistant: "{\n        \"functionName\": \"CheckBoxOfficeRanking\",\n        \"deviceType\": \"speaker\",\n        \"time\": \"this month\",\n        \"area\": \"Europe\"\n    }"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5607621173469389, avg recall: 0.5541507227891158, avg f1: 0.5558825970656329
+-------------------
+uuid: 4b2ecf98-f218-4470-9d61-bcbefe831b27
+First Round User: Bob, can you pull up my husband's credit record?Assistant: "{\"functionName\": \"CheckCreditRecord\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5627142857142858, avg recall: 0.5561322751322753, avg f1: 0.5578564521897856
+-------------------
+uuid: 01c114aa-feff-47ca-b67b-18305ce26dcb
+First Round User: Check my credit record through the TV, please.Assistant: "{\"functionName\": \"CheckCreditRecord\", \"deviceType\": \"TV\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5646491782553731, avg recall: 0.5580962916139909, avg f1: 0.5598128395694769
+-------------------
+uuid: a7c1d6e7-59ea-4908-992c-8b16bb94c6c1
+First Round User: Check my credit record on my speaker.Assistant: "{\"functionName\": \"CheckCreditRecord\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5665670232850851, avg recall: 0.5600430039857354, avg f1: 0.561751990055955
+-------------------
+uuid: ec3f213b-9abb-4dea-a59a-b81b09073c37
+First Round User: Look up my credit record on my watch.Fail: Arguments parse failed: <func>
+    <doc>
+      {"name": "CheckCreditRecord", "description": "On a certain device, query credit report records.", "parameters": {"deviceType": {"type": "string", "description": "Supported device types, including mobile phone, tablet, TV, speaker, watch", "enum": ["mobile phone", "tablet", "TV", "speaker", "watch"]}}}
+    </doc>
+    <func>
+      <funcCall>
+        <name>CheckCreditRecord</name>
+        <parameters>
+          <name>deviceType</name>
+          <value>watch</value>
+        </parameters>
+      </funcCall>uuid: 48ad4a7c-3c63-4104-af61-6ab95b36d910
+First Round User: Is there any traffic restriction in Seattle tomorrow?Assistant: "{\"functionName\": \"CheckTrafficRestrictionInformation\", \"deviceType\": \"mobile phone\", \"time\": \"tomorrow\", \"city\": \"Seattle\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5659856519026827, avg recall: 0.5595186109378251, avg f1: 0.5612126713655099
+-------------------
+uuid: e5dfba4b-7143-4fd8-b108-ba2ef9ea0df1
+First Round User: Check the license plate number restriction in New York for tomorrow morning on my tablet.Fail: Arguments parse failed: <func.CheckTrafficRestrictionInformation>
+    <func.CheckTrafficRestrictionInformation.deviceType>tablet</func.CheckTrafficRestrictionInformation.deviceType>
+    <func.CheckTrafficRestrictionInformation.time>tomorrow morning</func.CheckTrafficRestrictionInformation.time>
+    <func.CheckTrafficRestrictionInformation.city>New York</func.CheckTrafficRestrictionInformation.city>
+  </func.CheckTrafficRestrictionInformation>uuid: 07654fc2-aa1e-45c6-9dc6-8e20e8c9c88c
+First Round User: What's the traffic restriction information for steering at 7AM?Assistant: "{\"functionName\": \"CheckTrafficRestrictionInformation\", \"deviceType\": \"TV\", \"time\": \"7:00:00\", \"city\": \"Toronto\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5639713461142034, avg recall: 0.5575602968460113, avg f1: 0.559239690083846
+-------------------
+uuid: ab22e876-d34c-4cdb-99c0-22b3c829f995
+First Round User: Can you check traffic restriction in London this afternoon on my watch?Fail: Arguments parse failed: <func/>
+  <name>CheckTrafficRestrictionInformation</name>
+  <functionName>queryTraffic</functionName>
+  <params>
+    <param name="deviceType">watch</param>
+    <param name="time">14:00:00</param>
+    <param name="city">London</param>
+  </params>uuid: e6e01c99-628b-4699-8393-fdb598ed032f
+First Round User: What's the traffic restriction information in San Francisco for the evening?Assistant: "{\"functionName\": \"CheckTrafficRestrictionInformation\", \"deviceType\": \"speaker\", \"time\": \"6 PM\", \"city\": \"San Francisco\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.5619916206826079, avg recall: 0.5556356018802372, avg f1: 0.5573005797254725
+-------------------
+uuid: 07165385-3e33-43d8-8762-71746e2985a0
+First Round User: Tell me some information about Apple's new smartwatch.Assistant: "{\"functionName\": \"CheckBrandInformation\", \"deviceType\": \"watch\", \"brand\": \"Apple\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5638634513634514, avg recall: 0.5575345950345951, avg f1: 0.5591924575898936
+-------------------
+uuid: 6dd41235-7cb4-4010-a829-c9b5fe761410
+First Round User: Tell me more about the Microsoft Surface Pro features.Fail: Arguments parse failed: <func xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+   <DeviceType>tablet</DeviceType>
+   <Brand>Microsoft</Brand>
+   <DeviceName>Surface Pro</DeviceName>uuid: 011d29b2-29ec-4021-ae7c-04ec9d30ba15
+First Round User: What are the features of the Garmin fitness watch?Assistant: "{\"functionName\": \"CheckBrandInformation\", \"deviceType\": \"mobile phone\", \"brand\": \"Garmin\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5633222356739307, avg recall: 0.5570470137207426, avg f1: 0.558690826593369
+-------------------
+uuid: 4adda00f-2e87-482f-8726-e4d167638e02
+First Round User: Can you check the specifications of Bose for me?Fail: Arguments parse failed: <func/>
+    {"functionName": "CheckBrandInformation", "deviceType": "speaker", "brand": "Bose"}uuid: d2212358-2867-4ab1-8c1a-a7f1a319b8a8
+First Round User: What's the current price of gold on the Finance 24/7 app on my mobile phone?Assistant: "{\"functionName\": \"CheckFinancialProductInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"Finance 24/7\", \"productType\": \"gold\", \"productId\": \"GOL123\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5627901160464186, avg recall: 0.5565676270508204, avg f1: 0.5581976263698953
+-------------------
+uuid: 7874f43f-b8de-4d86-be72-aa4706ad5f95
+First Round User: What's the current price of my GOOG stock?Assistant: "{\"functionName\": \"CheckFinancialProductInformation\", \"deviceType\": \"tablet\", \"appName\": \"Stock Tracker\", \"productType\": \"stock\", \"productId\": \"GOOG\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5646194461048019, avg recall: 0.5584229926280136, avg f1: 0.5600461718662556
+-------------------
+uuid: e7a33748-ffa1-419d-8210-72d3b7b872d3
+First Round User: What's the current performance of my VTSAX fund on my Retirement Fund Tracker app?Assistant: "{\"functionName\": \"CheckFinancialProductInformation\", \"deviceType\": \"mobile phone\", \"appName\": \"Retirement Fund Tracker\", \"productType\": \"fund\", \"productId\": \"VTSAX\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5664335317460318, avg recall: 0.560262896825397, avg f1: 0.5618793128168129
+-------------------
+uuid: 70239a44-654b-463f-b3d6-5af6b21b7242
+First Round User: What is the latest price for AAPL stock on Market Watcher app?Assistant: "{\"functionName\": \"CheckFinancialProductInformation\", \"deviceType\": \"watch\", \"appName\": \"Market Watcher\", \"productType\": \"stock\", \"productId\": \"AAPL\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5682325627346375, avg recall: 0.5620875321082791, avg f1: 0.5636972409793987
+-------------------
+uuid: e7de9b40-f832-4d24-98e0-71ad5202b39a
+First Round User: Check the current gold prices on my TV using the Gold Market Info app.Assistant: "{\"functionName\": \"CheckFinancialProductInformation\", \"deviceType\": \"TV\", \"appName\": \"Gold Market Info\", \"productType\": \"gold\", \"productId\": \"6575\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.570016725698544, avg recall: 0.5638970877607242, avg f1: 0.5655001449422937
+-------------------
+uuid: 42581b8b-3864-4d2e-9914-8eadf21534b9
+First Round User: What's the current exchange rate between USD and EUR?Assistant: "{\"functionName\": \"CheckExchangeRate\", \"deviceType\": \"mobile phone\", \"sourceCurrency\": \"USD\", \"targetCurrency\": \"EUR\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5717862041936117, avg recall: 0.5656917499510093, avg f1: 0.5672882101894449
+-------------------
+uuid: ddbdaf0f-6fec-4ddd-bd05-f2f2a7e14d61
+First Round User: What's the current exchange rate of Bitcoin?Assistant: "{\"functionName\": \"CheckExchangeRate\", \"deviceType\": \"tablet\", \"sourceCurrency\": \"Bitcoin\", \"targetCurrency\": \"US Dollar\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5735411787665887, avg recall: 0.5674717017954723, avg f1: 0.5690616191640783
+-------------------
+uuid: 6ee771e0-82b1-40bc-870e-06db44e911cb
+First Round User: What's the exchange rate between Japanese Yen and British Pounds on my watch right now?Assistant: "{\"functionName\": \"CheckExchangeRate\", \"deviceType\": \"watch\", \"sourceCurrency\": \"JPY\", \"targetCurrency\": \"GBP\"}"
+precision: 0.3333333333333333, recall: 0.3333333333333333, f1: 0.3333333333333333
+avg precision: 0.5725607385811469, avg recall: 0.5665160349854229, avg f1: 0.5680994628953814
+-------------------
+uuid: 6b00acf0-41fc-414f-82ee-be0d7ac9ad3a
+First Round User: What's the current exchange rate from Australian dollar to CAD?Fail: Arguments parse failed: <func/>
+<func>
+  {"functionName": "CheckExchangeRate", "deviceType": "TV", "sourceCurrency": "AUD", "targetCurrency": "CAD"}uuid: cff050b4-43d0-462b-b502-617ef7083baa
+First Round User: What's the current exchange rate from EUR to USD?Assistant: "{\"functionName\": \"CheckExchangeRate\", \"deviceType\": \"speaker\", \"sourceCurrency\": \"EUR\", \"targetCurrency\": \"USD\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5719732022363603, avg recall: 0.5659774436090227, avg f1: 0.567548050240358
+-------------------
+uuid: 5978696f-4bd4-44aa-b3c4-b9dbf87c3d33
+First Round User: Can you check the balance of the account on the BusinessBank app?Assistant: "{\"functionName\": \"CheckCurrentAccountBalance\", \"deviceType\": \"tablet\", \"appName\": \"BusinessBank\", \"account\": \"Company123Account\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5736991167434717, avg recall: 0.5677275345622121, avg f1: 0.5692918081022921
+-------------------
+uuid: 77c51045-5d9b-40a9-8733-507f04379c1d
+First Round User: Check the balance on my FamilyFinance app.Fail: Arguments parse failed: <functionName>CheckCurrentAccountBalance</functionName>
+   <deviceType>mobile phone</deviceType>
+   <appName>FamilyFinance</appName>
+   <account>LindaFamilySavings</account>uuid: f850a7a5-fbae-48b7-bfe0-5988543dcf08
+First Round User: Check the balance in my GaryPensionAccount.Assistant: "{\"functionName\": \"CheckCurrentAccountBalance\", \"deviceType\": \"watch\", \"appName\": \"RetireeFinance\", \"account\": \"GaryPensionAccount\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.573109523809524, avg recall: 0.5671857142857144, avg f1: 0.5687374736374737
+-------------------
+uuid: e6a0137e-f293-4165-b2c5-e026d1939289
+First Round User: What's my balance in my StudentBank app?Fail: Arguments parse failed: <func name="CheckCurrentAccountBalance">
+    <param name="deviceType">mobile phone</param>
+    <param name="appName">StudentBank</param>
+    <param name="account">EllaCheckingAccount</param>uuid: 04eedec1-5cbe-4cc7-8c86-dcd40542930f
+First Round User: What's my current balance in the Bank app on my TV?Assistant: "{\"functionName\": \"CheckCurrentAccountBalance\", \"deviceType\": \"TV\", \"appName\": \"Bank\", \"account\": \"NoahSavingsAccount\"}"
+precision: 0.6666666666666666, recall: 0.6666666666666666, f1: 0.6666666666666666
+avg precision: 0.571206538170824, avg recall: 0.5653297430083145, avg f1: 0.566869186809663
+-------------------
+uuid: 2f1157b1-285a-4ff3-af5c-36f3e97222dc
+First Round User: Is it possible for you to identify the insect in my image named "captured_insect.jpeg"?Assistant: "{\"functionName\": \"ObjectRecognition\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5729013739883306, avg recall: 0.5670478072651987, avg f1: 0.5685811663084391
+-------------------
+uuid: 3fc53e0f-113c-483a-8c9f-3e58a47ac3c3
+First Round User: Can you recognize the architectural style of the image new_york_skyscraper.png on my tablet?Assistant: "{\"functionName\": \"ObjectRecognition\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5745828646419199, avg recall: 0.5687523434570679, avg f1: 0.5702796656536815
+-------------------
+uuid: 3d69de81-abcd-4f7f-b94c-b5e1b9a8c880
+First Round User: I need you to identify this bird species in my photo.Assistant: "{\"functionName\": \"ObjectRecognition\", \"deviceType\": \"mobile phone\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5762511671335201, avg recall: 0.5704435107376284, avg f1: 0.5719648434354317
+-------------------
+uuid: 84db5647-52b7-482e-80db-720c8f667f8a
+First Round User: Extract the information from the photo named Attendance_Session2.png.Assistant: "{\"functionName\": \"ExtractFormInformation\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5779064360119048, avg recall: 0.5721214657738096, avg f1: 0.5736368557657621
+-------------------
+uuid: 813e88f8-fb96-46f1-a624-0e46f4ec9de3
+First Round User: Extract the information from the file named stockchart_today.jpeg.Fail: Arguments parse failed: <func method="POST" action="https://myapi.com/ExtractFormInformation">
+    <parameter name="deviceType">mobile phone</parameter>
+    <parameter name="filePath">stockchart_today.jpeg</parameter>uuid: 568d200c-5e48-4a5a-9cea-fba8fffc6c00
+First Round User: Give me the information from the picture food_diary_Amy_10thNov.jpeg.Fail: Arguments parse failed: <func/>
+  <doc>
+    <doc/>
+      {"name": "ExtractFormInformation", "description": "On a certain device, extract table information from pictures.", "parameters": {"deviceType": {"type": "string", "description": "Supported device types, including mobile phone, tablet, TV, speaker, watch", "enum": ["mobile phone", "tablet", "TV", "speaker", "watch"]}}, "requiredParameters": ["deviceType"]}
+  </doc>
+  <func>
+    {"functionName": "ExtractFormInformation", "deviceType": "mobile phone"}uuid: 8402bb60-261a-4528-adc7-cd47abae5404
+First Round User: Can you extract information from the picture named event_schedule_saturday.jpg on my watch?Fail: Arguments parse failed: <func/>
+   {
+      "functionName": "ExtractFormInformation",
+      "deviceType": "watch"
+   }uuid: c1cfc34e-7bc7-43a2-998c-174d74d93b8b
+First Round User: Extract the ingredients and methods from the picture titled beef_stew_recipe.jpg.Fail: Arguments parse failed: <func/>
+   <func>
+      <deviceType>TV</deviceType>uuid: e68b66b8-f9e4-49cb-90e0-f0e13d7c1111
+First Round User: Open the file named ProjectXYZConcept1.png and generate a caption.Assistant: "{\"functionName\": \"ImageCaption\", \"deviceType\": \"tablet\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.570666849115125, avg recall: 0.5649927020616676, avg f1: 0.5664790615940042
+-------------------
+uuid: 65d1eac2-7259-4667-b8b9-dd61a2967156
+First Round User: Translate this Spanish text in English using SoMTranslator on my mobile phone.Fail: Arguments parse failed: <func>
+    <doc>
+      <name>Translate</name>
+      <description>On a certain device, use certain software to translate text from one language to another.</description>
+      <parameters>
+        <param name="deviceType">
+          <type>string</type>
+          <description>Supported device types, including mobile phone, tablet, TV, speaker, watch</description>
+          <enum>
+            <value>mobile phone</value>
+            <value>tablet</value>
+            <value>TV</value>
+            <value>speaker</value>
+            <value>watch</value>
+          </enum>
+        </param>
+        <param name="appName">
+          <type>string</type>
+          <description>Name of translation app</description>
+        </param>
+        <param name="sourceLanguage">
+          <type>string</type>
+          <description>Source language</description>
+        </param>
+        <param name="targetLanguage">
+          <type>string</type>
+          <description>Target language</description>
+        </param>
+        <param name="content">
+          <type>string</type>
+          <description>Text to translate</description>
+        </param>
+      </parameters>
+      <requiredParameters>
+        <required>deviceType</required>
+        <required>appName</required>
+        <required>sourceLanguage</required>
+        <required>targetLanguage</required>
+        <required>content</required>
+      </requiredParameters>
+    </doc>
+    <func>
+      <func>
+        <name>com.somtranslator.api.Translate</name>
+        <param name="deviceType">mobile phone</param>
+        <param name="appName">SoMTranslator</param>
+        <param name="sourceLanguage">Spanish</param>
+        <param name="targetLanguage">English</param>
+        <param name="content">Hola, ¿Cómo estás?</param>uuid: 022dd068-baf1-4eb8-88a3-1f88e6332583
+First Round User: Can you open BusinessTranslator on my tablet?Fail: Arguments parse failed: <funcxml>
+      <func>
+         <translate>
+            <deviceType>tablet</deviceType>
+            <appName>BusinessTranslator</appName>
+            <sourceLanguage>German</sourceLanguage>
+            <targetLanguage>English</targetLanguage>
+            <content>Guten Tag, Ich hoffe es geht Ihnen gut</content>
+         </translate>uuid: c7793c81-aea8-4501-85ca-9d74318b081e
+First Round User: Translate this message from Chinese to English on my TravelTranslator app.Fail: Arguments parse failed: <funcNode>
+      <name>Translate</name>
+      <parameters>
+         <funcParam>
+            <name>deviceType</name>
+            <value>watch</value>
+         </funcParam>
+         <funcParam>
+            <name>appName</name>
+            <value>TravelTranslator</value>
+         </funcParam>
+         <funcParam>
+            <name>sourceLanguage</name>
+            <value>zh-CN</value>
+         </funcParam>
+         <funcParam>
+            <name>targetLanguage</name>
+            <value>en-US</value>
+         </funcParam>
+         <funcParam>
+            <name>content</name>
+            <value>你好，待会见</value>
+         </funcParam>
+      </parameters>
+   </funcNode>uuid: 4e4bbf32-0f65-4f27-88af-30a28fcb1250
+First Round User: Open CulinaryTranslator on my TV.Fail: Arguments parse failed: <func/>
+<?xml version="1.0" encoding="UTF-8"?>
+<request>
+   <Translate>
+      <deviceType>TV</deviceType>
+      <appName>CulinaryTranslator</appName>
+      <sourceLanguage>Italian</sourceLanguage>
+      <targetLanguage>English</targetLanguage>
+      <content>Mescolare gli ingredienti in una ciotola grande</content>
+   </Translate>
+</request>uuid: 2828b45b-362d-41e4-93df-19fc0d9d61c4
+First Round User: Can you convert the resolution of this picture on my tablet to dots per inch?Assistant: "{\"functionName\": \"ConvertMeasurementUnit\", \"deviceType\": \"tablet\", \"sourceUnit\": \"pixels\", \"targetUnit\": \"dots per inch\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5636994271392768, avg recall: 0.5581319369853205, avg f1: 0.5595903574287033
+-------------------
+uuid: 73dc120e-c11e-4d33-8be9-da843fd70418
+First Round User: Convert 2 pounds to grams on my mobile phone.Assistant: "{\"functionName\": \"ConvertMeasurementUnit\",\n    \"deviceType\": \"mobile phone\",\n    \"sourceUnit\": \"pounds\",\n    \"targetUnit\": \"grams\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5653335116818263, avg recall: 0.5597868735509186, avg f1: 0.5612398317454498
+-------------------
+uuid: fdd4d3d9-ca62-47a9-90c2-b3b751559829
+First Round User: How many miles is 5 kilometers on my watch?Fail: Arguments parse failed: <func name="ConvertMeasurementUnit" xmlns="http://www.w3.org/2005/Atom">
+    <op>
+      <input name="deviceType">watch</input>
+      <input name="sourceUnit">kilometer</input>
+      <input name="targetUnit">mile</input>
+    </op>uuid: 6dc897b9-f366-40b4-b65a-9f7c4ff830c5
+First Round User: Convert the temperature from Fahrenheit to Celsius on my computer.Assistant: "{\n  \"functionName\": \"ConvertMeasurementUnit\",\n  \"deviceType\": \"mobile phone\",\n  \"sourceUnit\": \"Fahrenheit\",\n  \"targetUnit\": \"Celsius\"\n}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5648477606656046, avg recall: 0.559342361479908, avg f1: 0.5607845170112828
+-------------------
+uuid: c2ca5827-7087-4632-9a14-93f13e94cfd2
+First Round User: Can you convert 10 horsepower to watt on my mobile phone?Fail: Arguments parse failed: <func id="1" version="1.0">
+<func name="ConvertMeasurementUnit">
+<param name="deviceType">mobile phone</param>
+<param name="sourceUnit">horsepower</param>
+<param name="targetUnit">watt</param>uuid: 586239e6-3fd0-4403-b74f-c0e84853d2d7
+First Round User: Calculate the area of a room that is 12 feet long.Assistant: "{\"functionName\": \"UseCalculator\", \"deviceType\": \"speaker\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5643691794060799, avg recall: 0.5589044104726762, avg f1: 0.5603359227897974
+-------------------
+uuid: 7d59626c-3cf6-4956-9a15-13ccdf67349a
+First Round User: Can I please send this email through the Gmail app?Assistant: "{\"name\": \"SendEmail\", \"deviceType\": \"tablet\", \"appName\": \"Gmail\", \"targetEmailAddress\": \"editor@publishinghouse.com\", \"content\": \"Attaching my final drafts for review and publishing.\"}"
+precision: 0.8, recall: 1.0, f1: 0.888888888888889
+avg precision: 0.5652354691876752, avg recall: 0.5605260854341738, avg f1: 0.5615438381063381
+-------------------
+uuid: a0865667-9c5e-487d-93c6-326c109847c7
+First Round User: Open Yahoo Mail on my device.Fail: Arguments parse failed: <funcCall>
+    <func>
+      <functionName>SendEmail</functionName>
+      <parameters>
+        <deviceType>mobile phone</deviceType>
+        <appName>Yahoo Mail</appName>
+        <targetEmailAddress>husband@yahoo.com</targetEmailAddress>
+        <content>Updated shopping list attached. Please pick up the groceries on your way back.</content>
+      </parameters>uuid: 95a2c937-7e04-4f67-9f60-21bcf0e076de
+First Round User: Can you use my Outlook app on my watch to send an email to gamebuddy@outlook.com?Assistant: "{ \"name\": \"SendEmail\", \"parameters\": { \"deviceType\": \"watch\", \"appName\": \"Outlook\", \"targetEmailAddress\": \"gamebuddy@outlook.com\", \"content\": \"Tomorrow's game strategy attached. Please review.\" } }"
+precision: 0.0, recall: 0.0, f1: 0.0
+avg precision: 0.5611096628432396, avg recall: 0.5564346541536324, avg f1: 0.5574449779741751
+-------------------
+uuid: cec460ad-4ddb-481d-8214-7136b60cd0cb
+First Round User: Send the email using Gmail on my smart TV.Assistant: "{\"functionName\": \"SendEmail\", \"deviceType\": \"TV\", \"appName\": \"Gmail\", \"targetEmailAddress\": \"class@musiccollege.com\", \"content\": \"Next class's setlist attached. Please take note.\"}"
+precision: 1.0, recall: 1.0, f1: 1.0
+avg precision: 0.5627056277056278, avg recall: 0.5580476190476191, avg f1: 0.5590542689633599
+-------------------
+uuid: 172b5542-6a63-455c-9adc-3e306f186859
+First Round User: Open the Alexa app.Fail: Arguments parse failed: <func/>
+  <func>
+    {
+      "functionName": "SendEmail",
+      "deviceType": "speaker",
+      "appName": "Amazon Alexa",
+      "targetEmailAddress": "client@fitgym.com",
+      "content": "New workout plan attached. Start from tomorrow morning."
+    }agent results:
+trials: 1
+precision_avg: 0.560666839199448
+recall_avg: 0.5560257073844032
+f1_avg: 0.5570287100178405
+precision_var: 0.0
+recall_var: 0.0
+f1_var: 0.0
+f1_var_unbiased: nan
+f1_std_unbiased: nan
